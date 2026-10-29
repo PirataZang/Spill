@@ -105,14 +105,38 @@ Um segundo app dentro do app, **só para maiores de 18**, com visual próprio: f
 
 E o **Misturado**, que alterna Desafio e Eu nunca, uma carta de cada.
 
+### As cartas
+
+Cada jogo tem a sua cor e o seu ícone. Em cada trio abaixo, da esquerda para a direita, estão os **três níveis**: 1, 2 e 3 caveiras.
+
 <p align="center">
-  <img src="docs/drink/desafio-eu-nunca.png" alt="Cartas de Desafio e Eu nunca" width="860">
+  <img src="docs/drink/desafio.png" alt="Cartas de Desafio, níveis 1, 2 e 3" width="860"><br>
+  <sub><b>Desafio</b>: Responde ou bebe.</sub>
 </p>
+
 <p align="center">
-  <img src="docs/drink/faz-paranoia-provavel.png" alt="Cartas de Faz ou bebe, Paranoia e Mais provável" width="860">
+  <img src="docs/drink/eu-nunca.png" alt="Cartas de Eu nunca, níveis 1, 2 e 3" width="860"><br>
+  <sub><b>Eu nunca</b>: Quem já fez, bebe.</sub>
 </p>
+
 <p align="center">
-  <img src="docs/drink/prefere.png" alt="Cartas de Prefere" width="520">
+  <img src="docs/drink/faz-ou-bebe.png" alt="Cartas de Faz ou bebe, níveis 1, 2 e 3" width="860"><br>
+  <sub><b>Faz ou bebe</b>: Faz a ação ou bebe.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/drink/paranoia.png" alt="Cartas de Paranoia, níveis 1, 2 e 3" width="860"><br>
+  <sub><b>Paranoia</b>: Pergunta secreta; a primeira carta mostra a tela de “segure para ler”.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/drink/mais-provavel.png" alt="Cartas de Mais provável, níveis 1, 2 e 3" width="860"><br>
+  <sub><b>Mais provável</b>: A roda aponta.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/drink/prefere.png" alt="Cartas de Prefere, níveis 1, 2 e 3" width="860"><br>
+  <sub><b>Prefere</b>: A minoria bebe.</sub>
 </p>
 
 ### Quanto se bebe
