@@ -15,7 +15,7 @@ class DrinkTest {
             assertEquals("$kind", 200, of.size)
             assertEquals("$kind", listOf(50, 100, 50), (1..3).map { l -> of.count { it.level == l } })
             assertEquals("$kind has duplicates", of.size, of.map { it.main }.toSet().size)
-            assertTrue(of.all { (it.all != null) == (kind == DrinkKind.Dare) })
+            assertTrue(of.all { (it.extra != null) == (kind == DrinkKind.Dare || kind == DrinkKind.Prefer) })
         }
     }
 
@@ -27,7 +27,7 @@ class DrinkTest {
             "unitShot", "unitShots", "unitSip", "unitSips", "level", "hint", "next", "done", "endTitle", "endText", "again", "menuShort", "climbTag",
             "answerOr", "forAll", "skipped", "neverLead", "neverDrinks", "neverSolo", "doitLead", "doitRefuse", "doitJudge",
             "holdTitle", "holdBody", "secretLabel", "revealedLabel", "nameOnly", "namedDrinks", "nobody", "drank", "pass", "holdHint",
-            "likelyLead", "likelyPoint", "likelyDrinks", "howTo", "close", "rulesLabel", "howLevels", "howSafe",
+            "likelyLead", "likelyPoint", "likelyDrinks", "preferLead", "preferOr", "preferPoint", "preferDrinks", "howTo", "close", "rulesLabel", "howLevels", "howSafe",
         ) + DrinkGame.entries.flatMap { g -> listOf(g.key, g.key + "Desc") + (if (g == DrinkGame.Mix) emptyList() else listOf("rule" + g.key.replaceFirstChar { it.uppercase() })) } +
             DrinkKind.entries.flatMap { k -> listOf("tag" + k.key.replaceFirstChar { it.uppercase() }, "foot" + k.key.replaceFirstChar { it.uppercase() }) }
         keys.forEach { drink.t(it) }
@@ -40,6 +40,7 @@ class DrinkTest {
         assertEquals(400, drink.deal(DrinkConfig()).size)
         assertEquals(200, drink.deal(DrinkConfig(game = DrinkGame.Dare)).size)
         assertEquals(200, drink.deal(DrinkConfig(game = DrinkGame.Likely)).size)
+        assertEquals(200, drink.deal(DrinkConfig(game = DrinkGame.Prefer)).size)
         assertEquals(100, drink.deal(DrinkConfig(game = DrinkGame.Paranoia, levels = setOf(2))).size)
         val climb = drink.deal(DrinkConfig()).map { it.level }
         assertEquals(climb.sorted(), climb)                          // Escalada: 1s, then 2s, then 3s

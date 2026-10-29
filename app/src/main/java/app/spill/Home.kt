@@ -61,7 +61,7 @@ fun Home(vm: SpillViewModel) {
         val gap = (maxH * .06f).coerceIn(28.dp, 56.dp)
         Column(Modifier.verticalScroll(rememberScrollState())) {
             Row(Modifier.fillMaxWidth().heightIn(min = 44.dp), Arrangement.SpaceBetween, Alignment.CenterVertically) {
-                Eyebrow(vm.t("count").replace("{d}", "${c.decks.size}").replace("{n}", "${c.cards.size}"))
+                Eyebrow(vm.t("count").replace("{d}", "${c.decks.size}").replace("{n}", "${c.cards.size}"), Modifier.weight(1f))
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
                     LangToggle(c.languages, vm.lang, vm.t("language"), vm::pickLang)
                     RulesButton(vm.t("rules"), { rules = true }, vm.t("rules"))

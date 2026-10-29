@@ -4,7 +4,7 @@ import org.json.JSONObject
 import kotlin.random.Random
 
 /** The five kinds of Drink card; [key] is the array name in drink.json. */
-enum class DrinkKind(val key: String) { Dare("dare"), Never("never"), DoIt("doit"), Paranoia("paranoia"), Likely("likely") }
+enum class DrinkKind(val key: String) { Dare("dare"), Never("never"), DoIt("doit"), Paranoia("paranoia"), Likely("likely"), Prefer("prefer") }
 
 /** What the player picks on the setup screen; Mix plays two kinds, alternating. */
 enum class DrinkGame(val key: String, val kinds: List<DrinkKind>) {
@@ -14,10 +14,11 @@ enum class DrinkGame(val key: String, val kinds: List<DrinkKind>) {
     DoIt("doit", listOf(DrinkKind.DoIt)),
     Paranoia("paranoia", listOf(DrinkKind.Paranoia)),
     Likely("likely", listOf(DrinkKind.Likely)),
+    Prefer("prefer", listOf(DrinkKind.Prefer)),
 }
 
-/** [all] is the "Para todos" prompt of a Desafio card; null for every other kind. */
-class DrinkCard(val kind: DrinkKind, val level: Int, val main: String, val all: String? = null)
+/** [extra] is the "Para todos" prompt of a Desafio card and the second option of a Prefere card; null for the other kinds. */
+class DrinkCard(val kind: DrinkKind, val level: Int, val main: String, val extra: String? = null)
 
 data class DrinkConfig(
     val game: DrinkGame = DrinkGame.Mix,
@@ -48,8 +49,10 @@ class DrinkCatalog private constructor(private val ui: JSONObject, val cards: Li
                 val arr = j.getJSONArray(kind.key)
                 (0 until arr.length()).map { i ->
                     val c = arr.getJSONObject(i)
-                    DrinkCard(kind, c.getInt("level").also { check(it in 1..3) { "drink.json ${kind.key}[$i]: level must be 1..3" } }, c.getString("main"),
-                        if (kind == DrinkKind.Dare) c.getString("all") else null)
+                    // Prefere has two options (a, b); every other kind has one text (main)
+                    val main = c.getString(if (kind == DrinkKind.Prefer) "a" else "main")
+                    val extra = when (kind) { DrinkKind.Dare -> c.getString("all"); DrinkKind.Prefer -> c.getString("b"); else -> null }
+                    DrinkCard(kind, c.getInt("level").also { check(it in 1..3) { "drink.json ${kind.key}[$i]: level must be 1..3" } }, main, extra)
                 }
             }
             return DrinkCatalog(j.getJSONObject("ui"), cards)

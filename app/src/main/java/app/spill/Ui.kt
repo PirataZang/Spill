@@ -32,14 +32,14 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun Txt(
     text: String, modifier: Modifier = Modifier, size: TextUnit = 16.sp, weight: Int = 400, font: FontFamily = Body,
-    color: Color = Fg, ls: TextUnit = TextUnit.Unspecified, lh: TextUnit = TextUnit.Unspecified, align: TextAlign? = null,
-) = Txt(AnnotatedString(text), modifier, size, weight, font, color, ls, lh, align)
+    color: Color = Fg, ls: TextUnit = TextUnit.Unspecified, lh: TextUnit = TextUnit.Unspecified, align: TextAlign? = null, maxLines: Int = Int.MAX_VALUE,
+) = Txt(AnnotatedString(text), modifier, size, weight, font, color, ls, lh, align, maxLines)
 
 @Composable
 fun Txt(
     text: AnnotatedString, modifier: Modifier = Modifier, size: TextUnit = 16.sp, weight: Int = 400, font: FontFamily = Body,
-    color: Color = Fg, ls: TextUnit = TextUnit.Unspecified, lh: TextUnit = TextUnit.Unspecified, align: TextAlign? = null,
-) = Text(text, modifier, color, fontSize = size, fontFamily = font, fontWeight = FontWeight(weight), letterSpacing = ls, lineHeight = lh, textAlign = align)
+    color: Color = Fg, ls: TextUnit = TextUnit.Unspecified, lh: TextUnit = TextUnit.Unspecified, align: TextAlign? = null, maxLines: Int = Int.MAX_VALUE,
+) = Text(text, modifier, color, fontSize = size, fontFamily = font, fontWeight = FontWeight(weight), letterSpacing = ls, lineHeight = lh, textAlign = align, maxLines = maxLines)
 
 @Composable
 fun Eyebrow(text: String, modifier: Modifier = Modifier) =
@@ -61,11 +61,11 @@ fun Ghost(onClick: () -> Unit, modifier: Modifier = Modifier, description: Strin
 }
 
 @Composable
-fun GhostText(text: String, onClick: () -> Unit) = Ghost(onClick) { Txt(text, size = 14.sp, weight = 600) }
+fun GhostText(text: String, onClick: () -> Unit) = Ghost(onClick) { Txt(text, size = 14.sp, weight = 600, maxLines = 1) }
 
 @Composable
 fun RulesButton(label: String?, onClick: () -> Unit, description: String) {
-    if (label != null) Ghost(onClick) { QMark(); Txt(label, size = 14.sp, weight = 600) }
+    if (label != null) Ghost(onClick) { QMark(); Txt(label, size = 14.sp, weight = 600, maxLines = 1) }
     else Box(
         Modifier.size(38.dp).clip(CircleShape).border(1.dp, Line, CircleShape)
             .clickable(role = Role.Button, onClick = onClick).semantics { contentDescription = description },

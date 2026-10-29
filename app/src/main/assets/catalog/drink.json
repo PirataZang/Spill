@@ -123,7 +123,24 @@
    "Empate: todos bebem."
   ],
   "howLevels": "Cada caveira da carta é um nível e vale 1 {unit}. Nível 1 é mico, nível 2 é picante e nível 3 é pesado. Com a Escalada ligada, a rodada começa no mico e esquenta até o pesado.",
-  "howSafe": "Só para maiores de 18. Ninguém é obrigado a responder: é pra isso que existe o shot. Beba com responsabilidade e nunca dirija depois de beber."
+  "howSafe": "Só para maiores de 18. Ninguém é obrigado a responder: é pra isso que existe o shot. Beba com responsabilidade e nunca dirija depois de beber.",
+  "prefer": "Prefere",
+  "preferDesc": "Duas opções, a minoria bebe.",
+  "rulePrefer": "Prefere: no 3, todo mundo mostra 1 ou 2 dedos. A minoria bebe 1 {unit} por caveira. Empate: todo mundo bebe 1.",
+  "tagPrefer": "Prefere",
+  "footPrefer": "Drink · Prefere",
+  "preferLead": "Você prefere…",
+  "preferOr": "ou",
+  "preferPoint": "No 3, mostre 1 ou 2 dedos",
+  "preferDrinks": "A minoria bebe {amount}. Empate: todo mundo bebe 1.",
+  "howPrefer": "Duas opções e uma escolha difícil. A roda se divide e a minoria paga.",
+  "howPreferSteps": [
+   "Leia a carta em voz alta: “Você prefere… 1 ou 2?”.",
+   "Conte até 3: todo mundo mostra 1 ou 2 dedos ao mesmo tempo, escolhendo uma opção.",
+   "A minoria bebe 1 {unit} por caveira.",
+   "Empate: todo mundo bebe 1.",
+   "Arraste a carta para puxar a próxima."
+  ]
  },
  "dare": [
   {
@@ -4333,6 +4350,1008 @@
   {
    "level": 3,
    "main": "ser o mais sem limites depois de cinco doses?"
+  }
+ ],
+ "prefer": [
+  {
+   "level": 1,
+   "a": "soltar um pum no primeiro encontro",
+   "b": "arrotar numa entrevista de emprego"
+  },
+  {
+   "level": 1,
+   "a": "nunca mais tomar café",
+   "b": "nunca mais tomar cerveja"
+  },
+  {
+   "level": 1,
+   "a": "dormir só 4 horas por noite",
+   "b": "dormir 12 horas por noite"
+  },
+  {
+   "level": 1,
+   "a": "perder o celular por um mês",
+   "b": "perder a carteira por um mês"
+  },
+  {
+   "level": 1,
+   "a": "comer pizza todo dia",
+   "b": "comer sushi todo dia"
+  },
+  {
+   "level": 1,
+   "a": "ficar preso numa ilha com o ex",
+   "b": "ficar preso numa ilha com o chefe"
+  },
+  {
+   "level": 1,
+   "a": "cantar em público todo dia",
+   "b": "dançar em público todo dia"
+  },
+  {
+   "level": 1,
+   "a": "nunca mais ficar bêbado",
+   "b": "nunca mais ficar de ressaca"
+  },
+  {
+   "level": 1,
+   "a": "saber a data da sua morte",
+   "b": "saber como vai morrer"
+  },
+  {
+   "level": 1,
+   "a": "viajar no tempo para o passado",
+   "b": "viajar no tempo para o futuro"
+  },
+  {
+   "level": 1,
+   "a": "ser o mais engraçado da festa",
+   "b": "ser o mais bonito da festa"
+  },
+  {
+   "level": 1,
+   "a": "ter o emprego dos sonhos e morar longe",
+   "b": "ter um emprego médio e morar perto dos amigos"
+  },
+  {
+   "level": 1,
+   "a": "andar pelado em casa",
+   "b": "andar de pijama na rua"
+  },
+  {
+   "level": 1,
+   "a": "falar toda verdade que pensa",
+   "b": "nunca mais falar o que pensa"
+  },
+  {
+   "level": 1,
+   "a": "ter dedos enormes",
+   "b": "ter pés enormes"
+  },
+  {
+   "level": 1,
+   "a": "comer só doce pelo resto da vida",
+   "b": "comer só salgado pelo resto da vida"
+  },
+  {
+   "level": 1,
+   "a": "passar um dia inteiro sem celular",
+   "b": "passar um dia inteiro sem música"
+  },
+  {
+   "level": 1,
+   "a": "perder todas as fotos do celular",
+   "b": "perder todos os contatos do celular"
+  },
+  {
+   "level": 1,
+   "a": "ser famoso e odiado",
+   "b": "ser desconhecido e amado"
+  },
+  {
+   "level": 1,
+   "a": "mandar um áudio errado para o chefe",
+   "b": "mandar um áudio errado para a sogra"
+  },
+  {
+   "level": 1,
+   "a": "dormir na rua por uma noite",
+   "b": "dormir num lugar assombrado por uma noite"
+  },
+  {
+   "level": 1,
+   "a": "ter sempre sorte no jogo",
+   "b": "ter sempre sorte no amor"
+  },
+  {
+   "level": 1,
+   "a": "nunca mais cortar o cabelo",
+   "b": "nunca mais cortar as unhas"
+  },
+  {
+   "level": 1,
+   "a": "ter o poder de voar",
+   "b": "ter o poder de ficar invisível"
+  },
+  {
+   "level": 1,
+   "a": "viver sem internet",
+   "b": "viver sem ar-condicionado"
+  },
+  {
+   "level": 1,
+   "a": "fazer um discurso bêbado no casamento",
+   "b": "fazer um discurso sóbrio e chato no casamento"
+  },
+  {
+   "level": 1,
+   "a": "ser preso por uma bobagem",
+   "b": "pagar uma multa enorme por uma bobagem"
+  },
+  {
+   "level": 1,
+   "a": "ter um amigo que fala demais",
+   "b": "ter um amigo que nunca fala"
+  },
+  {
+   "level": 1,
+   "a": "ouvir a mesma música para sempre",
+   "b": "nunca mais ouvir música"
+  },
+  {
+   "level": 1,
+   "a": "comer algo estragado e passar mal",
+   "b": "ficar com fome o dia todo"
+  },
+  {
+   "level": 1,
+   "a": "cair de cara na frente de todo mundo",
+   "b": "derramar bebida na roupa de alguém importante"
+  },
+  {
+   "level": 1,
+   "a": "fazer uma tatuagem bêbado",
+   "b": "fazer um piercing bêbado"
+  },
+  {
+   "level": 1,
+   "a": "perder o último ônibus",
+   "b": "perder o voo"
+  },
+  {
+   "level": 1,
+   "a": "ser o último a ir embora da festa",
+   "b": "ser o primeiro a ir embora da festa"
+  },
+  {
+   "level": 1,
+   "a": "ganhar uma festa-surpresa",
+   "b": "ganhar uma viagem-surpresa"
+  },
+  {
+   "level": 1,
+   "a": "ficar trancado no banheiro de uma festa",
+   "b": "ficar trancado num elevador com um desconhecido"
+  },
+  {
+   "level": 1,
+   "a": "poder ler mentes",
+   "b": "poder voltar uma hora no tempo"
+  },
+  {
+   "level": 1,
+   "a": "fazer karaokê com a sogra",
+   "b": "fazer karaokê com o chefe"
+  },
+  {
+   "level": 1,
+   "a": "comer só comida de rua",
+   "b": "comer só comida de restaurante caro"
+  },
+  {
+   "level": 1,
+   "a": "acordar sempre às 5h",
+   "b": "dormir sempre depois das 3h"
+  },
+  {
+   "level": 1,
+   "a": "ser ótimo cantor e nunca cantar",
+   "b": "ser péssimo cantor e cantar sempre"
+  },
+  {
+   "level": 1,
+   "a": "passar vergonha no Instagram",
+   "b": "passar vergonha ao vivo"
+  },
+  {
+   "level": 1,
+   "a": "ganhar 1 milhão hoje",
+   "b": "ganhar um salário alto para sempre"
+  },
+  {
+   "level": 1,
+   "a": "nunca mais ver séries",
+   "b": "nunca mais ver filmes"
+  },
+  {
+   "level": 1,
+   "a": "pagar o jantar de todo mundo",
+   "b": "ser o único a não pedir nada"
+  },
+  {
+   "level": 1,
+   "a": "passar o dia só falando em rima",
+   "b": "passar o dia só falando em inglês"
+  },
+  {
+   "level": 1,
+   "a": "viver numa casa de vidro por um dia",
+   "b": "viver sem portas por um dia"
+  },
+  {
+   "level": 1,
+   "a": "ficar sem banho por uma semana",
+   "b": "ficar sem escovar os dentes por uma semana"
+  },
+  {
+   "level": 1,
+   "a": "ter um vizinho barulhento",
+   "b": "ter um vizinho enxerido"
+  },
+  {
+   "level": 1,
+   "a": "ser o melhor amigo de todo mundo",
+   "b": "ser o melhor amigo de uma pessoa só"
+  },
+  {
+   "level": 2,
+   "a": "sexo incrível uma vez por ano",
+   "b": "sexo mediano todo dia"
+  },
+  {
+   "level": 2,
+   "a": "beijar bem e transar mal",
+   "b": "beijar mal e transar bem"
+  },
+  {
+   "level": 2,
+   "a": "um amor intenso que acaba",
+   "b": "um amor morno que dura para sempre"
+  },
+  {
+   "level": 2,
+   "a": "ficar com a pessoa mais bonita do bar",
+   "b": "ficar com a pessoa mais engraçada do bar"
+  },
+  {
+   "level": 2,
+   "a": "saber tudo do passado do seu par",
+   "b": "não saber nada do passado do seu par"
+  },
+  {
+   "level": 2,
+   "a": "um par que mente para proteger",
+   "b": "um par que diz verdades que doem"
+  },
+  {
+   "level": 2,
+   "a": "um par ciumento",
+   "b": "um par que nunca sente ciúme"
+  },
+  {
+   "level": 2,
+   "a": "ter um ex que te persegue",
+   "b": "ter um ex que te ignora"
+  },
+  {
+   "level": 2,
+   "a": "mandar uma mensagem ousada para a pessoa errada",
+   "b": "receber uma mensagem ousada da pessoa errada"
+  },
+  {
+   "level": 2,
+   "a": "ser pego no flagra pelos seus pais",
+   "b": "ser pego no flagra pelo seu chefe"
+  },
+  {
+   "level": 2,
+   "a": "fazer sexo no escuro",
+   "b": "fazer sexo com a luz acesa"
+  },
+  {
+   "level": 2,
+   "a": "transar na praia",
+   "b": "transar na piscina"
+  },
+  {
+   "level": 2,
+   "a": "dar o primeiro passo e levar um fora",
+   "b": "esperar para sempre"
+  },
+  {
+   "level": 2,
+   "a": "ouvir “eu te amo” no primeiro mês",
+   "b": "só ouvir “eu te amo” depois de um ano"
+  },
+  {
+   "level": 2,
+   "a": "namorar um amigo",
+   "b": "namorar um desconhecido"
+  },
+  {
+   "level": 2,
+   "a": "ficar com alguém mais velho",
+   "b": "ficar com alguém mais novo"
+  },
+  {
+   "level": 2,
+   "a": "ter ciúme do seu par",
+   "b": "ter um par com ciúme de você"
+  },
+  {
+   "level": 2,
+   "a": "viajar a dois e brigar o tempo todo",
+   "b": "ficar em casa e ser feliz"
+  },
+  {
+   "level": 2,
+   "a": "um par lindo e sem papo",
+   "b": "um par comum e muito divertido"
+  },
+  {
+   "level": 2,
+   "a": "beijar só de manhã",
+   "b": "beijar só à noite"
+  },
+  {
+   "level": 2,
+   "a": "dar um beijo de cinema em público",
+   "b": "dar um beijo discreto em casa"
+  },
+  {
+   "level": 2,
+   "a": "ser o pegador da festa",
+   "b": "ser o romântico do grupo"
+  },
+  {
+   "level": 2,
+   "a": "passar um mês sem sexo",
+   "b": "passar um mês sem beijar"
+  },
+  {
+   "level": 2,
+   "a": "mandar flores",
+   "b": "receber flores"
+  },
+  {
+   "level": 2,
+   "a": "dormir de conchinha",
+   "b": "dormir cada um no seu canto"
+  },
+  {
+   "level": 2,
+   "a": "sexo em casa",
+   "b": "sexo em motel"
+  },
+  {
+   "level": 2,
+   "a": "ficar com a pessoa de quem seu melhor amigo gosta",
+   "b": "ficar com o ex do seu melhor amigo"
+  },
+  {
+   "level": 2,
+   "a": "voltar com o ex",
+   "b": "apagar o ex da vida"
+  },
+  {
+   "level": 2,
+   "a": "um amor à distância",
+   "b": "um amor ao lado mas sem química"
+  },
+  {
+   "level": 2,
+   "a": "pedir alguém em casamento em público",
+   "b": "ser pedido em casamento em público"
+  },
+  {
+   "level": 2,
+   "a": "casar bêbado em Las Vegas",
+   "b": "casar sóbrio num cartório, sem ninguém"
+  },
+  {
+   "level": 2,
+   "a": "fazer sexo ouvindo música",
+   "b": "fazer sexo em silêncio"
+  },
+  {
+   "level": 2,
+   "a": "ser sempre quem manda a mensagem primeiro",
+   "b": "nunca mandar a primeira mensagem"
+  },
+  {
+   "level": 2,
+   "a": "ter um crush correspondido por um mês",
+   "b": "ter um crush impossível por anos"
+  },
+  {
+   "level": 2,
+   "a": "ficar com alguém que ronca",
+   "b": "ficar com alguém que fala dormindo"
+  },
+  {
+   "level": 2,
+   "a": "ser abraçado por alguém que cheira mal",
+   "b": "ser beijado por alguém com mau hálito"
+  },
+  {
+   "level": 2,
+   "a": "nunca mais sentir ciúme",
+   "b": "nunca mais sentir saudade"
+  },
+  {
+   "level": 2,
+   "a": "ter um beijo inesquecível",
+   "b": "ter uma noite inesquecível"
+  },
+  {
+   "level": 2,
+   "a": "ficar com o seu crush e se decepcionar",
+   "b": "nunca ficar e imaginar para sempre"
+  },
+  {
+   "level": 2,
+   "a": "mandar um “oi sumido” para o ex",
+   "b": "receber um “oi sumido” do ex"
+  },
+  {
+   "level": 2,
+   "a": "levar um fora em público",
+   "b": "levar um fora por mensagem"
+  },
+  {
+   "level": 2,
+   "a": "dar uma cantada ruim e dar certo",
+   "b": "dar uma cantada ótima e dar errado"
+  },
+  {
+   "level": 2,
+   "a": "ter um caso de verão",
+   "b": "ter um namoro de inverno"
+  },
+  {
+   "level": 2,
+   "a": "um par que cozinha muito bem",
+   "b": "um par que ganha muito bem"
+  },
+  {
+   "level": 2,
+   "a": "um par que viaja o tempo todo",
+   "b": "um par que nunca sai de casa"
+  },
+  {
+   "level": 2,
+   "a": "sexo selvagem uma vez por mês",
+   "b": "sexo carinhoso toda semana"
+  },
+  {
+   "level": 2,
+   "a": "ouvir a pessoa gemer alto",
+   "b": "ouvir a pessoa rir na hora H"
+  },
+  {
+   "level": 2,
+   "a": "ter dois crushes e escolher um",
+   "b": "ter dois crushes e perder os dois"
+  },
+  {
+   "level": 2,
+   "a": "dançar colado a noite toda",
+   "b": "conversar a noite toda"
+  },
+  {
+   "level": 2,
+   "a": "transar no carro",
+   "b": "transar no banheiro de uma festa"
+  },
+  {
+   "level": 2,
+   "a": "ter fotos íntimas vazadas",
+   "b": "ter mensagens íntimas vazadas"
+  },
+  {
+   "level": 2,
+   "a": "ouvir o seu par falar o nome do ex na cama",
+   "b": "ouvir o seu par errar o seu nome na cama"
+  },
+  {
+   "level": 2,
+   "a": "descobrir o maior segredo do seu par",
+   "b": "contar o seu maior segredo para o seu par"
+  },
+  {
+   "level": 2,
+   "a": "fazer um striptease",
+   "b": "assistir a um striptease"
+  },
+  {
+   "level": 2,
+   "a": "fingir que gostou do presente",
+   "b": "dizer a verdade sobre o presente"
+  },
+  {
+   "level": 2,
+   "a": "ser pego mandando mensagem para o ex",
+   "b": "ser pego vendo a foto do ex"
+  },
+  {
+   "level": 2,
+   "a": "ser o primeiro a se apaixonar",
+   "b": "ser o último a se apaixonar"
+  },
+  {
+   "level": 2,
+   "a": "ficar com alguém sem dar nome ao rolo",
+   "b": "namorar sem sentir nada"
+  },
+  {
+   "level": 2,
+   "a": "sexo com a pessoa mais bonita, sem química",
+   "b": "sexo com alguém comum, com muita química"
+  },
+  {
+   "level": 2,
+   "a": "um par que manda áudio de cinco minutos",
+   "b": "um par que só responde “kkk”"
+  },
+  {
+   "level": 2,
+   "a": "beijar na chuva",
+   "b": "beijar na neve"
+  },
+  {
+   "level": 2,
+   "a": "levar um fora de quem você ama",
+   "b": "dar um fora em quem te ama"
+  },
+  {
+   "level": 2,
+   "a": "dormir na casa do par no primeiro encontro",
+   "b": "nunca dormir na casa de ninguém"
+  },
+  {
+   "level": 2,
+   "a": "um sexo longo e cansativo",
+   "b": "um sexo rápido e intenso"
+  },
+  {
+   "level": 2,
+   "a": "dar uma mordida no pescoço",
+   "b": "receber uma mordida no pescoço"
+  },
+  {
+   "level": 2,
+   "a": "fazer uma surpresa romântica",
+   "b": "receber uma surpresa romântica"
+  },
+  {
+   "level": 2,
+   "a": "dividir a conta no primeiro encontro",
+   "b": "pagar tudo no primeiro encontro"
+  },
+  {
+   "level": 2,
+   "a": "ser bom de cama e ruim de papo",
+   "b": "ser bom de papo e ruim de cama"
+  },
+  {
+   "level": 2,
+   "a": "rir de si mesmo na hora do sexo",
+   "b": "ficar sério e concentrado"
+  },
+  {
+   "level": 2,
+   "a": "ter muitas pessoas interessadas",
+   "b": "ter uma pessoa muito interessada"
+  },
+  {
+   "level": 2,
+   "a": "ver o ex feliz com outra pessoa",
+   "b": "ver o ex sozinho e infeliz"
+  },
+  {
+   "level": 2,
+   "a": "ser bom de cama sem saber",
+   "b": "ser ruim de cama sem saber"
+  },
+  {
+   "level": 2,
+   "a": "sair com alguém que conheceu num aplicativo",
+   "b": "sair com alguém que conheceu num bar"
+  },
+  {
+   "level": 2,
+   "a": "receber um elogio ousado de um desconhecido",
+   "b": "dar um elogio ousado para um desconhecido"
+  },
+  {
+   "level": 2,
+   "a": "ficar com alguém que dança muito bem",
+   "b": "ficar com alguém que beija muito bem"
+  },
+  {
+   "level": 2,
+   "a": "ouvir uma música que lembra o ex",
+   "b": "sentir um cheiro que lembra o ex"
+  },
+  {
+   "level": 2,
+   "a": "passar o fim de semana inteiro na cama com alguém",
+   "b": "passar o fim de semana inteiro viajando com alguém"
+  },
+  {
+   "level": 2,
+   "a": "ter um par que elogia sempre",
+   "b": "ter um par que surpreende sempre"
+  },
+  {
+   "level": 2,
+   "a": "mandar uma foto ousada e ver a pessoa visualizar sem responder",
+   "b": "nunca mandar e nunca saber"
+  },
+  {
+   "level": 2,
+   "a": "ficar com alguém na primeira festa do ano",
+   "b": "ficar com alguém na última festa do ano"
+  },
+  {
+   "level": 2,
+   "a": "usar uma fantasia ousada",
+   "b": "ver o seu par usar uma fantasia ousada"
+  },
+  {
+   "level": 2,
+   "a": "fazer sexo no meio da tarde",
+   "b": "fazer sexo no meio da madrugada"
+  },
+  {
+   "level": 2,
+   "a": "um beijo roubado",
+   "b": "um beijo pedido"
+  },
+  {
+   "level": 2,
+   "a": "um jantar à luz de velas",
+   "b": "um piquenique na praia"
+  },
+  {
+   "level": 2,
+   "a": "passar a noite numa banheira com alguém",
+   "b": "passar a noite numa rede com alguém"
+  },
+  {
+   "level": 2,
+   "a": "ficar com alguém que fala pouco e olha muito",
+   "b": "ficar com alguém que fala muito e olha pouco"
+  },
+  {
+   "level": 2,
+   "a": "ter um amor de uma vida inteira sem paixão",
+   "b": "ter uma paixão de um ano sem futuro"
+  },
+  {
+   "level": 2,
+   "a": "ver o seu crush com outra pessoa",
+   "b": "ver o seu ex com o seu crush"
+  },
+  {
+   "level": 2,
+   "a": "receber um convite ousado",
+   "b": "fazer um convite ousado"
+  },
+  {
+   "level": 2,
+   "a": "ficar com alguém bêbado e se arrepender",
+   "b": "ficar com alguém sóbrio e se arrepender"
+  },
+  {
+   "level": 2,
+   "a": "ficar muito tempo sem ficar com ninguém",
+   "b": "ficar com muita gente e não gostar de ninguém"
+  },
+  {
+   "level": 2,
+   "a": "dar o primeiro beijo na pessoa errada",
+   "b": "nunca dar o primeiro beijo na pessoa certa"
+  },
+  {
+   "level": 2,
+   "a": "fazer um brinde ao seu ex",
+   "b": "fazer um brinde ao seu crush"
+  },
+  {
+   "level": 2,
+   "a": "ter um date romântico no seu aniversário",
+   "b": "ter um date romântico no Natal"
+  },
+  {
+   "level": 2,
+   "a": "enviar uma música romântica para o crush",
+   "b": "enviar uma foto sua para o crush"
+  },
+  {
+   "level": 2,
+   "a": "receber uma cantada de um desconhecido bonito",
+   "b": "receber uma cantada de um conhecido sem graça"
+  },
+  {
+   "level": 2,
+   "a": "ficar com um ex numa festa",
+   "b": "ficar com um desconhecido numa festa"
+  },
+  {
+   "level": 2,
+   "a": "beijar a pessoa mais tímida da festa",
+   "b": "beijar a pessoa mais animada da festa"
+  },
+  {
+   "level": 2,
+   "a": "fazer sexo depois de uma briga",
+   "b": "fazer sexo depois de um jantar"
+  },
+  {
+   "level": 2,
+   "a": "um par que pega no seu pé",
+   "b": "um par que não liga para nada"
+  },
+  {
+   "level": 3,
+   "a": "ser traído e saber",
+   "b": "ser traído e nunca saber"
+  },
+  {
+   "level": 3,
+   "a": "trair e ser descoberto",
+   "b": "trair e nunca ser descoberto"
+  },
+  {
+   "level": 3,
+   "a": "contar uma traição que cometeu",
+   "b": "guardar o segredo para sempre"
+  },
+  {
+   "level": 3,
+   "a": "descobrir que o seu par traiu há anos",
+   "b": "descobrir que o seu par traiu ontem"
+  },
+  {
+   "level": 3,
+   "a": "perdoar uma traição",
+   "b": "terminar na hora"
+  },
+  {
+   "level": 3,
+   "a": "ficar com o par do melhor amigo, escondido",
+   "b": "nunca ficar e esquecer isso"
+  },
+  {
+   "level": 3,
+   "a": "fazer sexo com o ex",
+   "b": "fazer sexo com o ex do melhor amigo"
+  },
+  {
+   "level": 3,
+   "a": "ter um caso com alguém casado",
+   "b": "ter um caso com o chefe"
+  },
+  {
+   "level": 3,
+   "a": "dormir com alguém desta roda",
+   "b": "nunca dormir com ninguém desta roda"
+  },
+  {
+   "level": 3,
+   "a": "contar o seu maior segredo sexual",
+   "b": "ouvir o maior segredo sexual de alguém da roda"
+  },
+  {
+   "level": 3,
+   "a": "apagar um relacionamento da memória",
+   "b": "repetir um relacionamento"
+  },
+  {
+   "level": 3,
+   "a": "ter uma noite inesquecível e nunca ver a pessoa de novo",
+   "b": "ter uma noite ruim e namorar com ela"
+  },
+  {
+   "level": 3,
+   "a": "ser flagrado pelado por um desconhecido",
+   "b": "ser flagrado pelado por um amigo"
+  },
+  {
+   "level": 3,
+   "a": "ter o seu histórico de busca exposto",
+   "b": "ter as suas mensagens expostas"
+  },
+  {
+   "level": 3,
+   "a": "ser pego mentindo sobre o número de parceiros",
+   "b": "ser pego mentindo sobre o salário"
+  },
+  {
+   "level": 3,
+   "a": "ser fiel e ser traído",
+   "b": "ser infiel e ser feliz"
+  },
+  {
+   "level": 3,
+   "a": "ter um relacionamento aberto",
+   "b": "ter um casamento tradicional"
+  },
+  {
+   "level": 3,
+   "a": "ter uma única paixão eterna",
+   "b": "ter muitas paixões curtas"
+  },
+  {
+   "level": 3,
+   "a": "saber o que o seu par pensa de você",
+   "b": "saber o que o seu ex pensa de você"
+  },
+  {
+   "level": 3,
+   "a": "saber o número de parceiros do seu par",
+   "b": "saber tudo o que o seu par fez com o ex"
+  },
+  {
+   "level": 3,
+   "a": "ser o segredo de alguém",
+   "b": "guardar um segredo de alguém"
+  },
+  {
+   "level": 3,
+   "a": "casar com o seu primeiro amor",
+   "b": "casar com o seu melhor amigo"
+  },
+  {
+   "level": 3,
+   "a": "ficar rico e solitário",
+   "b": "ficar pobre e amado"
+  },
+  {
+   "level": 3,
+   "a": "perder quem você ama para a morte",
+   "b": "perder quem você ama para outra pessoa"
+  },
+  {
+   "level": 3,
+   "a": "levar a culpa de um amigo",
+   "b": "confessar um erro leve seu"
+  },
+  {
+   "level": 3,
+   "a": "ficar com quem você ama mas que te trai",
+   "b": "ficar sozinho"
+  },
+  {
+   "level": 3,
+   "a": "ouvir uma verdade dura do seu par",
+   "b": "ouvir uma mentira doce do seu par"
+  },
+  {
+   "level": 3,
+   "a": "revelar um segredo de um amigo",
+   "b": "trair a confiança de um amigo"
+  },
+  {
+   "level": 3,
+   "a": "ter um sonho erótico com um amigo",
+   "b": "ter um sonho erótico com o chefe"
+  },
+  {
+   "level": 3,
+   "a": "sair com alguém só por dinheiro",
+   "b": "sair com alguém só por sexo"
+  },
+  {
+   "level": 3,
+   "a": "ver um nude seu circular",
+   "b": "ver um nude de outra pessoa circular"
+  },
+  {
+   "level": 3,
+   "a": "transar numa festa de família",
+   "b": "transar no trabalho"
+  },
+  {
+   "level": 3,
+   "a": "ser expulso de um lugar por ficar com alguém",
+   "b": "ser expulso de um lugar por brigar por ciúme"
+  },
+  {
+   "level": 3,
+   "a": "mandar mensagem para o ex bêbado e ele responder",
+   "b": "mandar mensagem para o ex bêbado e ele ignorar"
+  },
+  {
+   "level": 3,
+   "a": "ser o motivo de um término",
+   "b": "ser o motivo de uma briga de amigos"
+  },
+  {
+   "level": 3,
+   "a": "ficar com alguém comprometido",
+   "b": "ser a pessoa comprometida e trair"
+  },
+  {
+   "level": 3,
+   "a": "saber o que todo mundo da roda pensa de você",
+   "b": "saber o que todo mundo da roda faz escondido"
+  },
+  {
+   "level": 3,
+   "a": "ser o melhor da cama de alguém desta roda",
+   "b": "ser o pior da cama de alguém desta roda"
+  },
+  {
+   "level": 3,
+   "a": "ter uma noite de loucura que ninguém nunca vai saber",
+   "b": "ter uma noite de loucura que todo mundo vai saber"
+  },
+  {
+   "level": 3,
+   "a": "ouvir o seu par falar mal de você",
+   "b": "ouvir o seu melhor amigo falar mal de você"
+  },
+  {
+   "level": 3,
+   "a": "ter a vida amorosa exposta no grupo da família",
+   "b": "ter a vida amorosa exposta no trabalho"
+  },
+  {
+   "level": 3,
+   "a": "largar tudo por um amor",
+   "b": "largar um amor por tudo"
+  },
+  {
+   "level": 3,
+   "a": "ficar com alguém só para se vingar",
+   "b": "deixar de ficar para não se vingar"
+  },
+  {
+   "level": 3,
+   "a": "ficar com o chefe e ser promovido",
+   "b": "ficar com o chefe e ser demitido"
+  },
+  {
+   "level": 3,
+   "a": "um amor proibido para sempre",
+   "b": "um amor permitido que nunca vai ser amor"
+  },
+  {
+   "level": 3,
+   "a": "descobrir que foi o último a saber",
+   "b": "descobrir que foi o primeiro a saber"
+  },
+  {
+   "level": 3,
+   "a": "terminar um namoro por mensagem",
+   "b": "ser terminado por mensagem"
+  },
+  {
+   "level": 3,
+   "a": "ter um segredo que dói guardar",
+   "b": "ter um segredo que dói contar"
+  },
+  {
+   "level": 3,
+   "a": "perdoar um amigo que ficou com o seu par",
+   "b": "perdoar um par que ficou com o seu amigo"
+  },
+  {
+   "level": 3,
+   "a": "ouvir a verdade sobre o seu pior defeito",
+   "b": "ouvir a verdade sobre o seu pior erro"
   }
  ]
 }

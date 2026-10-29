@@ -26,6 +26,7 @@ import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.graphics.vector.PathParser
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.launch
 
 // Master artwork: docs/icon.svg (viewBox -12 44 264 160). Cards fan out around (120, 236).
 private class Face(val color: Color, val detail: Float) // detail: opacity multiplier of the white ornament
@@ -41,7 +42,7 @@ private val Ease = CubicBezierEasing(.2f, .8f, .2f, 1f)
 @Composable
 fun Logo(modifier: Modifier = Modifier) {
     val open = remember { Faces.map { Animatable(0f) } }
-    LaunchedEffect(Unit) { open.forEachIndexed { i, a -> a.animateTo(1f, tween(900, 150 + i * 70, Ease)) } }
+    LaunchedEffect(Unit) { open.forEachIndexed { i, a -> launch { a.animateTo(1f, tween(900, 150 + i * 70, Ease)) } } }
 
     Canvas(modifier.aspectRatio(264f / 160f)) {
         val k = size.width / 264f

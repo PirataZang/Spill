@@ -131,11 +131,12 @@ private val DareP = Palette(DareBlack, DareInk, Color.White, Color.White.copy(.1
 private val NeverP = Palette(Wine, NeverInk, Color.White, Color.White.copy(.16f), Wine)
 private val DoItP = Palette(Color(0xFF168048), Color(0xFFF2FFF7), Color.White, Color.White.copy(.12f), Color(0xFF168048))
 private val ParanoiaP = Palette(Color(0xFF2A5BE8), Color(0xFFF4F6FF), Color.White, Color.White.copy(.12f), Color(0xFF2A5BE8))
+private val PreferP = Palette(Color(0xFF6B3FD9), Color(0xFFF5F1FF), Color.White, Color.White.copy(.12f), Color(0xFF6B3FD9))
 private val LikelyInk = Color(0xFF1B1608)
 private val LikelyP = Palette(Color(0xFFF7C531), LikelyInk, LikelyInk, LikelyInk.copy(.12f), Color(0xFFF7C531))
 
 val DrinkKind.palette get() = when (this) {
-    DrinkKind.Dare -> DareP; DrinkKind.Never -> NeverP; DrinkKind.DoIt -> DoItP; DrinkKind.Paranoia -> ParanoiaP; DrinkKind.Likely -> LikelyP
+    DrinkKind.Dare -> DareP; DrinkKind.Never -> NeverP; DrinkKind.DoIt -> DoItP; DrinkKind.Paranoia -> ParanoiaP; DrinkKind.Likely -> LikelyP; DrinkKind.Prefer -> PreferP
 }
 /** Ambient glow behind the setup screen: the mix is wine, every other game takes its own color. */
 val DrinkGame.glow get() = if (this == DrinkGame.Mix) Wine else kinds.first().palette.glow
@@ -235,18 +236,10 @@ private fun GameTile(game: DrinkGame, on: Boolean, name: String, desc: String, o
             .then(if (game == DrinkGame.Dare) Modifier.border(1.dp, Line, RoundedCornerShape(12.dp)) else Modifier),
         Alignment.Center,
     ) {
-        val ink = kind.palette.ink
-        when (game) {
-            DrinkGame.Mix -> Box(Modifier.fillMaxSize()) {
-                Box(Modifier.offset(32.dp, 14.dp).size(30.dp, 44.dp).rotate(-10f).background(DareBlack, RoundedCornerShape(5.dp)).border(1.5.dp, Color.White.copy(.55f), RoundedCornerShape(5.dp)))
-                Box(Modifier.offset(48.dp, 14.dp).size(30.dp, 44.dp).rotate(10f).background(Wine, RoundedCornerShape(5.dp)).border(1.5.dp, Color.White.copy(.55f), RoundedCornerShape(5.dp)))
-            }
-            DrinkGame.Dare -> BottleArt(Modifier.height(60.dp), ink, 3f, 3f)
-            DrinkGame.Never -> GlassArt(Modifier.width(46.dp), ink, filled = false, width = 2.6f, thin = 2.6f)
-            DrinkGame.DoIt -> ScaleArt(Modifier.size(52.dp), ink, 1.5f)
-            DrinkGame.Paranoia -> SpiralArt(Modifier.size(54.dp), ink, 1.6f)
-            DrinkGame.Likely -> SkullQuestionArt(Modifier.size(54.dp), ink)
-        }
+        if (game == DrinkGame.Mix) Box(Modifier.fillMaxSize()) {
+            Box(Modifier.offset(32.dp, 14.dp).size(30.dp, 44.dp).rotate(-10f).background(DareBlack, RoundedCornerShape(5.dp)).border(1.5.dp, Color.White.copy(.55f), RoundedCornerShape(5.dp)))
+            Box(Modifier.offset(48.dp, 14.dp).size(30.dp, 44.dp).rotate(10f).background(Wine, RoundedCornerShape(5.dp)).border(1.5.dp, Color.White.copy(.55f), RoundedCornerShape(5.dp)))
+        } else GameIcon(game, kind.palette.ink, Modifier.size(46.dp))
     }
     Txt(name, Modifier.padding(horizontal = 4.dp), 13.sp, 700, Display)
     Txt(desc, Modifier.padding(horizontal = 4.dp), 12.sp, color = Muted, lh = 1.3.em)
@@ -372,6 +365,7 @@ private fun DrinkCardView(card: DrinkCard, d: DrinkCatalog, light: Boolean, w: D
                     DrinkKind.Never -> GlassArt(Modifier.align(Alignment.Center).width((240 * s).dp).alpha(.13f), p.line, filled = false, width = 1.4f, thin = 1.4f)
                     DrinkKind.DoIt -> ScaleArt(Modifier.align(Alignment.Center).size((250 * s).dp).alpha(.14f), p.line, .55f)
                     DrinkKind.Likely -> SkullQuestionArt(Modifier.align(Alignment.Center).size((260 * s).dp).alpha(.1f), p.line)
+                    DrinkKind.Prefer -> ForkArt(Modifier.align(Alignment.Center).size((260 * s).dp).alpha(.12f), p.line, .6f)
                     DrinkKind.Paranoia -> Unit // has its own screen
                 }
             },
@@ -393,6 +387,12 @@ private fun DrinkCardView(card: DrinkCard, d: DrinkCatalog, light: Boolean, w: D
                         Txt(d.t("likelyLead"), size = (14 * s).sp, weight = 700, font = Display, color = p.ink, align = TextAlign.Center)
                         Txt(card.main, size = (34 * s).sp, weight = 800, color = p.ink, ls = (-.02).em, lh = 1.04.em, align = TextAlign.Center)
                     }
+                    DrinkKind.Prefer -> {
+                        Txt(d.t("preferLead"), Modifier.padding(bottom = (4 * s).dp), (13 * s).sp, 700, Display, p.ink)
+                        PreferOption("1", card.main, p, s)
+                        Txt(d.t("preferOr").uppercase(), Modifier.alpha(.85f), 11.sp, 600, Display, p.ink, ls = .16.em)
+                        PreferOption("2", card.extra!!, p, s)
+                    }
                     DrinkKind.Paranoia -> Unit
                 }
             },
@@ -400,7 +400,7 @@ private fun DrinkCardView(card: DrinkCard, d: DrinkCatalog, light: Boolean, w: D
                 when (card.kind) {
                     DrinkKind.Dare -> {
                         Txt(d.t("forAll").uppercase(), size = 10.sp, weight = 600, font = Display, color = p.ink, ls = .16.em)
-                        Txt(card.all!!, size = (16 * s).sp, weight = 500, color = p.ink, lh = 1.3.em, align = TextAlign.Center)
+                        Txt(card.extra!!, size = (16 * s).sp, weight = 500, color = p.ink, lh = 1.3.em, align = TextAlign.Center)
                         Txt(d.t("skipped").replace("{unit}", d.unit(light)), Modifier.alpha(.72f), 12.sp, color = p.ink, align = TextAlign.Center)
                     }
                     DrinkKind.Never -> {
@@ -415,11 +415,26 @@ private fun DrinkCardView(card: DrinkCard, d: DrinkCatalog, light: Boolean, w: D
                         Txt(d.t("likelyPoint").uppercase(), size = 10.sp, weight = 600, font = Display, color = p.ink, ls = .16.em, align = TextAlign.Center)
                         Txt(d.t("likelyDrinks").fill(shots), Modifier.alpha(.85f), 12.sp, color = p.ink, align = TextAlign.Center)
                     }
+                    DrinkKind.Prefer -> {
+                        Txt(d.t("preferPoint").uppercase(), size = 10.sp, weight = 600, font = Display, color = p.ink, ls = .16.em, align = TextAlign.Center)
+                        Txt(d.t("preferDrinks").fill(shots), Modifier.alpha(.8f), 12.sp, color = p.ink, align = TextAlign.Center)
+                    }
                     DrinkKind.Paranoia -> Unit
                 }
             },
         )
     }
+}
+
+/** One of the two choices on a Prefere card: a numbered chip and the text, in a soft box. */
+@Composable
+private fun PreferOption(n: String, text: String, p: Palette, s: Float) = Row(
+    Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(p.line.copy(.08f)).border(1.5.dp, p.line.copy(.45f), RoundedCornerShape(12.dp))
+        .padding(horizontal = (12 * s).dp, vertical = (10 * s).dp),
+    Arrangement.spacedBy(10.dp), Alignment.CenterVertically,
+) {
+    Box(Modifier.size((26 * s).dp).background(p.ink, CircleShape), Alignment.Center) { Txt(n, size = 12.sp, weight = 800, font = Display, color = p.color) }
+    Txt(text, size = (17 * s).sp, weight = 700, color = p.ink, lh = 1.2.em)
 }
 
 // ---------------------------------------------------------------- paranoia

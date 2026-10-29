@@ -11,8 +11,9 @@ android {
         applicationId = "app.spill"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        // CI passes these on a tag build (v2.0.0 -> 2.0.0), so the APK always matches its release.
+        versionCode = (findProperty("versionCode") as String?)?.toInt() ?: 1
+        versionName = (findProperty("versionName") as String?) ?: "1.0.0"
     }
 
     // CI injects these from secrets; without them the release APK is signed with the debug key so it still installs.

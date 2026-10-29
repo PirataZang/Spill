@@ -32,3 +32,17 @@ Como escrever:
 -->
 
 ## [Unreleased]
+
+### Added
+
+- **Prefere**: sexto jogo de shot. Duas opções por carta; no 3 todo mundo mostra 1 ou 2 dedos e a minoria bebe. 200 cartas nos 3 níveis, com ícone de bifurcação e cor roxa.
+
+### Changed
+
+- **Ícones dos jogos de shot** na tela de configuração agora têm o mesmo tamanho e o mesmo traço, em vez de variar de um jogo para outro.
+- A Home passa a dizer **"6 jogos de shot"**.
+
+### Fixed
+
+- A abertura do **leque do logo** na Home abria uma carta por vez, devagar; agora abre em cascata.
+- Em telas de 360 dp de largura, o botão **Regras** da Home quebrava letra por letra; agora os botões ficam em uma linha e o texto do topo é que quebra.
