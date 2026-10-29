@@ -1,0 +1,56 @@
+{
+  "count": "{d} colors · {n} cards",
+  "rules": "Rules",
+  "language": "Language",
+  "tagline": "Draw a card. Talk in English. Decide who nailed it.",
+  "mode": "Mode",
+  "random": "Random",
+  "randomDesc": "All five colors shuffled into one deck.",
+  "themed": "Themed",
+  "themedDesc": "Pick one color and stay in its mood.",
+  "color": "Color",
+  "deal": "Deal the cards",
+  "endTitle": "That’s the whole deck",
+  "endText": "Count the points, or just argue about who told the best story.",
+  "again": "Shuffle again",
+  "hint": "Drag the card off the screen to draw the next one",
+  "next": "Next →",
+  "done": "Done",
+  "finished": "Deck finished.",
+  "howTo": "How to play",
+  "close": "Close",
+  "lead": "Spill is a conversation game. Nobody really wins. The goal is to talk in English about things you would never bring up on your own.",
+  "steps": [
+    {
+      "b": "Pick a mode.",
+      "t": "Random mixes all five colors. Themed keeps one color, so the whole round shares a mood."
+    },
+    {
+      "b": "Read the card out loud.",
+      "t": "Answer it in English and talk for about a minute."
+    },
+    {
+      "b": "Keep it going.",
+      "t": "Everyone can ask follow-up questions or jump in with their own story."
+    },
+    {
+      "b": "Next card.",
+      "t": "When the topic runs out, drag the card off the screen and pass the turn."
+    }
+  ],
+  "points": "Points, if you want them",
+  "pointsText": "After each answer, the group gives one point to the most creative or interesting one. The best compliment in Spill is “Okay, you got me on that one.”",
+  "colors": "The five colors",
+  "note": "Mistakes are part of the game. Nobody stops a story to fix grammar.",
+  "tagline2": "A conversation game for two or more players.",
+  "kinds": {
+    "Movie": "Movie",
+    "Series": "Series",
+    "Song": "Song",
+    "Topic": "Topic"
+  },
+  "menu": "← Menu",
+  "menuShort": "Menu",
+  "drinkTitle": "Drink Mode",
+  "drinkDesc": "5 shot games"
+}

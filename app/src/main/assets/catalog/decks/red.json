@@ -1,0 +1,242 @@
+{
+  "color": "#D7263D",
+  "ink": "#FFF3F4",
+  "meta": {
+    "en": {
+      "name": "Red",
+      "label": "Love & Dates",
+      "blurb": "Romance, first dates, crushes and love stories."
+    },
+    "pt": {
+      "name": "Vermelho",
+      "label": "Romance",
+      "blurb": "Amor, primeiros encontros, crushes e histórias de casal."
+    }
+  },
+  "cards": [
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Titanic",
+        "prompt": "What is the most romantic thing someone has ever done for you?"
+      },
+      "pt": {
+        "title": "Titanic",
+        "prompt": "Qual foi a coisa mais romântica que alguém já fez por você?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Ed Sheeran",
+      "en": {
+        "title": "Perfect",
+        "prompt": "Describe your perfect first date, from start to finish."
+      },
+      "pt": {
+        "title": "Perfect",
+        "prompt": "Descreva seu primeiro encontro perfeito, do começo ao fim."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Red Flags",
+        "prompt": "Name three red flags on a first date. Which one is the worst?"
+      },
+      "pt": {
+        "title": "Red Flags",
+        "prompt": "Diga três red flags num primeiro encontro. Qual é a pior?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "La La Land",
+        "prompt": "Love or career: if you could only have one, which would you choose?"
+      },
+      "pt": {
+        "title": "La La Land",
+        "prompt": "Amor ou carreira: se só pudesse ter um, qual você escolheria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "City of Love",
+        "prompt": "What is the most romantic place you have ever been to?"
+      },
+      "pt": {
+        "title": "Cidade do Amor",
+        "prompt": "Qual é o lugar mais romântico onde você já esteve?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "500 Days of Summer",
+        "prompt": "Have you ever liked someone who didn’t like you back? What happened?"
+      },
+      "pt": {
+        "title": "500 Dias com Ela",
+        "prompt": "Você já gostou de alguém que não gostava de você? O que aconteceu?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Love Language",
+        "prompt": "Words, gifts, time, help or touch: what is your love language?"
+      },
+      "pt": {
+        "title": "Linguagem do Amor",
+        "prompt": "Palavras, presentes, tempo, ajuda ou toque: qual é a sua linguagem do amor?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Taylor Swift",
+      "en": {
+        "title": "Love Story",
+        "prompt": "How did your parents or grandparents meet?"
+      },
+      "pt": {
+        "title": "Love Story",
+        "prompt": "Como seus pais ou avós se conheceram?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dating Apps",
+        "prompt": "Dating apps: great invention or total chaos? Defend your answer."
+      },
+      "pt": {
+        "title": "Apps de Namoro",
+        "prompt": "Apps de namoro: grande invenção ou caos total? Defenda sua resposta."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Notebook",
+        "prompt": "Say a short love letter out loud to your favorite food."
+      },
+      "pt": {
+        "title": "Diário de uma Paixão",
+        "prompt": "Declame uma pequena carta de amor para sua comida favorita."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Crush",
+        "prompt": "Tell us about your first crush. Did they ever find out?"
+      },
+      "pt": {
+        "title": "Primeiro Crush",
+        "prompt": "Conte sobre seu primeiro crush. A pessoa chegou a descobrir?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Shrek",
+        "prompt": "What is the least romantic gift you could give someone? Sell it to us."
+      },
+      "pt": {
+        "title": "Shrek",
+        "prompt": "Qual é o presente menos romântico que dá pra dar a alguém? Venda a ideia pra gente."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Pretty Woman",
+        "prompt": "Do you believe in love at first sight? Why or why not?"
+      },
+      "pt": {
+        "title": "Uma Linda Mulher",
+        "prompt": "Você acredita em amor à primeira vista? Por quê?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Pickup Lines",
+        "prompt": "Say your best (or worst) pickup line. Has it ever worked?"
+      },
+      "pt": {
+        "title": "Cantadas",
+        "prompt": "Diga sua melhor (ou pior) cantada. Ela já funcionou alguma vez?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Adele",
+      "en": {
+        "title": "Someone Like You",
+        "prompt": "What is the best way to get over a breakup?"
+      },
+      "pt": {
+        "title": "Someone Like You",
+        "prompt": "Qual é o melhor jeito de superar um término?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Crazy, Stupid, Love",
+        "prompt": "What is the best love advice you have ever heard?"
+      },
+      "pt": {
+        "title": "Amor a Toda Prova",
+        "prompt": "Qual foi o melhor conselho amoroso que você já ouviu?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dream Wedding",
+        "prompt": "Describe your dream wedding, or explain why you don’t want one."
+      },
+      "pt": {
+        "title": "Casamento dos Sonhos",
+        "prompt": "Descreva seu casamento dos sonhos, ou explique por que você não quer um."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "How to Lose a Guy in 10 Days",
+        "prompt": "What is the fastest way to ruin a date?"
+      },
+      "pt": {
+        "title": "Como Perder um Homem em 10 Dias",
+        "prompt": "Qual é o jeito mais rápido de estragar um encontro?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Ideal Partner",
+        "prompt": "Describe your ideal partner in three words. Then explain each one."
+      },
+      "pt": {
+        "title": "Par Ideal",
+        "prompt": "Descreva seu par ideal em três palavras. Depois explique cada uma."
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Elvis Presley",
+      "en": {
+        "title": "Can’t Help Falling in Love",
+        "prompt": "What song makes you think of love? Why that one?"
+      },
+      "pt": {
+        "title": "Can’t Help Falling in Love",
+        "prompt": "Que música faz você pensar em amor? Por que essa?"
+      }
+    }
+  ]
+}

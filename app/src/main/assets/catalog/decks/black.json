@@ -1,0 +1,241 @@
+{
+  "color": "#0D0D10",
+  "ink": "#F1EFF6",
+  "glow": "#5d5873",
+  "meta": {
+    "en": {
+      "name": "Black",
+      "label": "Cringe",
+      "blurb": "Embarrassing moments, fails and pure comedy."
+    },
+    "pt": {
+      "name": "Preto",
+      "label": "Cringe",
+      "blurb": "Momentos vergonhosos, micos e comédia pura."
+    }
+  },
+  "cards": [
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Wrong Chat",
+        "prompt": "Have you ever sent a message to the wrong person? What happened next?"
+      },
+      "pt": {
+        "title": "Conversa Errada",
+        "prompt": "Você já mandou mensagem para a pessoa errada? O que aconteceu depois?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Mean Girls",
+        "prompt": "What was your most embarrassing moment at school?"
+      },
+      "pt": {
+        "title": "Meninas Malvadas",
+        "prompt": "Qual foi o seu momento mais vergonhoso na escola?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "The Wave",
+        "prompt": "Have you ever waved back at someone who was waving at someone else?"
+      },
+      "pt": {
+        "title": "O Tchauzinho",
+        "prompt": "Você já acenou de volta para alguém que estava acenando para outra pessoa?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Britney Spears",
+      "en": {
+        "title": "Oops!... I Did It Again",
+        "prompt": "What mistake do you keep making again and again?"
+      },
+      "pt": {
+        "title": "Oops!... I Did It Again",
+        "prompt": "Que erro você comete de novo e de novo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Fashion Crime",
+        "prompt": "Describe the worst outfit you ever wore in public. Who saw it?"
+      },
+      "pt": {
+        "title": "Crime Fashion",
+        "prompt": "Descreva a pior roupa que você já usou em público. Quem viu?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Home Alone",
+        "prompt": "Have you ever been forgotten or left behind somewhere?"
+      },
+      "pt": {
+        "title": "Esqueceram de Mim",
+        "prompt": "Você já foi esquecido ou deixado para trás em algum lugar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Autocorrect",
+        "prompt": "Share your worst typo or autocorrect disaster."
+      },
+      "pt": {
+        "title": "Corretor",
+        "prompt": "Conte seu pior desastre de digitação ou de corretor automático."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Gravity",
+        "prompt": "Tell us about a time you fell in public. Did you pretend nothing happened?"
+      },
+      "pt": {
+        "title": "Gravidade",
+        "prompt": "Conte sobre uma vez em que você caiu em público. Fingiu que nada aconteceu?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Hangover",
+        "prompt": "Tell us about a party or trip that went completely wrong."
+      },
+      "pt": {
+        "title": "Se Beber, Não Case!",
+        "prompt": "Conte sobre uma festa ou viagem que deu completamente errado."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Karaoke",
+        "prompt": "Sing one line of a song badly, on purpose. Then tell us your worst karaoke moment."
+      },
+      "pt": {
+        "title": "Karaokê",
+        "prompt": "Cante um verso de uma música bem mal, de propósito. Depois conte seu pior momento no karaokê."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Name Fail",
+        "prompt": "Have you ever forgotten someone’s name in the middle of a conversation?"
+      },
+      "pt": {
+        "title": "Deu Branco",
+        "prompt": "Você já esqueceu o nome de alguém no meio de uma conversa?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Mr. Bean",
+        "prompt": "Describe the clumsiest day of your life."
+      },
+      "pt": {
+        "title": "Mr. Bean",
+        "prompt": "Descreva o dia mais desastrado da sua vida."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Meet the Parents",
+        "prompt": "Tell us about an awkward first meeting with someone’s family."
+      },
+      "pt": {
+        "title": "Entrando numa Fria",
+        "prompt": "Conte sobre um primeiro encontro constrangedor com a família de alguém."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Group Chat",
+        "prompt": "What is the most embarrassing thing you have said in a group chat?"
+      },
+      "pt": {
+        "title": "Grupo da Família",
+        "prompt": "Qual foi a coisa mais vergonhosa que você já falou num grupo de mensagens?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Justin Bieber",
+      "en": {
+        "title": "Baby",
+        "prompt": "What song did you love as a teen that you are ashamed of now?"
+      },
+      "pt": {
+        "title": "Baby",
+        "prompt": "Que música você amava na adolescência e hoje tem vergonha?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Old Photos",
+        "prompt": "Describe your most embarrassing old photo. Where is it now?"
+      },
+      "pt": {
+        "title": "Foto Antiga",
+        "prompt": "Descreva sua foto antiga mais vergonhosa. Onde ela está agora?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Bridesmaids",
+        "prompt": "What is the worst thing that happened to you at a wedding or party?"
+      },
+      "pt": {
+        "title": "Missão Madrinha de Casamento",
+        "prompt": "Qual foi a pior coisa que já aconteceu com você num casamento ou festa?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Wrong Word",
+        "prompt": "Have you ever said something completely wrong in another language?"
+      },
+      "pt": {
+        "title": "Palavra Errada",
+        "prompt": "Você já falou algo completamente errado em outra língua?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "The Simpsons",
+        "prompt": "Which cartoon character are you most like? Prove it."
+      },
+      "pt": {
+        "title": "Os Simpsons",
+        "prompt": "Com qual personagem de desenho você mais se parece? Prove."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Bad Haircut",
+        "prompt": "Tell us about your worst haircut ever. How long did it take to grow back?"
+      },
+      "pt": {
+        "title": "Corte de Cabelo",
+        "prompt": "Conte sobre o pior corte de cabelo da sua vida. Quanto tempo levou pra crescer?"
+      }
+    }
+  ]
+}

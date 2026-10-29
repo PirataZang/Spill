@@ -1,0 +1,240 @@
+{
+  "color": "#168048",
+  "ink": "#F2FFF7",
+  "meta": {
+    "en": {
+      "name": "Green",
+      "label": "Daily Life",
+      "blurb": "School, work, college and life stories. Easy topics where mistakes are welcome."
+    },
+    "pt": {
+      "name": "Verde",
+      "label": "Dia a Dia",
+      "blurb": "Escola, trabalho, faculdade e histórias da vida. Assuntos leves, onde errar é bem-vindo."
+    }
+  },
+  "cards": [
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Devil Wears Prada",
+        "prompt": "Who was the toughest boss or teacher you ever had? What did they do?"
+      },
+      "pt": {
+        "title": "O Diabo Veste Prada",
+        "prompt": "Quem foi o chefe ou professor mais difícil que você já teve? O que ele fazia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Day",
+        "prompt": "Tell us about your first day at a new school or job. What went wrong?"
+      },
+      "pt": {
+        "title": "Primeiro Dia",
+        "prompt": "Conte sobre seu primeiro dia numa escola ou emprego novo. O que deu errado?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Friends",
+        "prompt": "Who is your oldest friend, and how did you meet?"
+      },
+      "pt": {
+        "title": "Friends",
+        "prompt": "Quem é seu amigo mais antigo, e como vocês se conheceram?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "School Lunch",
+        "prompt": "What did you usually eat at school? Would you eat it today?"
+      },
+      "pt": {
+        "title": "Lanche da Escola",
+        "prompt": "O que você costumava comer na escola? Comeria isso hoje?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Breakfast Club",
+        "prompt": "At school, were you the nerd, the athlete, the rebel or something else?"
+      },
+      "pt": {
+        "title": "Clube dos Cinco",
+        "prompt": "Na escola, você era o nerd, o atleta, o rebelde ou outra coisa?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Hometown",
+        "prompt": "Describe the street where you grew up. What could you hear and smell?"
+      },
+      "pt": {
+        "title": "Cidade Natal",
+        "prompt": "Descreva a rua onde você cresceu. Que sons e cheiros tinha lá?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Dolly Parton",
+      "en": {
+        "title": "9 to 5",
+        "prompt": "Describe your perfect workday, from breakfast to bedtime."
+      },
+      "pt": {
+        "title": "9 to 5",
+        "prompt": "Descreva seu dia de trabalho perfeito, do café da manhã até a hora de dormir."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Last Weekend",
+        "prompt": "What did you do last weekend? Tell it like a story."
+      },
+      "pt": {
+        "title": "Fim de Semana",
+        "prompt": "O que você fez no último fim de semana? Conte como se fosse uma história."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dream Job",
+        "prompt": "What did you want to be when you were ten? What changed?"
+      },
+      "pt": {
+        "title": "Emprego dos Sonhos",
+        "prompt": "O que você queria ser quando tinha dez anos? O que mudou?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Ratatouille",
+        "prompt": "What dish can you cook well? Explain it step by step."
+      },
+      "pt": {
+        "title": "Ratatouille",
+        "prompt": "Que prato você sabe fazer bem? Explique o passo a passo."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Commute",
+        "prompt": "How do you get to work or class? What do you see on the way?"
+      },
+      "pt": {
+        "title": "No Caminho",
+        "prompt": "Como você vai para o trabalho ou para a aula? O que você vê no caminho?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "The Office",
+        "prompt": "Describe a funny coworker or classmate without saying their name."
+      },
+      "pt": {
+        "title": "The Office",
+        "prompt": "Descreva um colega engraçado do trabalho ou da escola sem dizer o nome."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Dead Poets Society",
+        "prompt": "What subject did you love at school, and which one did you hate?"
+      },
+      "pt": {
+        "title": "Sociedade dos Poetas Mortos",
+        "prompt": "Que matéria você amava na escola, e qual você odiava?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Roommates",
+        "prompt": "Who was the best or worst person you ever lived with? Why?"
+      },
+      "pt": {
+        "title": "Dividindo a Casa",
+        "prompt": "Quem foi a melhor ou a pior pessoa com quem você já morou? Por quê?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Pink Floyd",
+      "en": {
+        "title": "Another Brick in the Wall",
+        "prompt": "What is one thing school should teach but doesn’t?"
+      },
+      "pt": {
+        "title": "Another Brick in the Wall",
+        "prompt": "O que a escola deveria ensinar, mas não ensina?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Morning Routine",
+        "prompt": "Walk us through your morning, from the alarm to leaving home."
+      },
+      "pt": {
+        "title": "Rotina da Manhã",
+        "prompt": "Descreva sua manhã, do despertador até sair de casa."
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Grey’s Anatomy",
+        "prompt": "Have you ever ended up in the hospital? Tell us what happened."
+      },
+      "pt": {
+        "title": "Grey’s Anatomy",
+        "prompt": "Você já foi parar no hospital? Conte o que aconteceu."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Paycheck",
+        "prompt": "What was your first job, and what did you buy with your first paycheck?"
+      },
+      "pt": {
+        "title": "Primeiro Salário",
+        "prompt": "Qual foi seu primeiro emprego, e o que você comprou com o primeiro salário?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Social Network",
+        "prompt": "Which app could you never delete from your phone? Why?"
+      },
+      "pt": {
+        "title": "A Rede Social",
+        "prompt": "Qual app você nunca apagaria do seu celular? Por quê?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Neighbors",
+        "prompt": "Tell us about the strangest neighbor you ever had."
+      },
+      "pt": {
+        "title": "Vizinhos",
+        "prompt": "Conte sobre o vizinho mais estranho que você já teve."
+      }
+    }
+  ]
+}

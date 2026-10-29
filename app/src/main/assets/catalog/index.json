@@ -1,0 +1,19 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "label": "EN"
+    },
+    {
+      "code": "pt",
+      "label": "PT"
+    }
+  ],
+  "decks": [
+    "green",
+    "blue",
+    "yellow",
+    "red",
+    "black"
+  ]
+}

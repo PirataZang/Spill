@@ -1,0 +1,241 @@
+{
+  "color": "#F7C531",
+  "ink": "#1B1608",
+  "meta": {
+    "en": {
+      "name": "Yellow",
+      "label": "Proud Of",
+      "blurb": "Wins, dreams and places you want to see."
+    },
+    "pt": {
+      "name": "Amarelo",
+      "label": "Conquistas",
+      "blurb": "Vitórias, sonhos e lugares que você quer conhecer."
+    }
+  },
+  "cards": [
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "New Win",
+        "prompt": "Share something you achieved this year, big or small."
+      },
+      "pt": {
+        "title": "Nova Conquista",
+        "prompt": "Conte algo que você conquistou este ano, grande ou pequeno."
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Survivor",
+      "en": {
+        "title": "Eye of the Tiger",
+        "prompt": "When did you feel like a champion? Tell us the whole story."
+      },
+      "pt": {
+        "title": "Eye of the Tiger",
+        "prompt": "Quando você se sentiu um campeão? Conte a história toda."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Passport",
+        "prompt": "Which country do you want to visit next? What is the first thing you do there?"
+      },
+      "pt": {
+        "title": "Passaporte",
+        "prompt": "Qual país você quer visitar em seguida? Qual é a primeira coisa que você faz lá?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Rocky",
+        "prompt": "Tell us about a time you almost gave up, but didn’t."
+      },
+      "pt": {
+        "title": "Rocky",
+        "prompt": "Conte sobre uma vez em que você quase desistiu, mas não desistiu."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Hard Skill",
+        "prompt": "What skill took you the longest to learn? Was it worth it?"
+      },
+      "pt": {
+        "title": "Difícil de Aprender",
+        "prompt": "Que habilidade você mais demorou para aprender? Valeu a pena?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Soul",
+        "prompt": "What makes you lose track of time?"
+      },
+      "pt": {
+        "title": "Soul",
+        "prompt": "O que faz você perder a noção do tempo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Compliment",
+        "prompt": "What is the best compliment anyone has ever given you?"
+      },
+      "pt": {
+        "title": "Elogio",
+        "prompt": "Qual foi o melhor elogio que você já recebeu?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Queen",
+      "en": {
+        "title": "Don’t Stop Me Now",
+        "prompt": "What goal are you chasing right now?"
+      },
+      "pt": {
+        "title": "Don’t Stop Me Now",
+        "prompt": "Que meta você está perseguindo agora?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Five Years",
+        "prompt": "Where do you see yourself in five years? Be specific."
+      },
+      "pt": {
+        "title": "Daqui a 5 Anos",
+        "prompt": "Onde você se vê daqui a cinco anos? Seja específico."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Pursuit of Happyness",
+        "prompt": "Who helped you get where you are today? Thank them out loud."
+      },
+      "pt": {
+        "title": "À Procura da Felicidade",
+        "prompt": "Quem ajudou você a chegar onde está hoje? Agradeça em voz alta."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Bucket List",
+        "prompt": "Name three things on your bucket list and why they matter."
+      },
+      "pt": {
+        "title": "Lista de Desejos",
+        "prompt": "Diga três coisas da sua lista de desejos e por que elas importam."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Glow Up",
+        "prompt": "What do you do better now than you did two years ago?"
+      },
+      "pt": {
+        "title": "Glow Up",
+        "prompt": "O que você faz melhor hoje do que fazia dois anos atrás?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Karate Kid",
+        "prompt": "What did you practice over and over until you finally got it right?"
+      },
+      "pt": {
+        "title": "Karatê Kid",
+        "prompt": "O que você treinou várias e várias vezes até finalmente acertar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Hidden Talent",
+        "prompt": "What is a talent most people don’t know you have?"
+      },
+      "pt": {
+        "title": "Talento Escondido",
+        "prompt": "Que talento você tem que pouca gente conhece?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Katy Perry",
+      "en": {
+        "title": "Firework",
+        "prompt": "When did you surprise yourself?"
+      },
+      "pt": {
+        "title": "Firework",
+        "prompt": "Quando foi que você surpreendeu a si mesmo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Best Trip",
+        "prompt": "What is the best trip you have ever taken? Take us there."
+      },
+      "pt": {
+        "title": "Melhor Viagem",
+        "prompt": "Qual foi a melhor viagem da sua vida? Leve a gente até lá."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Forrest Gump",
+        "prompt": "Tell us the story of your life in one minute."
+      },
+      "pt": {
+        "title": "Forrest Gump",
+        "prompt": "Conte a história da sua vida em um minuto."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Brave Moment",
+        "prompt": "What is the bravest thing you have ever done?"
+      },
+      "pt": {
+        "title": "Coragem",
+        "prompt": "Qual foi a coisa mais corajosa que você já fez?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Coco",
+        "prompt": "Which family member are you most proud of? Why?"
+      },
+      "pt": {
+        "title": "Viva: A Vida é uma Festa",
+        "prompt": "De qual pessoa da família você tem mais orgulho? Por quê?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Comfort Zone",
+        "prompt": "What did you do recently that was outside your comfort zone?"
+      },
+      "pt": {
+        "title": "Zona de Conforto",
+        "prompt": "O que você fez recentemente que estava fora da sua zona de conforto?"
+      }
+    }
+  ]
+}

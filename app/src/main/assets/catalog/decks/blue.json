@@ -1,0 +1,240 @@
+{
+  "color": "#2A5BE8",
+  "ink": "#F4F6FF",
+  "meta": {
+    "en": {
+      "name": "Blue",
+      "label": "What If",
+      "blurb": "Random situations: the apocalypse, other planets, strange superpowers."
+    },
+    "pt": {
+      "name": "Azul",
+      "label": "E Se…",
+      "blurb": "Situações aleatórias: apocalipse, outros planetas, superpoderes estranhos."
+    }
+  },
+  "cards": [
+    {
+      "kind": "Series",
+      "en": {
+        "title": "The Walking Dead",
+        "prompt": "The apocalypse starts today. What are the first three things you grab?"
+      },
+      "pt": {
+        "title": "The Walking Dead",
+        "prompt": "O apocalipse começa hoje. Quais são as três primeiras coisas que você pega?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Planet X",
+        "prompt": "What do plants look like on another planet? Describe one."
+      },
+      "pt": {
+        "title": "Planeta X",
+        "prompt": "Como são as plantas em outro planeta? Descreva uma."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Back to the Future",
+        "prompt": "You can visit one year, past or future. Which one, and what do you do there?"
+      },
+      "pt": {
+        "title": "De Volta para o Futuro",
+        "prompt": "Você pode visitar um ano, do passado ou do futuro. Qual escolhe, e o que faz lá?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Invisible",
+        "prompt": "You are invisible for 24 hours. What is your plan?"
+      },
+      "pt": {
+        "title": "Invisível",
+        "prompt": "Você fica invisível por 24 horas. Qual é o plano?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Jurassic Park",
+        "prompt": "One extinct animal comes back to life. Which one should it be?"
+      },
+      "pt": {
+        "title": "Jurassic Park",
+        "prompt": "Um animal extinto volta à vida. Qual deveria ser?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Body Swap",
+        "prompt": "You wake up in your pet’s body. Describe your day."
+      },
+      "pt": {
+        "title": "Troca de Corpos",
+        "prompt": "Você acorda no corpo do seu pet. Descreva seu dia."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Interstellar",
+        "prompt": "Would you take a one-way trip to Mars? Convince us."
+      },
+      "pt": {
+        "title": "Interestelar",
+        "prompt": "Você faria uma viagem só de ida para Marte? Convença a gente."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Useless Power",
+        "prompt": "You get a useless superpower. What is it, and how do you use it anyway?"
+      },
+      "pt": {
+        "title": "Poder Inútil",
+        "prompt": "Você ganha um superpoder inútil. Qual é, e como você usa mesmo assim?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Cast Away",
+        "prompt": "You are stuck on an island with one object. What do you choose?"
+      },
+      "pt": {
+        "title": "Náufrago",
+        "prompt": "Você está preso numa ilha com um único objeto. Qual você escolhe?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "The Beatles",
+      "en": {
+        "title": "Yellow Submarine",
+        "prompt": "You live under the sea for a year. What do you miss the most?"
+      },
+      "pt": {
+        "title": "Yellow Submarine",
+        "prompt": "Você vai morar no fundo do mar por um ano. Do que sente mais falta?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Robot World",
+        "prompt": "Robots do every job now. What do people do all day?"
+      },
+      "pt": {
+        "title": "Mundo dos Robôs",
+        "prompt": "Os robôs fazem todos os trabalhos agora. O que as pessoas fazem o dia todo?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Toy Story",
+        "prompt": "Your toys were alive when you were a kid. What did they think of you?"
+      },
+      "pt": {
+        "title": "Toy Story",
+        "prompt": "Seus brinquedos estavam vivos quando você era criança. O que eles achavam de você?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Matrix",
+        "prompt": "You find out life is a simulation. What is the first thing you do?"
+      },
+      "pt": {
+        "title": "Matrix",
+        "prompt": "Você descobre que a vida é uma simulação. Qual é a primeira coisa que você faz?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Talking Animals",
+        "prompt": "Animals can talk for one day. Which animal do you want to interview?"
+      },
+      "pt": {
+        "title": "Bichos Falantes",
+        "prompt": "Os animais podem falar por um dia. Qual bicho você quer entrevistar?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Groundhog Day",
+        "prompt": "You are stuck living the same day forever. How do you spend it?"
+      },
+      "pt": {
+        "title": "Feitiço do Tempo",
+        "prompt": "Você fica preso vivendo o mesmo dia para sempre. Como você aproveita?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Stranger Things",
+        "prompt": "You find a door to a strange parallel world. Do you go in?"
+      },
+      "pt": {
+        "title": "Stranger Things",
+        "prompt": "Você encontra uma porta para um mundo paralelo estranho. Você entra?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Ruler for a Day",
+        "prompt": "You run the country for one day. What are your first three laws?"
+      },
+      "pt": {
+        "title": "Presidente por um Dia",
+        "prompt": "Você governa o país por um dia. Quais são suas três primeiras leis?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Honey, I Shrunk the Kids",
+        "prompt": "You shrink to the size of an ant. How do you get home?"
+      },
+      "pt": {
+        "title": "Querida, Encolhi as Crianças",
+        "prompt": "Você encolhe até o tamanho de uma formiga. Como volta para casa?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "John Lennon",
+      "en": {
+        "title": "Imagine",
+        "prompt": "Imagine a perfect world. What is different about it?"
+      },
+      "pt": {
+        "title": "Imagine",
+        "prompt": "Imagine um mundo perfeito. O que é diferente nele?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Alien Guest",
+        "prompt": "An alien stays at your house for a week. What do you show them first?"
+      },
+      "pt": {
+        "title": "Visita Alienígena",
+        "prompt": "Um alienígena fica na sua casa por uma semana. O que você mostra primeiro?"
+      }
+    }
+  ]
+}

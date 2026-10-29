@@ -1,0 +1,4338 @@
+{
+ "ui": {
+  "gateBack": "← Voltar",
+  "gateTitle": "Modo Drink",
+  "gateBody": "Perguntas sobre sexo, bebida, gafes e as piores vergonhas da sua vida. Só para maiores de 18.",
+  "gateNote": "O que rola na roda fica na roda. Ninguém é obrigado a responder: é pra isso que existe o shot.",
+  "gateYes": "Tenho 18 anos ou mais",
+  "gateNo": "Agora não",
+  "menu": "← Menu",
+  "eyebrow": "Modo Drink",
+  "setupTitle": "Monte a rodada",
+  "game": "Jogo",
+  "mix": "Misturado",
+  "mixDesc": "Desafio + Eu nunca, alternados.",
+  "dare": "Desafio",
+  "dareDesc": "Conta a história ou bebe.",
+  "never": "Eu nunca",
+  "neverDesc": "Quem já fez, bebe.",
+  "levels": "Níveis",
+  "level1": "Mico",
+  "level2": "Picante",
+  "level3": "Pesado",
+  "climb": "Escalada",
+  "climbDesc": "Começa no mico e esquenta até o pesado.",
+  "light": "Modo leve",
+  "lightDesc": "Gole em vez de shot. Pra noite durar.",
+  "rulesTitle": "Quanto se bebe",
+  "start": "Começar · {n} cartas",
+  "unitShot": "shot",
+  "unitShots": "shots",
+  "unitSip": "gole",
+  "unitSips": "goles",
+  "answerOr": "Responda ou {amount}",
+  "forAll": "Para todos",
+  "skipped": "Não respondeu: 1 {unit} · Quem leu: 2",
+  "neverLead": "Eu nunca…",
+  "neverDrinks": "Quem já fez bebe {amount}",
+  "neverSolo": "Só uma pessoa bebeu? Conta a história ou +1.",
+  "tagDare": "Desafio",
+  "tagNever": "Eu nunca",
+  "footDare": "Drink · Desafio",
+  "footNever": "Drink · Eu nunca",
+  "level": "Nível {n}",
+  "climbTag": "Escalada",
+  "hint": "Arraste a carta para puxar a próxima",
+  "next": "Próxima →",
+  "done": "Fim",
+  "endTitle": "Acabou a garrafa",
+  "endText": "O que foi dito aqui morre aqui. Bebam água antes de ir embora.",
+  "again": "Mais uma rodada",
+  "menuShort": "Menu",
+  "doit": "Faz ou bebe",
+  "doitDesc": "Desafios de ação.",
+  "paranoia": "Paranoia",
+  "paranoiaDesc": "Pergunta secreta, resposta em voz alta.",
+  "likely": "Mais provável",
+  "likelyDesc": "A roda aponta, o mais votado bebe.",
+  "gameCount": "{n} opções · deslize →",
+  "ruleDare": "Desafio: responde ou bebe 1 {unit} por caveira. Para todos: quem fugir bebe 1; quem leu a carta bebe 2.",
+  "ruleNever": "Eu nunca: quem já fez bebe 1 {unit} por caveira. Só uma pessoa bebeu? Conta a história ou +1.",
+  "ruleDoit": "Faz ou bebe: faz a ação ou bebe 1 {unit} por caveira. A roda decide se valeu.",
+  "ruleParanoia": "Paranoia: segure pra ler em segredo e responda só com um nome. Quem foi citado bebe 1 {unit} por caveira pra saber a pergunta.",
+  "ruleLikely": "Mais provável: no 3, todo mundo aponta. O mais apontado bebe 1 {unit} por caveira. Empate: todos bebem.",
+  "tagDoit": "Faz ou bebe",
+  "footDoit": "Drink · Faz ou bebe",
+  "doitLead": "Faça ou beba {amount}",
+  "doitRefuse": "Recusou: {amount}",
+  "doitJudge": "A roda decide se valeu.",
+  "tagParanoia": "Paranoia",
+  "footParanoia": "Drink · Paranoia",
+  "holdTitle": "Segure para ler",
+  "holdBody": "Só quem está com o celular pode ver a pergunta.",
+  "secretLabel": "Pergunta secreta · não leia alto",
+  "revealedLabel": "Revelada pra roda",
+  "nameOnly": "Responda só com um nome",
+  "namedDrinks": "Quem foi citado bebe {amount} pra saber a pergunta.",
+  "nobody": "Ninguém bebeu",
+  "drank": "Bebeu {n} · revelar",
+  "pass": "Passe o celular pra pessoa citada.",
+  "holdHint": "Segure para ler a pergunta",
+  "tagLikely": "Mais provável",
+  "footLikely": "Drink · Mais provável",
+  "likelyLead": "Quem é mais provável de…",
+  "likelyPoint": "No 3, todo mundo aponta",
+  "likelyDrinks": "Mais apontado bebe {amount}. Empate: todos bebem.",
+  "howTo": "Como jogar",
+  "close": "Fechar",
+  "rulesLabel": "Regras",
+  "howMix": "Desafio e Eu nunca se alternam, uma carta de cada. As regras de cada um:",
+  "howDare": "Alguém lê a carta e responde. Quem não quiser responder, bebe.",
+  "howDareSteps": [
+   "Quem tem a vez lê a carta em voz alta.",
+   "Responda com sinceridade ou beba 1 {unit} por caveira.",
+   "Depois vem o “Para todos”: a roda inteira responde. Quem fugir bebe 1; quem leu a carta bebe 2.",
+   "Arraste a carta para puxar a próxima e passe a vez."
+  ],
+  "howNever": "A carta diz algo que alguém pode já ter feito. Quem já fez, assume e bebe.",
+  "howNeverSteps": [
+   "Alguém lê a carta em voz alta: “Eu nunca…”.",
+   "Quem já fez isso bebe 1 {unit} por caveira.",
+   "Só uma pessoa bebeu? Ela conta a história ou bebe +1.",
+   "Arraste a carta para puxar a próxima."
+  ],
+  "howDoit": "A carta pede uma ação. Ou você faz, ou bebe.",
+  "howDoitSteps": [
+   "Leia a carta em voz alta para a roda.",
+   "Faça a ação ou beba 1 {unit} por caveira.",
+   "A roda decide se valeu.",
+   "Arraste a carta para puxar a próxima."
+  ],
+  "howParanoia": "A pergunta é secreta: só quem está com o celular pode lê-la.",
+  "howParanoiaSteps": [
+   "Segure a carta para ler a pergunta em segredo. Não leia em voz alta.",
+   "Responda só com um nome: aponte quem da roda combina com a pergunta.",
+   "Passe o celular para a pessoa citada. Se ela quiser saber a pergunta, bebe 1 {unit} por caveira e a carta é revelada para todos.",
+   "Se ninguém quiser saber, toque em “Ninguém bebeu” e siga para a próxima."
+  ],
+  "howLikely": "Uma pergunta sobre quem da roda é mais provável de fazer alguma coisa.",
+  "howLikelySteps": [
+   "Leia “Quem é mais provável de…” em voz alta.",
+   "Conte até 3: todo mundo aponta ao mesmo tempo para quem acha mais provável.",
+   "O mais apontado bebe 1 {unit} por caveira.",
+   "Empate: todos bebem."
+  ],
+  "howLevels": "Cada caveira da carta é um nível e vale 1 {unit}. Nível 1 é mico, nível 2 é picante e nível 3 é pesado. Com a Escalada ligada, a rodada começa no mico e esquenta até o pesado.",
+  "howSafe": "Só para maiores de 18. Ninguém é obrigado a responder: é pra isso que existe o shot. Beba com responsabilidade e nunca dirija depois de beber."
+ },
+ "dare": [
+  {
+   "level": 1,
+   "main": "Qual foi a sua pior ressaca e o que você fez na noite anterior?",
+   "all": "Qual bebida você nunca mais vai tomar e por quê?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi o pior beijo da sua vida? Descreva sem dó.",
+   "all": "Dê uma nota de 0 a 10 para o seu próprio beijo."
+  },
+  {
+   "level": 1,
+   "main": "Qual foi o maior mico que você pagou bêbado?",
+   "all": "Quem aqui você acha que fica mais engraçado depois de beber?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior cantada que você já levou?",
+   "all": "Mande agora a sua pior cantada para alguém da roda."
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a mensagem mais vergonhosa que você já mandou de madrugada?",
+   "all": "Quem aqui você acha que já mandou mensagem para o ex bêbado?"
+  },
+  {
+   "level": 1,
+   "main": "Conte a pior desculpa que você já deu para sair de um encontro.",
+   "all": "Qual é a desculpa que você mais usa?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior festa em que você já esteve e por quê?",
+   "all": "Qual música não pode faltar numa festa sua?"
+  },
+  {
+   "level": 1,
+   "main": "Já dormiu onde não devia depois de beber? Onde?",
+   "all": "Diga o lugar mais estranho onde você já cochilou."
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a maior fofoca que você já espalhou?",
+   "all": "Quem da roda é o maior fofoqueiro?"
+  },
+  {
+   "level": 1,
+   "main": "Já chorou bêbado? Por qual motivo?",
+   "all": "Quem aqui chora mais fácil depois de beber?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi o pior encontro às cegas que você já teve?",
+   "all": "Qual é a sua maior exigência num primeiro encontro?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a coisa mais cara que você já comprou bêbado?",
+   "all": "Qual foi a maior compra por impulso da sua vida?"
+  },
+  {
+   "level": 1,
+   "main": "Qual apelido vergonhoso você já teve?",
+   "all": "Dê um apelido novo para quem está à sua esquerda."
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a maior vergonha que você passou num primeiro encontro?",
+   "all": "Qual é o primeiro lugar para onde você leva alguém num encontro?"
+  },
+  {
+   "level": 1,
+   "main": "Já pegou alguém só para esquecer outra pessoa? Conte.",
+   "all": "Qual música você ouve quando está de coração partido?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a maior mentira que você contou para uma paquera?",
+   "all": "Qual é a mentira mais comum em aplicativo de namoro?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior bebida que você já tomou na vida?",
+   "all": "Qual drink você pediria agora se fosse por conta da casa?"
+  },
+  {
+   "level": 1,
+   "main": "Conte a última vez que você ficou bêbado. Como foi?",
+   "all": "Quem aqui aguenta menos bebida?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi o maior vexame que você pagou numa balada?",
+   "all": "Qual é a música de balada que você não aguenta mais?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior ideia que você teve bêbado?",
+   "all": "Qual foi a melhor ideia que você já teve bêbado?"
+  },
+  {
+   "level": 1,
+   "main": "Já foi expulso ou barrado de algum lugar? Conte.",
+   "all": "Em qual lugar você jamais voltaria?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior volta para casa que você já teve depois de uma festa?",
+   "all": "Qual é a sua tática para voltar sem perrengue?"
+  },
+  {
+   "level": 1,
+   "main": "Já dormiu em lugar público? Onde?",
+   "all": "Qual a posição mais estranha em que você já dormiu?"
+  },
+  {
+   "level": 1,
+   "main": "Conte o mico mais feio que você já pagou numa viagem.",
+   "all": "Qual é a sua próxima viagem dos sonhos?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior foto que alguém já tirou de você bêbado?",
+   "all": "Quem aqui sai pior nas fotos de festa?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a maior bobagem que você já postou nas redes sociais?",
+   "all": "Qual foi o último story que você apagou?"
+  },
+  {
+   "level": 1,
+   "main": "Já ficou trancado para fora de casa ou do carro? Conte.",
+   "all": "Qual coisa boba você esquece sempre?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a maior discussão boba que você já teve com amigos?",
+   "all": "Quem aqui discute por tudo?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior comida que você já comeu de madrugada, bêbado?",
+   "all": "Qual é o seu lanche pós-balada preferido?"
+  },
+  {
+   "level": 1,
+   "main": "Conte uma vez em que você fez papel de bobo na frente de quem gostava.",
+   "all": "Quem aqui é o mais desastrado da roda?"
+  },
+  {
+   "level": 1,
+   "main": "Qual é o seu maior vício em celular ou redes sociais?",
+   "all": "Quantas horas por dia você passa no celular? Seja honesto."
+  },
+  {
+   "level": 1,
+   "main": "Já mandou áudio sem querer para a pessoa errada?",
+   "all": "Quem aqui manda os áudios mais longos?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a vez que você mais riu na hora errada?",
+   "all": "Conte a sua piada favorita."
+  },
+  {
+   "level": 1,
+   "main": "Qual é a sua pior mania, aquela que irrita todo mundo?",
+   "all": "Qual mania de alguém da roda mais te irrita?"
+  },
+  {
+   "level": 1,
+   "main": "Já passou o dia inteiro com algo vergonhoso sem perceber, como a roupa do avesso?",
+   "all": "Qual peça de roupa você nunca mais usou?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a maior mentira que você contou para os seus pais?",
+   "all": "Qual foi a maior mentira que você contou no trabalho ou na faculdade?"
+  },
+  {
+   "level": 1,
+   "main": "Já faltou ao trabalho ou à aula por causa de ressaca?",
+   "all": "Qual foi a melhor desculpa que você já inventou para faltar?"
+  },
+  {
+   "level": 1,
+   "main": "Conte a vez que você bebeu mais do que devia e se arrependeu no dia seguinte.",
+   "all": "Qual é o seu remédio infalível para ressaca?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior festa de aniversário que você já teve ou foi?",
+   "all": "Como seria a sua festa de aniversário perfeita?"
+  },
+  {
+   "level": 1,
+   "main": "Qual é o seu maior medo bobo?",
+   "all": "Quem aqui tem medo de barata, altura ou escuro?"
+  },
+  {
+   "level": 1,
+   "main": "Já teve crush em professor, chefe ou alguém inalcançável?",
+   "all": "Qual é a sua celebridade crush?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior música que você já dançou de verdade?",
+   "all": "Imite o seu passo de dança mais famoso."
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a hora mais tarde em que você já chegou em casa depois de uma festa?",
+   "all": "A que horas você costuma ir embora de uma festa?"
+  },
+  {
+   "level": 1,
+   "main": "Já esqueceu o nome de alguém na hora de apresentar? O que você fez?",
+   "all": "Qual a pior forma de começar uma conversa?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi o presente mais esquisito que você já ganhou?",
+   "all": "Qual foi o melhor presente que você já deu?"
+  },
+  {
+   "level": 1,
+   "main": "Já quebrou algo na casa de alguém? O que foi?",
+   "all": "Qual a coisa mais cara que você já quebrou?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi o maior perrengue que você passou numa viagem?",
+   "all": "O que você nunca esquece de levar numa viagem?"
+  },
+  {
+   "level": 1,
+   "main": "Quem da roda você acha que bebe melhor? E quem bebe pior?",
+   "all": "Quem seria o primeiro a dormir hoje?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a pior fantasia que você já usou?",
+   "all": "Qual fantasia você usaria hoje, se pudesse?"
+  },
+  {
+   "level": 1,
+   "main": "Qual foi a coisa mais corajosa que você já fez bêbado?",
+   "all": "Qual desafio você toparia agora sem pensar?"
+  },
+  {
+   "level": 2,
+   "main": "Já fingiu orgasmo? Por quê?",
+   "all": "Quanto tempo você aguenta sem sexo? Seja honesto."
+  },
+  {
+   "level": 2,
+   "main": "Qual o lugar mais inusitado onde você já transou?",
+   "all": "Qual lugar você ainda quer experimentar?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a sua maior vergonha na cama?",
+   "all": "Qual a primeira coisa que você repara em alguém que te atrai?"
+  },
+  {
+   "level": 2,
+   "main": "Qual é a fantasia que dá para contar em voz alta?",
+   "all": "Qual personagem de filme ou série você acha mais sexy?"
+  },
+  {
+   "level": 2,
+   "main": "Já mandou nude ou foto ousada? Se arrependeu?",
+   "all": "Quem aqui você acha que já mandou?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém e esqueceu o nome no dia seguinte?",
+   "all": "Quem aqui você acha que já passou por isso?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o melhor beijo da sua vida? Onde foi?",
+   "all": "Pescoço, boca ou orelha: onde você prefere ser beijado?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com o ex ou a ex de um amigo? Conte como foi.",
+   "all": "Você ficaria com o ex de um amigo? Responda sem pensar."
+  },
+  {
+   "level": 2,
+   "main": "Qual a coisa mais ousada que você já fez num primeiro encontro?",
+   "all": "Quanto tempo você espera para beijar alguém?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com duas pessoas no mesmo dia?",
+   "all": "Quem aqui você acha que seria capaz?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a pior transa da sua vida? Sem citar nomes.",
+   "all": "Dê uma dica de ouro para quem quer arrasar na cama."
+  },
+  {
+   "level": 2,
+   "main": "Já sentiu atração por alguém desta roda? Pode falar sem dizer o nome.",
+   "all": "Levante a mão quem já sentiu atração por alguém daqui."
+  },
+  {
+   "level": 2,
+   "main": "Qual é o seu ponto fraco na hora da paquera?",
+   "all": "Qual é a sua melhor estratégia de conquista?"
+  },
+  {
+   "level": 2,
+   "main": "Já foi pego no flagra? Conte o que aconteceu.",
+   "all": "Qual o lugar mais arriscado onde você já teve vontade de ficar com alguém?"
+  },
+  {
+   "level": 2,
+   "main": "Qual parte do seu corpo você mais gosta? E a que menos gosta?",
+   "all": "Elogie a parte do corpo preferida de alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Já teve um caso de uma noite só que virou algo mais?",
+   "all": "Você acredita em amor depois do sexo casual?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o momento mais constrangedor que você já passou durante um beijo?",
+   "all": "Qual o melhor lugar para dar o primeiro beijo?"
+  },
+  {
+   "level": 2,
+   "main": "Já mandou mensagem ousada para a pessoa errada?",
+   "all": "Quem aqui você acha que já fez isso?"
+  },
+  {
+   "level": 2,
+   "main": "O que mais corta o seu clima numa paquera?",
+   "all": "Qual frase nunca deveria ser dita num primeiro beijo?"
+  },
+  {
+   "level": 2,
+   "main": "Já teve um amigo com benefícios? Como terminou?",
+   "all": "Isso funciona de verdade? Sim ou não."
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o pior jeito de terminar com alguém que você já viu ou fez?",
+   "all": "Terminar por mensagem: aceitável ou não?"
+  },
+  {
+   "level": 2,
+   "main": "Qual é a sua maior mania na hora de ficar com alguém?",
+   "all": "Qual é o seu cheiro favorito em uma pessoa?"
+  },
+  {
+   "level": 2,
+   "main": "Já se arrependeu de um beijo na mesma hora? Quem era?",
+   "all": "Quem aqui você acha que beija melhor?"
+  },
+  {
+   "level": 2,
+   "main": "Conte a história da sua última paquera.",
+   "all": "O que você faz quando está nervoso perto de alguém de quem gosta?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém só pela aparência e se arrependeu?",
+   "all": "Qual foi o seu maior crush da adolescência?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a cantada que realmente funcionou com você?",
+   "all": "Qual cantada você acha a mais brega?"
+  },
+  {
+   "level": 2,
+   "main": "Já deu um fora em alguém de um jeito que depois se sentiu mal?",
+   "all": "Dar um fora: gentil ou direto?"
+  },
+  {
+   "level": 2,
+   "main": "Já levou um fora que doeu de verdade? O que disseram?",
+   "all": "O que você faz para superar uma rejeição?"
+  },
+  {
+   "level": 2,
+   "main": "Já teve ciúmes de alguém e fez algo de que se arrependeu?",
+   "all": "Você é ciumento ou ciumenta? De 0 a 10."
+  },
+  {
+   "level": 2,
+   "main": "Já ficou olhando para quem você gosta sem a pessoa perceber? Conte.",
+   "all": "Qual é o seu jeito mais bobo de chamar a atenção de alguém?"
+  },
+  {
+   "level": 2,
+   "main": "Qual é o seu fetiche mais inofensivo, daqueles que dá para contar em roda?",
+   "all": "Cabelo, mãos, voz ou sorriso: o que mais te atrai?"
+  },
+  {
+   "level": 2,
+   "main": "Quantos ex você já bloqueou? Por quê?",
+   "all": "Quem aqui ainda segue o ex nas redes?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém só para fazer ciúmes em outra pessoa?",
+   "all": "Isso funciona? Sim ou não."
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a pior desculpa que alguém deu para terminar com você?",
+   "all": "Qual a desculpa mais original que você já ouviu?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a vez que você achou que ia ficar com alguém e deu tudo errado?",
+   "all": "Qual foi o maior climão que você já viveu?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a coisa mais romântica que você já fez por alguém?",
+   "all": "Como seria o seu encontro dos sonhos?"
+  },
+  {
+   "level": 2,
+   "main": "Já foi a um encontro e fingiu que estava gostando? Como foi?",
+   "all": "Quanto tempo você aguenta um encontro ruim?"
+  },
+  {
+   "level": 2,
+   "main": "Qual característica num par é eliminatória para você?",
+   "all": "Qual mania de ex você nunca mais quer ver?"
+  },
+  {
+   "level": 2,
+   "main": "Já mandou um oi sumido depois de beber?",
+   "all": "Quem aqui já recebeu um oi sumido de ex?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o beijo mais inesperado que você já deu?",
+   "all": "Beijo de cinema ou beijo de balada?"
+  },
+  {
+   "level": 2,
+   "main": "Já fez sexo com alguém e se arrependeu depois? Pode contar sem detalhes.",
+   "all": "Esperar ou não esperar para transar: qual a sua opinião?"
+  },
+  {
+   "level": 2,
+   "main": "Em que momento do relacionamento você acha que o sexo deve rolar?",
+   "all": "Quantos encontros são o suficiente?"
+  },
+  {
+   "level": 2,
+   "main": "Prefere paquera à moda antiga ou por aplicativo? Defenda.",
+   "all": "Qual é a sua foto de perfil mais ousada?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a coisa mais ousada que você já falou no ouvido de alguém?",
+   "all": "Sussurre um elogio no ouvido de quem está ao seu lado."
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o melhor sexo da sua vida? Sem nomes, só o clima.",
+   "all": "O que faz o sexo ser bom para você: conexão, técnica ou ousadia?"
+  },
+  {
+   "level": 2,
+   "main": "Já fez sexo no dia em que conheceu a pessoa? Valeu a pena?",
+   "all": "Qual é a sua regra para o primeiro encontro?"
+  },
+  {
+   "level": 2,
+   "main": "Qual é o seu maior desejo na cama que você ainda não realizou?",
+   "all": "O que não pode faltar para o clima ser bom?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém mais velho ou mais novo do que o aceitável para você?",
+   "all": "Qual a maior diferença de idade que você toparia?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a vez que você mais se sentiu desejado ou desejada?",
+   "all": "Faça um elogio sincero a alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Qual parte do corpo você mais repara primeiro em alguém?",
+   "all": "Rosto, corpo ou papo: o que pesa mais para você?"
+  },
+  {
+   "level": 2,
+   "main": "Já teve um caso secreto? Conte o que puder.",
+   "all": "Qual a maior dificuldade de guardar um segredo desses?"
+  },
+  {
+   "level": 2,
+   "main": "Já passou vergonha ou se machucou num momento íntimo? Conte.",
+   "all": "Qual foi o barulho mais constrangedor que já aconteceu num momento a dois?"
+  },
+  {
+   "level": 2,
+   "main": "Prefere conquistar ou ser conquistado?",
+   "all": "Quem na roda é o melhor conquistador?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a vez que você mais quis sumir depois de uma noite?",
+   "all": "Você vai embora de madrugada ou fica para o café?"
+  },
+  {
+   "level": 2,
+   "main": "Já deu perdido em alguém que ficou com você? Conte como foi.",
+   "all": "Quanto tempo você espera para responder quem ficou com você?"
+  },
+  {
+   "level": 2,
+   "main": "Qual é a sua maior mania na hora de dormir junto?",
+   "all": "Conchinha ou cada um no seu canto?"
+  },
+  {
+   "level": 2,
+   "main": "Já viu algo que não devia na casa de alguém? O quê?",
+   "all": "Qual a coisa mais estranha que você já encontrou na casa de alguém?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o convite mais ousado que você já recebeu?",
+   "all": "Qual convite você aceitaria sem pensar?"
+  },
+  {
+   "level": 2,
+   "main": "Já teve um ficante que virou namorado ou namorada? Como foi?",
+   "all": "Quanto tempo de ficante é o ideal antes de namorar?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a pior viagem a dois que você já fez?",
+   "all": "Para onde você levaria a pessoa amada numa viagem romântica?"
+  },
+  {
+   "level": 2,
+   "main": "Já descobriu algo sobre alguém com quem ficava que mudou tudo?",
+   "all": "O que você nunca perdoaria num relacionamento?"
+  },
+  {
+   "level": 2,
+   "main": "Já foi apaixonado por alguém que nunca soube? Conte.",
+   "all": "Você contaria o que sente para quem ama em segredo?"
+  },
+  {
+   "level": 2,
+   "main": "Qual o maior absurdo que você já fez por uma paixão?",
+   "all": "Quem aqui já fez uma loucura de amor?"
+  },
+  {
+   "level": 2,
+   "main": "Já descobriu que a pessoa com quem ficava estava com outra? Como foi?",
+   "all": "Quanto tempo de exclusividade é o suficiente para exigir fidelidade?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a vez que você mais teve vontade de beijar alguém e não beijou?",
+   "all": "Quem aqui já se arrependeu de não ter beijado alguém?"
+  },
+  {
+   "level": 2,
+   "main": "Já pediu alguém em namoro de um jeito vergonhoso?",
+   "all": "Qual o pedido de namoro mais criativo que você já viu?"
+  },
+  {
+   "level": 2,
+   "main": "Qual a pior coisa que alguém já disse num momento íntimo?",
+   "all": "Qual frase nunca deve ser dita na hora H?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém da família de um amigo? Conte.",
+   "all": "Você ficaria com o primo ou a prima de um amigo? Responda sem pensar."
+  },
+  {
+   "level": 2,
+   "main": "Já se declarou para alguém? O que aconteceu?",
+   "all": "Qual a melhor forma de se declarar?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o maior drama que você já viveu por causa de uma paixão?",
+   "all": "Qual é a música mais dramática da sua vida?"
+  },
+  {
+   "level": 2,
+   "main": "Já fingiu estar ocupado para fugir de um encontro?",
+   "all": "Qual a desculpa mais usada para cancelar um date?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a coisa mais gentil que alguém já fez por você num encontro?",
+   "all": "O que você nunca perdoaria num encontro: atraso, celular ou grosseria?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém por pena? Conte.",
+   "all": "Dar uma chance por pena: vale ou não?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém só para não ficar sozinho numa festa?",
+   "all": "Qual o melhor jeito de se divertir sozinho numa festa?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a vez que você mais deu risada durante uma ficada?",
+   "all": "Qual a risada mais esquisita da roda?"
+  },
+  {
+   "level": 2,
+   "main": "Já mandou foto para impressionar alguém? Funcionou?",
+   "all": "Qual é a sua melhor selfie?"
+  },
+  {
+   "level": 2,
+   "main": "Qual é a sua melhor lembrança de uma paixão de verão?",
+   "all": "Qual lugar de praia você acha mais romântico?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o beijo mais demorado da sua vida?",
+   "all": "Quanto tempo dura um beijo perfeito?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém por causa do perfume ou da voz?",
+   "all": "Qual perfume você acha mais sedutor?"
+  },
+  {
+   "level": 2,
+   "main": "Já se sentiu atraído por alguém que nem era o seu tipo?",
+   "all": "Qual é o seu tipo? Descreva em três palavras."
+  },
+  {
+   "level": 2,
+   "main": "Qual a sua opinião sobre relacionamento aberto?",
+   "all": "Você toparia? Sim ou não, sem enrolar."
+  },
+  {
+   "level": 2,
+   "main": "Já te trataram como ficante quando você achava que era namoro?",
+   "all": "Qual é a diferença entre namorar e ficar?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a mentira mais boba que você contou para não terminar um rolo?",
+   "all": "Qual mentira você acha imperdoável?"
+  },
+  {
+   "level": 2,
+   "main": "Já falou eu te amo sem sentir? Por quê?",
+   "all": "Quanto tempo você espera para dizer eu te amo?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o pior ciúme que você já sentiu de um amigo ou amiga do seu par?",
+   "all": "Par com muitos amigos do sexo oposto: tranquilo ou problema?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou com alguém só para se sentir desejado?",
+   "all": "Qual elogio te derrete mais?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a vez que você deu de cara com o ex numa festa?",
+   "all": "O que você faz quando encontra um ex de surpresa?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a transa mais engraçada que você já teve?",
+   "all": "Qual a coisa mais engraçada que pode acontecer num momento íntimo?"
+  },
+  {
+   "level": 2,
+   "main": "Prefere sexo à noite, de manhã ou à tarde?",
+   "all": "Qual o melhor dia da semana para um clima?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o melhor lugar onde você já ficou com alguém, sem ser a cama?",
+   "all": "Qual o lugar mais romântico para um beijo?"
+  },
+  {
+   "level": 2,
+   "main": "Já fez algo muito ousado só porque alguém te desafiou?",
+   "all": "Quem aqui nunca recusa um desafio?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a pior vez que você levou um fora em público?",
+   "all": "Como você se recupera de um fora em público?"
+  },
+  {
+   "level": 2,
+   "main": "Já tentou conquistar alguém com um jeito que não era o seu? Conte.",
+   "all": "Qual qualidade sua você acha mais sedutora?"
+  },
+  {
+   "level": 2,
+   "main": "Qual é a coisa mais atrevida que você faria por um beijo?",
+   "all": "Atrevimento ou timidez: o que conquista mais?"
+  },
+  {
+   "level": 2,
+   "main": "Já teve uma noite que mudou a sua vida amorosa?",
+   "all": "Você acredita em destino ou em acaso?"
+  },
+  {
+   "level": 2,
+   "main": "Conte a sua melhor história de quase, aquela que quase aconteceu.",
+   "all": "Qual foi o quase mais frustrante da sua vida?"
+  },
+  {
+   "level": 2,
+   "main": "Qual foi a maior bobagem que você fez para impressionar um crush?",
+   "all": "Qual a sua melhor tática para impressionar sem esforço?"
+  },
+  {
+   "level": 2,
+   "main": "Já ficou sem graça com um elogio ousado? Qual foi?",
+   "all": "Elogie a roupa de alguém da roda de forma ousada."
+  },
+  {
+   "level": 2,
+   "main": "Qual foi o clima mais tenso que você já viveu perto de alguém que te atraía?",
+   "all": "Em qual situação você sente mais tensão boa?"
+  },
+  {
+   "level": 2,
+   "main": "Já deixou alguém esperando num encontro? Qual foi o motivo?",
+   "all": "Quanto tempo você espera por alguém num encontro?"
+  },
+  {
+   "level": 3,
+   "main": "Com quantas pessoas você já transou? Número exato.",
+   "all": "O seu número é maior ou menor que o de quem leu a carta?"
+  },
+  {
+   "level": 3,
+   "main": "Já transou ou quase transou com alguém desta roda?",
+   "all": "Com quem desta roda você nunca transaria?"
+  },
+  {
+   "level": 3,
+   "main": "Qual a sua maior fantasia sexual? Pode contar os detalhes.",
+   "all": "Qual fantasia você nunca realizaria?"
+  },
+  {
+   "level": 3,
+   "main": "Já traiu ou foi traído? Conte como foi.",
+   "all": "Perdoar traição: sim ou não? Justifique."
+  },
+  {
+   "level": 3,
+   "main": "Qual foi a pior coisa que você já fez bêbado? A pior mesmo.",
+   "all": "Qual limite você jamais cruzaria, nem bêbado?"
+  },
+  {
+   "level": 3,
+   "main": "Já ficou com alguém comprometido, sabendo? Conte tudo.",
+   "all": "Quem aqui você acha que já ficou?"
+  },
+  {
+   "level": 3,
+   "main": "Qual segredo da sua vida ninguém desta roda sabe?",
+   "all": "Qual segredo de um amigo você guarda até hoje?"
+  },
+  {
+   "level": 3,
+   "main": "Já fez sexo por vingança ou por raiva? Conte.",
+   "all": "Qual a melhor vingança que você já planejou?"
+  },
+  {
+   "level": 3,
+   "main": "Você ficaria com alguém desta roda por uma noite? Quem?",
+   "all": "Quem aqui você acha que ficaria com você?"
+  },
+  {
+   "level": 3,
+   "main": "Qual a coisa mais maluca que você já fez por tesão?",
+   "all": "Qual a coisa mais maluca que você já fez por amor?"
+  },
+  {
+   "level": 3,
+   "main": "Já usou brinquedo, fantasia ou algo do tipo? Conte.",
+   "all": "Qual foi o presente mais ousado que você já deu ou ganhou?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi a sua pior experiência com sexo ou paquera? A pior mesmo.",
+   "all": "Qual lição você tirou dela?"
+  },
+  {
+   "level": 3,
+   "main": "Em quem desta roda você mais confia, e em quem menos confia?",
+   "all": "Complete: \"Eu seria capaz de tudo por…\""
+  },
+  {
+   "level": 3,
+   "main": "Já teve sonho erótico com alguém conhecido? Quem?",
+   "all": "Quem aqui você acha que já sonhou com você?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi a vez que você mais se arrependeu de ter ido para a cama com alguém?",
+   "all": "Qual foi o motivo da sua última briga de casal?"
+  },
+  {
+   "level": 3,
+   "main": "Já ficou com alguém só por status, interesse ou para provar algo?",
+   "all": "Qual a coisa mais interesseira que você já fez?"
+  },
+  {
+   "level": 3,
+   "main": "Qual a coisa mais proibida que você já fez e nunca contou para ninguém?",
+   "all": "Quem aqui você acha que guarda o maior segredo?"
+  },
+  {
+   "level": 3,
+   "main": "Já fez sexo com alguém e fingiu que não conhecia no dia seguinte?",
+   "all": "Qual a melhor maneira de lidar com um climão no dia seguinte?"
+  },
+  {
+   "level": 3,
+   "main": "Quantas pessoas você já beijou numa única noite? Número exato.",
+   "all": "Quem aqui você acha que beijou mais gente numa noite?"
+  },
+  {
+   "level": 3,
+   "main": "Já teve um caso com alguém que não podia, como chefe, professor ou casado? Conte.",
+   "all": "Qual a pior pessoa para se envolver?"
+  },
+  {
+   "level": 3,
+   "main": "Qual é o seu maior desejo secreto, que você nunca contou?",
+   "all": "Conte um desejo que você tem hoje."
+  },
+  {
+   "level": 3,
+   "main": "Já pensou em trair? O que te impediu?",
+   "all": "Qual a pior desculpa para traição que você já ouviu?"
+  },
+  {
+   "level": 3,
+   "main": "Já flertou com o par de um amigo? Conte.",
+   "all": "Você contaria para o seu amigo se alguém desse em cima do par dele?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi a vez que você chegou mais perto de trair?",
+   "all": "Traição física ou emocional: qual dói mais?"
+  },
+  {
+   "level": 3,
+   "main": "Já fez sexo num lugar onde poderia ser pego? Conte.",
+   "all": "Qual lugar público você acha o mais ousado?"
+  },
+  {
+   "level": 3,
+   "main": "Com quantas pessoas você ficou no último ano?",
+   "all": "Qual o número ideal de parceiros na vida?"
+  },
+  {
+   "level": 3,
+   "main": "Já fez algo na cama que depois te deu vergonha de lembrar?",
+   "all": "O que você nunca faria na cama, nem pedindo?"
+  },
+  {
+   "level": 3,
+   "main": "Já ficou com duas pessoas que são amigas entre si? Conte.",
+   "all": "Quem aqui já ficou com amigos de amigos?"
+  },
+  {
+   "level": 3,
+   "main": "Qual a pior coisa que você já falou de alguém desta roda pelas costas?",
+   "all": "Quem aqui você acha que fala mais mal dos outros?"
+  },
+  {
+   "level": 3,
+   "main": "Já se apaixonou por alguém que te fez muito mal? Conte.",
+   "all": "Qual foi o sinal de alerta que você ignorou?"
+  },
+  {
+   "level": 3,
+   "main": "Qual a coisa mais perigosa que você já fez por adrenalina?",
+   "all": "Qual coisa perigosa você ainda quer fazer?"
+  },
+  {
+   "level": 3,
+   "main": "Já saiu de um encontro no meio porque a química não rolou?",
+   "all": "Quanto tempo basta para saber se há química?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi a vez que você mais se descontrolou, de tesão ou de raiva?",
+   "all": "O que te tira do sério?"
+  },
+  {
+   "level": 3,
+   "main": "Já mentiu sobre o seu número de parceiros? Qual era o real?",
+   "all": "Número de parceiros importa? Sim ou não."
+  },
+  {
+   "level": 3,
+   "main": "Já usou sedução para conseguir um favor?",
+   "all": "Qual foi o maior favor que você conseguiu assim?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi o maior escândalo que você já causou numa festa?",
+   "all": "Quem aqui causaria o maior escândalo hoje?"
+  },
+  {
+   "level": 3,
+   "main": "Já ficou com alguém desta roda e nunca contou para os outros?",
+   "all": "Você acha que algo rolou entre duas pessoas daqui?"
+  },
+  {
+   "level": 3,
+   "main": "Qual a pior ideia que você já teve achando que era boa para o amor?",
+   "all": "Qual conselho amoroso você nunca seguiria?"
+  },
+  {
+   "level": 3,
+   "main": "Já fez sexo com ex depois de terminar? Valeu a pena?",
+   "all": "Voltar com o ex: sim ou não?"
+  },
+  {
+   "level": 3,
+   "main": "Qual a sua maior ousadia no trabalho ou na faculdade?",
+   "all": "Qual é a regra mais quebrada do seu trabalho?"
+  },
+  {
+   "level": 3,
+   "main": "Já chamou alguém pelo nome errado na hora H, ou já ouviu isso? Conte.",
+   "all": "Qual seria a pior coisa para ouvir nessa hora?"
+  },
+  {
+   "level": 3,
+   "main": "Já foi dispensado depois de transar? Como foi?",
+   "all": "O que fazer quando a pessoa some depois?"
+  },
+  {
+   "level": 3,
+   "main": "Qual é a coisa mais errada que você já fez por ciúmes?",
+   "all": "Ciúmes é amor ou insegurança?"
+  },
+  {
+   "level": 3,
+   "main": "Já bateu o olho em alguém comprometido e fez de tudo para conquistar?",
+   "all": "Existe amor proibido que vale a pena?"
+  },
+  {
+   "level": 3,
+   "main": "Já fez algo ilegal ou quase ilegal bêbado?",
+   "all": "Qual a melhor desculpa que você daria para a polícia?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi o maior arrependimento da sua vida amorosa?",
+   "all": "O que você diria para você mesmo no passado?"
+  },
+  {
+   "level": 3,
+   "main": "Já ficou com alguém desta roda e achou ruim? Pode não dizer quem.",
+   "all": "Quem aqui você acha que beija pior?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi a coisa mais intensa que você já sentiu por alguém?",
+   "all": "Você acredita em alma gêmea?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui você acha que seria o pior namorado ou namorada? Por quê?",
+   "all": "E quem seria o melhor?"
+  },
+  {
+   "level": 3,
+   "main": "Qual foi o fim de noite mais louco que você já teve?",
+   "all": "Qual noite você mais gostaria de repetir?"
+  }
+ ],
+ "never": [
+  {
+   "level": 1,
+   "main": "mandei um áudio bêbado de mais de dois minutos."
+  },
+  {
+   "level": 1,
+   "main": "liguei pro ex bêbado."
+  },
+  {
+   "level": 1,
+   "main": "esqueci o nome de alguém com quem fiquei."
+  },
+  {
+   "level": 1,
+   "main": "dormi com a roupa da festa."
+  },
+  {
+   "level": 1,
+   "main": "perdi o celular numa balada."
+  },
+  {
+   "level": 1,
+   "main": "passei mal de tanto beber."
+  },
+  {
+   "level": 1,
+   "main": "fingi que estava dormindo para evitar alguém."
+  },
+  {
+   "level": 1,
+   "main": "chorei no banheiro da festa."
+  },
+  {
+   "level": 1,
+   "main": "mandei mensagem para a pessoa errada."
+  },
+  {
+   "level": 1,
+   "main": "dancei em cima de uma mesa ou balcão."
+  },
+  {
+   "level": 1,
+   "main": "cantei no karaokê e me achei o melhor."
+  },
+  {
+   "level": 1,
+   "main": "bebi tanto que não lembro como cheguei em casa."
+  },
+  {
+   "level": 1,
+   "main": "stalkeei o perfil de um ex esta semana."
+  },
+  {
+   "level": 1,
+   "main": "deixei alguém no vácuo de propósito."
+  },
+  {
+   "level": 1,
+   "main": "peguei o drink de outra pessoa sem querer."
+  },
+  {
+   "level": 1,
+   "main": "fiz tatuagem ou mudei o cabelo por impulso."
+  },
+  {
+   "level": 1,
+   "main": "derrubei bebida em alguém."
+  },
+  {
+   "level": 1,
+   "main": "briguei com alguém numa festa."
+  },
+  {
+   "level": 1,
+   "main": "dormi no sofá de um amigo depois da festa."
+  },
+  {
+   "level": 1,
+   "main": "esqueci a carteira ou a chave em algum lugar bêbado."
+  },
+  {
+   "level": 1,
+   "main": "comi comida de rua bêbado e me arrependi."
+  },
+  {
+   "level": 1,
+   "main": "fingi saber a letra de uma música que eu não sabia."
+  },
+  {
+   "level": 1,
+   "main": "mandei figurinha ou meme errado para o chefe."
+  },
+  {
+   "level": 1,
+   "main": "fui trabalhar ou estudar de ressaca."
+  },
+  {
+   "level": 1,
+   "main": "cantei parabéns desafinado de propósito."
+  },
+  {
+   "level": 1,
+   "main": "tirei foto de um desconhecido sem ele saber."
+  },
+  {
+   "level": 1,
+   "main": "entrei numa festa sem ser convidado."
+  },
+  {
+   "level": 1,
+   "main": "pedi uma música no bar e todo mundo odiou."
+  },
+  {
+   "level": 1,
+   "main": "fingi que conhecia alguém que eu não conhecia."
+  },
+  {
+   "level": 1,
+   "main": "dei risada na hora errada e me ferrei."
+  },
+  {
+   "level": 1,
+   "main": "tropecei e caí em público."
+  },
+  {
+   "level": 1,
+   "main": "esqueci o aniversário de um amigo próximo."
+  },
+  {
+   "level": 1,
+   "main": "abri a geladeira de alguém sem pedir."
+  },
+  {
+   "level": 1,
+   "main": "dei o número errado de propósito."
+  },
+  {
+   "level": 1,
+   "main": "usei o nome de outra pessoa para entrar em algum lugar."
+  },
+  {
+   "level": 1,
+   "main": "passei a noite toda no celular e não dormi."
+  },
+  {
+   "level": 1,
+   "main": "gastei o salário inteiro numa noite."
+  },
+  {
+   "level": 1,
+   "main": "fui o último a sair da festa."
+  },
+  {
+   "level": 1,
+   "main": "dormi na festa de outra pessoa."
+  },
+  {
+   "level": 1,
+   "main": "perdi o último ônibus ou metrô por causa da balada."
+  },
+  {
+   "level": 1,
+   "main": "vomitei em local público."
+  },
+  {
+   "level": 1,
+   "main": "me perdi sozinho numa cidade desconhecida."
+  },
+  {
+   "level": 1,
+   "main": "ri tanto que chorei numa hora errada."
+  },
+  {
+   "level": 1,
+   "main": "briguei com um amigo por causa de bebida."
+  },
+  {
+   "level": 1,
+   "main": "fui mal-educado com garçom e me arrependi."
+  },
+  {
+   "level": 1,
+   "main": "chamei alguém pelo apelido errado."
+  },
+  {
+   "level": 1,
+   "main": "mandei foto sem querer para o grupo."
+  },
+  {
+   "level": 1,
+   "main": "curti uma foto antiga de alguém sem querer."
+  },
+  {
+   "level": 1,
+   "main": "fingi que estava bem quando estava péssimo."
+  },
+  {
+   "level": 1,
+   "main": "bebi água da torneira de um bar suspeito."
+  },
+  {
+   "level": 2,
+   "main": "transei no carro."
+  },
+  {
+   "level": 2,
+   "main": "dei match com alguém desta roda."
+  },
+  {
+   "level": 2,
+   "main": "mandei nude."
+  },
+  {
+   "level": 2,
+   "main": "fui pego no flagra."
+  },
+  {
+   "level": 2,
+   "main": "beijei alguém no primeiro encontro."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém só porque estava bêbado."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com o ex de um amigo."
+  },
+  {
+   "level": 2,
+   "main": "transei num lugar público."
+  },
+  {
+   "level": 2,
+   "main": "acordei sem lembrar com quem eu tinha ficado."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com duas pessoas na mesma festa."
+  },
+  {
+   "level": 2,
+   "main": "fingi gostar de alguém para conseguir algo."
+  },
+  {
+   "level": 2,
+   "main": "pesquisei alguém no Google antes do primeiro encontro."
+  },
+  {
+   "level": 2,
+   "main": "tive um caso de uma noite só."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém de outra cidade ou país numa viagem."
+  },
+  {
+   "level": 2,
+   "main": "fui dispensado por mensagem."
+  },
+  {
+   "level": 2,
+   "main": "usei aplicativo de namoro escondido."
+  },
+  {
+   "level": 2,
+   "main": "dei um beijo em alguém que acabei de conhecer."
+  },
+  {
+   "level": 2,
+   "main": "enviei mensagem ousada e me arrependi na hora."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém só para esquecer outra pessoa."
+  },
+  {
+   "level": 2,
+   "main": "terminei um namoro por mensagem."
+  },
+  {
+   "level": 2,
+   "main": "levei um fora por mensagem."
+  },
+  {
+   "level": 2,
+   "main": "chamei alguém pelo nome do ex."
+  },
+  {
+   "level": 2,
+   "main": "fingi estar dormindo para evitar uma conversa sobre relacionamento."
+  },
+  {
+   "level": 2,
+   "main": "dei em cima de alguém que estava acompanhado."
+  },
+  {
+   "level": 2,
+   "main": "dormi na casa de alguém no primeiro encontro."
+  },
+  {
+   "level": 2,
+   "main": "fui a um encontro às cegas."
+  },
+  {
+   "level": 2,
+   "main": "dei bolo num encontro."
+  },
+  {
+   "level": 2,
+   "main": "levei bolo num encontro."
+  },
+  {
+   "level": 2,
+   "main": "fiz promessa de amor bêbado e esqueci no dia seguinte."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com dois amigos que se conhecem."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém num casamento."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém numa viagem com amigos."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com o melhor amigo ou a melhor amiga de um amigo."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com um colega de trabalho ou de faculdade."
+  },
+  {
+   "level": 2,
+   "main": "tive um crush em professor ou chefe."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém só por pena."
+  },
+  {
+   "level": 2,
+   "main": "dei um fora e me senti culpado."
+  },
+  {
+   "level": 2,
+   "main": "terminei um relacionamento sem dar explicação."
+  },
+  {
+   "level": 2,
+   "main": "voltei com o ex mais de uma vez."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com o ex depois de terminar."
+  },
+  {
+   "level": 2,
+   "main": "dei um número falso para me livrar de alguém."
+  },
+  {
+   "level": 2,
+   "main": "usei uma foto minha antiga em aplicativo de namoro."
+  },
+  {
+   "level": 2,
+   "main": "menti a idade ou a profissão num aplicativo."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém que conheci na internet."
+  },
+  {
+   "level": 2,
+   "main": "mandei um oi sumido para o ex depois de beber."
+  },
+  {
+   "level": 2,
+   "main": "deixei alguém no visto de propósito."
+  },
+  {
+   "level": 2,
+   "main": "stalkeei o novo namorado ou namorada do ex."
+  },
+  {
+   "level": 2,
+   "main": "chorei por causa de um ex na frente de todo mundo."
+  },
+  {
+   "level": 2,
+   "main": "fingi desinteresse para fazer charme."
+  },
+  {
+   "level": 2,
+   "main": "mandei uma música para alguém como indireta."
+  },
+  {
+   "level": 2,
+   "main": "fiz uma playlist para alguém de quem eu gostava."
+  },
+  {
+   "level": 2,
+   "main": "escrevi uma carta de amor."
+  },
+  {
+   "level": 2,
+   "main": "escrevi uma mensagem apaixonada e nunca enviei."
+  },
+  {
+   "level": 2,
+   "main": "me declarei e levei um fora."
+  },
+  {
+   "level": 2,
+   "main": "fui pedido em namoro de um jeito constrangedor."
+  },
+  {
+   "level": 2,
+   "main": "pedi alguém em namoro de um jeito constrangedor."
+  },
+  {
+   "level": 2,
+   "main": "me apaixonei por alguém no mesmo dia em que conheci."
+  },
+  {
+   "level": 2,
+   "main": "disse eu te amo sem sentir."
+  },
+  {
+   "level": 2,
+   "main": "tive um ficante por mais de seis meses sem namorar."
+  },
+  {
+   "level": 2,
+   "main": "tive um amor de verão."
+  },
+  {
+   "level": 2,
+   "main": "viajei para encontrar alguém que conheci online."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém no banheiro de uma festa."
+  },
+  {
+   "level": 2,
+   "main": "fui pego beijando em público por alguém conhecido."
+  },
+  {
+   "level": 2,
+   "main": "fiz uma tatuagem por causa de alguém."
+  },
+  {
+   "level": 2,
+   "main": "troquei de roupa para impressionar alguém e ninguém percebeu."
+  },
+  {
+   "level": 2,
+   "main": "passei horas me arrumando para um encontro que não rolou."
+  },
+  {
+   "level": 2,
+   "main": "dancei colado com um desconhecido."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém que me passou uma cantada péssima."
+  },
+  {
+   "level": 2,
+   "main": "dei uma cantada ruim e deu certo."
+  },
+  {
+   "level": 2,
+   "main": "fiz ciúmes de propósito."
+  },
+  {
+   "level": 2,
+   "main": "senti ciúmes de um amigo do meu par."
+  },
+  {
+   "level": 2,
+   "main": "li as mensagens do celular de outra pessoa."
+  },
+  {
+   "level": 2,
+   "main": "deixei alguém ler as minhas mensagens do celular."
+  },
+  {
+   "level": 2,
+   "main": "tive que esconder uma marca de beijo."
+  },
+  {
+   "level": 2,
+   "main": "fingi dor de cabeça para fugir de uma situação."
+  },
+  {
+   "level": 2,
+   "main": "troquei beijos no cinema."
+  },
+  {
+   "level": 2,
+   "main": "dei um beijo de despedida que virou algo mais."
+  },
+  {
+   "level": 2,
+   "main": "acordei ao lado de alguém sem lembrar como fui parar ali."
+  },
+  {
+   "level": 2,
+   "main": "fiz sexting."
+  },
+  {
+   "level": 2,
+   "main": "recebi um nude sem pedir."
+  },
+  {
+   "level": 2,
+   "main": "nadei pelado."
+  },
+  {
+   "level": 2,
+   "main": "participei de um jogo de verdade ou desafio com beijo."
+  },
+  {
+   "level": 2,
+   "main": "tive um sonho com alguém desta roda."
+  },
+  {
+   "level": 2,
+   "main": "me apaixonei por alguém comprometido."
+  },
+  {
+   "level": 2,
+   "main": "senti atração por alguém desta roda."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém só pelo físico."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém só pela conversa."
+  },
+  {
+   "level": 2,
+   "main": "me senti usado depois de uma noite."
+  },
+  {
+   "level": 2,
+   "main": "dei um perdido em alguém que ficou comigo."
+  },
+  {
+   "level": 2,
+   "main": "levei um perdido depois de ficar com alguém."
+  },
+  {
+   "level": 2,
+   "main": "chamei alguém de amor no primeiro dia."
+  },
+  {
+   "level": 2,
+   "main": "troquei mensagens a noite inteira com alguém que mal conhecia."
+  },
+  {
+   "level": 2,
+   "main": "fiz jogo duro de propósito."
+  },
+  {
+   "level": 2,
+   "main": "pedi uma dica de conquista para um amigo."
+  },
+  {
+   "level": 2,
+   "main": "fui apresentado aos pais de alguém sem estar preparado."
+  },
+  {
+   "level": 2,
+   "main": "apresentei alguém aos meus pais e o clima foi péssimo."
+  },
+  {
+   "level": 2,
+   "main": "briguei com alguém por causa de ciúmes."
+  },
+  {
+   "level": 2,
+   "main": "terminei e voltei no mesmo mês."
+  },
+  {
+   "level": 2,
+   "main": "gastei uma fortuna num encontro."
+  },
+  {
+   "level": 2,
+   "main": "fiquei com alguém só pelo sotaque."
+  },
+  {
+   "level": 3,
+   "main": "fiz a três."
+  },
+  {
+   "level": 3,
+   "main": "transei com alguém desta roda."
+  },
+  {
+   "level": 3,
+   "main": "traí alguém."
+  },
+  {
+   "level": 3,
+   "main": "fui traído e perdoei."
+  },
+  {
+   "level": 3,
+   "main": "fiquei com alguém comprometido, sabendo."
+  },
+  {
+   "level": 3,
+   "main": "fiz sexo por vingança."
+  },
+  {
+   "level": 3,
+   "main": "tive um sonho erótico com alguém desta roda."
+  },
+  {
+   "level": 3,
+   "main": "me apaixonei por alguém proibido."
+  },
+  {
+   "level": 3,
+   "main": "pedi para alguém apagar uma foto minha."
+  },
+  {
+   "level": 3,
+   "main": "fingi um orgasmo."
+  },
+  {
+   "level": 3,
+   "main": "transei no trabalho ou na faculdade."
+  },
+  {
+   "level": 3,
+   "main": "fiquei com alguém só por interesse."
+  },
+  {
+   "level": 3,
+   "main": "fui para a cama com alguém no primeiro dia."
+  },
+  {
+   "level": 3,
+   "main": "acordei na casa de um desconhecido."
+  },
+  {
+   "level": 3,
+   "main": "levei um fora bem na frente de todo mundo."
+  },
+  {
+   "level": 3,
+   "main": "contei um segredo que um amigo me pediu para guardar."
+  },
+  {
+   "level": 3,
+   "main": "tive um caso secreto."
+  },
+  {
+   "level": 3,
+   "main": "fiz sexo no primeiro encontro."
+  },
+  {
+   "level": 3,
+   "main": "fiz sexo com alguém que acabei de conhecer."
+  },
+  {
+   "level": 3,
+   "main": "fiquei com alguém só para fazer ciúmes."
+  },
+  {
+   "level": 3,
+   "main": "terminei porque me apaixonei por outra pessoa."
+  },
+  {
+   "level": 3,
+   "main": "fiz algo ilegal por amor ou por tesão."
+  },
+  {
+   "level": 3,
+   "main": "fui expulso de algum lugar por ficar com alguém."
+  },
+  {
+   "level": 3,
+   "main": "me peguei pensando em outra pessoa durante o sexo."
+  },
+  {
+   "level": 3,
+   "main": "fiz sexo ao ar livre."
+  },
+  {
+   "level": 3,
+   "main": "fui pego em flagrante por alguém da família."
+  },
+  {
+   "level": 3,
+   "main": "fiz uma videochamada ousada."
+  },
+  {
+   "level": 3,
+   "main": "mandei uma foto íntima e me arrependi."
+  },
+  {
+   "level": 3,
+   "main": "fiquei com a pessoa de quem um amigo gostava."
+  },
+  {
+   "level": 3,
+   "main": "pensei em ficar com alguém desta roda."
+  },
+  {
+   "level": 3,
+   "main": "mantive dois relacionamentos ao mesmo tempo."
+  },
+  {
+   "level": 3,
+   "main": "fui o motivo de um término."
+  },
+  {
+   "level": 3,
+   "main": "terminei um relacionamento por ter sido traído."
+  },
+  {
+   "level": 3,
+   "main": "perdoei uma traição e me arrependi."
+  },
+  {
+   "level": 3,
+   "main": "contei uma mentira enorme para esconder um caso."
+  },
+  {
+   "level": 3,
+   "main": "fingi uma doença para sumir depois de uma noite."
+  },
+  {
+   "level": 3,
+   "main": "fiz uma loucura por um amor não correspondido."
+  },
+  {
+   "level": 3,
+   "main": "usei alguém para esquecer um amor."
+  },
+  {
+   "level": 3,
+   "main": "fiquei com chefe ou professor."
+  },
+  {
+   "level": 3,
+   "main": "fiquei com um vizinho ou vizinha e me arrependi."
+  },
+  {
+   "level": 3,
+   "main": "passei a noite fora e menti sobre onde estava."
+  },
+  {
+   "level": 3,
+   "main": "fui descoberto numa mentira de relacionamento."
+  },
+  {
+   "level": 3,
+   "main": "me deixei levar por alguém que eu sabia que me faria mal."
+  },
+  {
+   "level": 3,
+   "main": "fiz uma promessa de amor eterno e não cumpri."
+  },
+  {
+   "level": 3,
+   "main": "dancei de um jeito ousado só para provocar alguém."
+  },
+  {
+   "level": 3,
+   "main": "tive uma noite de loucura que nunca contei para ninguém."
+  },
+  {
+   "level": 3,
+   "main": "acordei arrependido ao lado de alguém."
+  },
+  {
+   "level": 3,
+   "main": "fiquei com alguém só pela fama ou pelo status."
+  },
+  {
+   "level": 3,
+   "main": "tive um relacionamento que os meus amigos odiaram."
+  },
+  {
+   "level": 3,
+   "main": "senti desejo por alguém comprometido da minha roda."
+  }
+ ],
+ "doit": [
+  {
+   "level": 1,
+   "main": "Ligue pra um contato aleatório e diga “eu sei o que você fez”."
+  },
+  {
+   "level": 1,
+   "main": "Imite alguém da roda até os outros adivinharem quem é."
+  },
+  {
+   "level": 1,
+   "main": "Cante o refrão de uma música sem errar a letra."
+  },
+  {
+   "level": 1,
+   "main": "Faça 10 polichinelos."
+  },
+  {
+   "level": 1,
+   "main": "Fale com sotaque de outro estado até a próxima rodada."
+  },
+  {
+   "level": 1,
+   "main": "Faça uma dancinha de 15 segundos."
+  },
+  {
+   "level": 1,
+   "main": "Conte uma piada e faça a roda rir."
+  },
+  {
+   "level": 1,
+   "main": "Mande um áudio dizendo que ama alguém da sua família."
+  },
+  {
+   "level": 1,
+   "main": "Fale só rimando durante duas rodadas."
+  },
+  {
+   "level": 1,
+   "main": "Faça pose de modelo por 10 segundos."
+  },
+  {
+   "level": 1,
+   "main": "Imite um animal à sua escolha."
+  },
+  {
+   "level": 1,
+   "main": "Deixe a roda escolher o seu apelido pelo resto da noite."
+  },
+  {
+   "level": 1,
+   "main": "Fale o alfabeto de trás para frente."
+  },
+  {
+   "level": 1,
+   "main": "Fique numa perna só até a próxima carta."
+  },
+  {
+   "level": 1,
+   "main": "Faça uma declaração de amor para um objeto da sala."
+  },
+  {
+   "level": 1,
+   "main": "Tire uma selfie com cara de bravo e mostre para a roda."
+  },
+  {
+   "level": 1,
+   "main": "Mande um emoji aleatório para o último contato do seu WhatsApp."
+  },
+  {
+   "level": 1,
+   "main": "Troque de lugar com alguém da roda até o fim do jogo."
+  },
+  {
+   "level": 1,
+   "main": "Fale uma coisa boa de cada pessoa da roda."
+  },
+  {
+   "level": 1,
+   "main": "Dê um abraço de 10 segundos em quem topar."
+  },
+  {
+   "level": 1,
+   "main": "Faça uma massagem de 20 segundos nos ombros de quem topar."
+  },
+  {
+   "level": 1,
+   "main": "Imite o seu ídolo cantando."
+  },
+  {
+   "level": 1,
+   "main": "Fale uma frase em outro idioma."
+  },
+  {
+   "level": 1,
+   "main": "Narre o que cada pessoa está fazendo como se fosse um jogo de futebol."
+  },
+  {
+   "level": 1,
+   "main": "Faça uma careta e fique nela por 15 segundos."
+  },
+  {
+   "level": 1,
+   "main": "Conte até 20 em outra língua."
+  },
+  {
+   "level": 1,
+   "main": "Tente lamber o próprio cotovelo."
+  },
+  {
+   "level": 1,
+   "main": "Faça um brinde épico."
+  },
+  {
+   "level": 1,
+   "main": "Fale como um repórter de TV sobre o seu dia."
+  },
+  {
+   "level": 1,
+   "main": "Imite a risada de cada pessoa da roda."
+  },
+  {
+   "level": 1,
+   "main": "Tire uma foto da roda inteira fazendo careta."
+  },
+  {
+   "level": 1,
+   "main": "Fique três rodadas sem falar a palavra “não”."
+  },
+  {
+   "level": 1,
+   "main": "Dê um apelido carinhoso para cada pessoa da roda."
+  },
+  {
+   "level": 1,
+   "main": "Faça a sua melhor voz de vilão de filme."
+  },
+  {
+   "level": 1,
+   "main": "Faça a dança mais ridícula que você conhecer."
+  },
+  {
+   "level": 1,
+   "main": "Conte como foi o seu primeiro emprego, com todos os detalhes."
+  },
+  {
+   "level": 1,
+   "main": "Mostre o último meme que você salvou."
+  },
+  {
+   "level": 1,
+   "main": "Mostre a última foto da sua galeria."
+  },
+  {
+   "level": 1,
+   "main": "Mostre o histórico do seu aplicativo de música."
+  },
+  {
+   "level": 1,
+   "main": "Troque de casaco ou de acessório com alguém da roda."
+  },
+  {
+   "level": 1,
+   "main": "Deixe a roda escolher uma música para você cantar."
+  },
+  {
+   "level": 1,
+   "main": "Mande um áudio cantando parabéns para um amigo."
+  },
+  {
+   "level": 1,
+   "main": "Elogie alguém da roda por um minuto sem parar."
+  },
+  {
+   "level": 1,
+   "main": "Fale mal de si mesmo por 30 segundos."
+  },
+  {
+   "level": 1,
+   "main": "Faça 5 flexões de braço."
+  },
+  {
+   "level": 1,
+   "main": "Faça a roda rir sem falar nada."
+  },
+  {
+   "level": 1,
+   "main": "Imite um garçom atendendo a mesa."
+  },
+  {
+   "level": 1,
+   "main": "Dê uma aula de dança de 20 segundos para a roda."
+  },
+  {
+   "level": 1,
+   "main": "Descreva cada pessoa da roda em uma palavra."
+  },
+  {
+   "level": 1,
+   "main": "Escolha alguém para beber junto com você."
+  },
+  {
+   "level": 2,
+   "main": "Dê um beijo na bochecha de quem topar."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma cantada para a pessoa à sua esquerda."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma dança sensual de 10 segundos."
+  },
+  {
+   "level": 2,
+   "main": "Sussurre um elogio no ouvido de alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Mande um áudio sensual de brincadeira para um amigo."
+  },
+  {
+   "level": 2,
+   "main": "Deixe alguém da roda desenhar algo no seu braço."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma massagem nas mãos de quem topar."
+  },
+  {
+   "level": 2,
+   "main": "Olhe nos olhos de alguém da roda por 20 segundos sem rir."
+  },
+  {
+   "level": 2,
+   "main": "Mande um “saudade” para o último contato que você ficou."
+  },
+  {
+   "level": 2,
+   "main": "Conte o seu melhor beijo e imite como foi."
+  },
+  {
+   "level": 2,
+   "main": "Mostre a foto mais ousada que você tem no celular, se tiver."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma declaração apaixonada para alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Dance colado com quem topar por 15 segundos."
+  },
+  {
+   "level": 2,
+   "main": "Fale o que você mais gosta no corpo de quem está à sua direita."
+  },
+  {
+   "level": 2,
+   "main": "Dê uma nota de 0 a 10 para cada pessoa da roda."
+  },
+  {
+   "level": 2,
+   "main": "Escolha duas pessoas da roda para “ficar” num filme. Narre a cena."
+  },
+  {
+   "level": 2,
+   "main": "Mande uma mensagem de bom dia carinhosa para um crush."
+  },
+  {
+   "level": 2,
+   "main": "Deixe a roda ler a sua última conversa com o ficante."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma cena de novela romântica com quem topar."
+  },
+  {
+   "level": 2,
+   "main": "Faça o seu melhor beijo no ar."
+  },
+  {
+   "level": 2,
+   "main": "Conte uma fantasia que você tem."
+  },
+  {
+   "level": 2,
+   "main": "Diga quem da roda tem o melhor sorriso."
+  },
+  {
+   "level": 2,
+   "main": "Diga quem da roda tem a melhor voz."
+  },
+  {
+   "level": 2,
+   "main": "Diga quem da roda beija melhor, no seu palpite."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma pose sexy e a roda dá nota."
+  },
+  {
+   "level": 2,
+   "main": "Use uma cantada pronta em alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Fale a primeira coisa que pensou ao ver cada pessoa da roda."
+  },
+  {
+   "level": 2,
+   "main": "Revele o seu crush atual, sem dizer o nome, só com pistas."
+  },
+  {
+   "level": 2,
+   "main": "Mande um áudio dizendo “estou com saudade” para alguém."
+  },
+  {
+   "level": 2,
+   "main": "Diga qual pessoa da roda você levaria num encontro romântico."
+  },
+  {
+   "level": 2,
+   "main": "Dê um abraço apertado em alguém e diga um elogio."
+  },
+  {
+   "level": 2,
+   "main": "Conte onde foi o seu último beijo."
+  },
+  {
+   "level": 2,
+   "main": "Faça a sua cara de sedução por 10 segundos."
+  },
+  {
+   "level": 2,
+   "main": "Escolha alguém e diga o que faria com essa pessoa numa ilha deserta."
+  },
+  {
+   "level": 2,
+   "main": "Troque um olhar demorado com alguém da roda e conte o que sentiu."
+  },
+  {
+   "level": 2,
+   "main": "Descreva o seu tipo ideal em detalhes."
+  },
+  {
+   "level": 2,
+   "main": "Diga o que mais te atrai em quem está à sua frente."
+  },
+  {
+   "level": 2,
+   "main": "Faça um brinde dedicado a quem você gostaria de ver mais hoje."
+  },
+  {
+   "level": 2,
+   "main": "Mostre o último perfil que você curtiu em um aplicativo de namoro."
+  },
+  {
+   "level": 2,
+   "main": "Leia em voz alta a última mensagem romântica que você recebeu."
+  },
+  {
+   "level": 2,
+   "main": "Faça um elogio ousado para a pessoa à sua frente."
+  },
+  {
+   "level": 2,
+   "main": "Mande uma mensagem de “oi, sumido” para alguém que você ficou."
+  },
+  {
+   "level": 2,
+   "main": "Conte um segredo para a pessoa à sua esquerda, em voz baixa."
+  },
+  {
+   "level": 2,
+   "main": "Imite o jeito que alguém da roda flerta."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma dancinha de 15 segundos olhando para alguém."
+  },
+  {
+   "level": 2,
+   "main": "Deixe alguém da roda escolher o seu perfil de um aplicativo de namoro."
+  },
+  {
+   "level": 2,
+   "main": "Escolha alguém da roda e conte como seria um encontro perfeito com essa pessoa."
+  },
+  {
+   "level": 2,
+   "main": "Sente no colo de quem topar por 10 segundos."
+  },
+  {
+   "level": 2,
+   "main": "Faça um elogio sincero e demorado para alguém."
+  },
+  {
+   "level": 2,
+   "main": "Diga quem da roda seria o melhor parceiro numa noite de balada."
+  },
+  {
+   "level": 2,
+   "main": "Mostre a sua melhor foto de biquíni ou sunga, se tiver."
+  },
+  {
+   "level": 2,
+   "main": "Conte o que você faria com 24 horas a sós com quem você quiser."
+  },
+  {
+   "level": 2,
+   "main": "Faça um desfile rápido pela sala."
+  },
+  {
+   "level": 2,
+   "main": "Troque um beijo no rosto com quem topar."
+  },
+  {
+   "level": 2,
+   "main": "Mande um áudio cantando uma música romântica para alguém."
+  },
+  {
+   "level": 2,
+   "main": "Fale o nome de quem você bloquearia primeiro nesta roda."
+  },
+  {
+   "level": 2,
+   "main": "Conte qual foi o seu maior arrependimento amoroso."
+  },
+  {
+   "level": 2,
+   "main": "Dê um beijo na mão de quem estiver à sua direita."
+  },
+  {
+   "level": 2,
+   "main": "Escolha alguém para trocar de roupa de brincadeira, como um casaco."
+  },
+  {
+   "level": 2,
+   "main": "Descreva o seu primeiro beijo com detalhes."
+  },
+  {
+   "level": 2,
+   "main": "Faça um trava-língua sensual."
+  },
+  {
+   "level": 2,
+   "main": "Diga o que você mais gosta no sexo oposto, ou no mesmo, como preferir."
+  },
+  {
+   "level": 2,
+   "main": "Diga uma qualidade e um defeito de cada pessoa da roda."
+  },
+  {
+   "level": 2,
+   "main": "Revele quem da roda já te deu em cima."
+  },
+  {
+   "level": 2,
+   "main": "Revele quem da roda você acha mais bonito."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma ligação de vídeo para um amigo só para dizer que está com saudade."
+  },
+  {
+   "level": 2,
+   "main": "Faça o seu melhor “olhar de peixe morto”."
+  },
+  {
+   "level": 2,
+   "main": "Encoste a testa na de alguém da roda por 10 segundos."
+  },
+  {
+   "level": 2,
+   "main": "Mostre o seu pior estilo de dança de paquera."
+  },
+  {
+   "level": 2,
+   "main": "Peça o contato de alguém da roda fingindo que acabou de conhecer."
+  },
+  {
+   "level": 2,
+   "main": "Conte a sua pior cantada, atuando."
+  },
+  {
+   "level": 2,
+   "main": "Flerte com um objeto do ambiente por 15 segundos."
+  },
+  {
+   "level": 2,
+   "main": "Faça um discurso de casamento para dois da roda."
+  },
+  {
+   "level": 2,
+   "main": "Conte quem seria o seu par num baile de formatura da roda."
+  },
+  {
+   "level": 2,
+   "main": "Escolha alguém para fazer um elogio olhando nos olhos."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma proposta romântica engraçada para alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Revele o que você sente por quem está à sua esquerda, em uma palavra."
+  },
+  {
+   "level": 2,
+   "main": "Descreva o seu cheiro favorito em alguém."
+  },
+  {
+   "level": 2,
+   "main": "Mostre o seu histórico de busca mais embaraçoso, se tiver coragem."
+  },
+  {
+   "level": 2,
+   "main": "Conte um sonho esquisito que você já teve."
+  },
+  {
+   "level": 2,
+   "main": "Dê um apelido “de ficante” para cada um da roda."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma pose de capa de revista de romance."
+  },
+  {
+   "level": 2,
+   "main": "Narre a sua noite ideal em 30 segundos."
+  },
+  {
+   "level": 2,
+   "main": "Faça uma serenata para alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Diga com quem da roda você já teve vontade de ficar."
+  },
+  {
+   "level": 2,
+   "main": "Fale em voz alta o que mais te atrai em um beijo."
+  },
+  {
+   "level": 2,
+   "main": "Faça a roda adivinhar o seu tipo de pessoa em três pistas."
+  },
+  {
+   "level": 2,
+   "main": "Conte quantos “ficantes” você teve neste ano."
+  },
+  {
+   "level": 2,
+   "main": "Escolha alguém para ser o seu par nesta rodada, pagando prenda juntos."
+  },
+  {
+   "level": 2,
+   "main": "Mande uma mensagem sincera para alguém que te marcou."
+  },
+  {
+   "level": 2,
+   "main": "Deixe alguém da roda escrever uma mensagem para o seu crush, sem enviar."
+  },
+  {
+   "level": 2,
+   "main": "Conte a história de um beijo que deu errado."
+  },
+  {
+   "level": 2,
+   "main": "Faça um brinde ao seu amor mal resolvido."
+  },
+  {
+   "level": 2,
+   "main": "Fale uma coisa que você nunca disse para alguém da roda."
+  },
+  {
+   "level": 2,
+   "main": "Dê um apelido provocante para quem está à sua frente."
+  },
+  {
+   "level": 2,
+   "main": "Conte o que você mais gosta de fazer a dois, sem detalhes."
+  },
+  {
+   "level": 2,
+   "main": "Faça um desfile de passarela até a porta e volte."
+  },
+  {
+   "level": 2,
+   "main": "Elogie a roupa de alguém de um jeito sedutor."
+  },
+  {
+   "level": 2,
+   "main": "Diga qual música você colocaria numa noite romântica e por quê."
+  },
+  {
+   "level": 2,
+   "main": "Conte o seu pior encontro em uma frase."
+  },
+  {
+   "level": 3,
+   "main": "Entregue seu celular desbloqueado pra roda por um minuto."
+  },
+  {
+   "level": 3,
+   "main": "Leia em voz alta a sua última conversa com o ex."
+  },
+  {
+   "level": 3,
+   "main": "Mande um “estou pensando em você” para o último ficante."
+  },
+  {
+   "level": 3,
+   "main": "Mande um “oi, tudo bem?” para o seu ex."
+  },
+  {
+   "level": 3,
+   "main": "Conte o seu maior segredo para a roda."
+  },
+  {
+   "level": 3,
+   "main": "Revele o maior mico que você já pagou num encontro."
+  },
+  {
+   "level": 3,
+   "main": "Mostre a foto mais constrangedora do seu celular."
+  },
+  {
+   "level": 3,
+   "main": "Mande um áudio para o seu crush dizendo o que sente."
+  },
+  {
+   "level": 3,
+   "main": "Revele com quem da roda você já teve vontade de ficar, e por quê."
+  },
+  {
+   "level": 3,
+   "main": "Conte o número de pessoas com quem você já ficou."
+  },
+  {
+   "level": 3,
+   "main": "Mostre o seu histórico de mensagens apagadas, se tiver."
+  },
+  {
+   "level": 3,
+   "main": "Faça uma ligação para o seu ex e desligue assim que atender."
+  },
+  {
+   "level": 3,
+   "main": "Deixe a roda escolher uma pessoa do seu celular para você mandar um áudio."
+  },
+  {
+   "level": 3,
+   "main": "Mostre as últimas cinco pessoas com quem você conversou."
+  },
+  {
+   "level": 3,
+   "main": "Conte quem da roda você acha mais atraente, e quem menos."
+  },
+  {
+   "level": 3,
+   "main": "Revele o seu maior arrependimento da vida amorosa."
+  },
+  {
+   "level": 3,
+   "main": "Conte a sua fantasia mais ousada para a roda."
+  },
+  {
+   "level": 3,
+   "main": "Revele a coisa mais ousada que você já fez por tesão."
+  },
+  {
+   "level": 3,
+   "main": "Mande uma mensagem de “saudade” para o seu ex e mostre à roda."
+  },
+  {
+   "level": 3,
+   "main": "Deixe alguém da roda mandar uma mensagem de voz pelo seu celular para o seu crush."
+  },
+  {
+   "level": 3,
+   "main": "Conte uma traição que você já viu ou fez."
+  },
+  {
+   "level": 3,
+   "main": "Revele o seu maior ciúme."
+  },
+  {
+   "level": 3,
+   "main": "Leia o último elogio que você recebeu sobre o seu corpo."
+  },
+  {
+   "level": 3,
+   "main": "Conte como foi a sua primeira vez, sem entrar em detalhes."
+  },
+  {
+   "level": 3,
+   "main": "Mostre o seu aplicativo de namoro e deixe a roda dar match por você em alguém."
+  },
+  {
+   "level": 3,
+   "main": "Revele quem da roda você já tem vontade de beijar."
+  },
+  {
+   "level": 3,
+   "main": "Conte a vez que você mais se arrependeu de ter ficado com alguém."
+  },
+  {
+   "level": 3,
+   "main": "Fale o nome de todos os seus ex, em ordem."
+  },
+  {
+   "level": 3,
+   "main": "Peça desculpas em voz alta para alguém que você magoou."
+  },
+  {
+   "level": 3,
+   "main": "Revele o maior segredo de um amigo seu, sem dizer o nome."
+  },
+  {
+   "level": 3,
+   "main": "Conte por que o seu último relacionamento acabou."
+  },
+  {
+   "level": 3,
+   "main": "Revele a pior coisa que você já fez por amor."
+  },
+  {
+   "level": 3,
+   "main": "Revele o seu fetiche mais estranho."
+  },
+  {
+   "level": 3,
+   "main": "Mostre o seu histórico de busca do último mês."
+  },
+  {
+   "level": 3,
+   "main": "Diga a pior mentira que você já contou para um parceiro."
+  },
+  {
+   "level": 3,
+   "main": "Diga o que você faria se fosse invisível por um dia, sem censura."
+  },
+  {
+   "level": 3,
+   "main": "Conte o que você nunca contaria para o seu par."
+  },
+  {
+   "level": 3,
+   "main": "Revele qual pessoa da roda você bloquearia por um mês."
+  },
+  {
+   "level": 3,
+   "main": "Dê uma nota para a sua vida amorosa e justifique."
+  },
+  {
+   "level": 3,
+   "main": "Revele quantas pessoas você já beijou."
+  },
+  {
+   "level": 3,
+   "main": "Mande uma mensagem para o primeiro nome da sua lista de contatos dizendo “tenho uma coisa pra te contar”."
+  },
+  {
+   "level": 3,
+   "main": "Leia o seu último pensamento íntimo anotado no celular."
+  },
+  {
+   "level": 3,
+   "main": "Conte o plano mais maluco que você já teve para conquistar alguém."
+  },
+  {
+   "level": 3,
+   "main": "Revele quantas vezes você já se declarou e deu errado."
+  },
+  {
+   "level": 3,
+   "main": "Diga o que você faria numa noite com quem você mais deseja."
+  },
+  {
+   "level": 3,
+   "main": "Revele o seu pior segredo de infância."
+  },
+  {
+   "level": 3,
+   "main": "Dê um selinho em quem topar. Quem recusar, bebe."
+  },
+  {
+   "level": 3,
+   "main": "Deixe alguém da roda tirar uma foto sua com a pose que ele escolher."
+  },
+  {
+   "level": 3,
+   "main": "Revele o seu maior desejo escondido."
+  },
+  {
+   "level": 3,
+   "main": "Revele o que você diria para o seu primeiro amor."
+  }
+ ],
+ "paranoia": [
+  {
+   "level": 1,
+   "main": "Quem aqui é o pior bêbado?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui tem o pior gosto musical?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais mão de vaca?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais atrasado?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui você levaria para uma ilha deserta?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o primeiro a morrer num filme de terror?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o maior fofoqueiro?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui ronca mais?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais bagunceiro?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui conta as piores piadas?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui você chamaria numa emergência?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o melhor cozinheiro?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o pior motorista?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui nunca deveria dirigir bêbado?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui vai ficar rico primeiro?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais dramático?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui chora mais fácil?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais preguiçoso?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui tem o melhor estilo?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui tem o pior estilo?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais engraçado?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais chato quando bebe?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o melhor de papo?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui te daria o melhor conselho?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o melhor ator?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui mente melhor?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais vaidoso?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui vai casar primeiro?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui vai ter filhos primeiro?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o pior num reality show?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais bagunceiro na hora de dormir?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o melhor chefe?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o pior chefe?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais teimoso?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais ciumento?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais viciado em celular?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui dança pior?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui canta pior?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o mais perdido numa cidade nova?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui pagaria o maior mico num karaokê?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais esquecido?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais sortudo?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais azarado?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais bonito?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui tem o melhor sorriso?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais organizado?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais egoísta?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais generoso?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui seria o melhor padrinho de casamento?"
+  },
+  {
+   "level": 1,
+   "main": "Quem aqui é o mais bobo quando está apaixonado?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui você pegaria?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui beija melhor?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o melhor na cama?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais safado?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais ciumento num relacionamento?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já deu em cima de você?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui você acha mais bonito?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor namorado?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria a melhor namorada?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o maior pegador?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem mais ex?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais difícil de conquistar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais fácil de conquistar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui faria o melhor jantar romântico?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais romântico?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior em um encontro?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já ficou com alguém da roda?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já mandou nude?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria capaz de ficar com o ex de um amigo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais sem vergonha?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui flerta com todo mundo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais tímido na paquera?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui mente mais sobre o número de parceiros?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem a melhor cantada?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem a pior cantada?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o primeiro a ficar com alguém hoje?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui você levaria para um fim de semana romântico?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior em um relacionamento à distância?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor para um caso de uma noite?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais grudento depois de ficar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui some depois de ficar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor beijo de despedida?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem o olhar mais sedutor?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem as melhores mãos?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui se veste melhor para seduzir?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais gostoso de abraçar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já te deixou com ciúmes?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui você gostaria de ver mais de perto?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já fez algo ousado numa festa?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais criativo num momento a dois?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior em dar um fora?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior em levar um fora?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais insistente depois de um fora?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já ficou com alguém só pela aparência?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui gosta mais de preliminar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais romântico num pedido de casamento?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui chora mais em filme romântico?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui fala mais de sexo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais envergonhado de falar sobre sexo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui mandaria a mensagem mais ousada?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui responde mais rápido uma mensagem de crush?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui deixa no vácuo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui acredita mais em amor à primeira vista?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui acredita menos em amor?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais fiel?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o menos fiel?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem o beijo mais esquisito?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor para dançar colado?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais divertido numa noite de balada?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já ficou com duas pessoas na mesma noite?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já foi pego no flagra?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais ousado em lugares públicos?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor para um beijo no cinema?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior de aguentar depois de beber?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais carinhoso?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais frio?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já se apaixonou por alguém da roda?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais difícil de esquecer?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já sonhou com você?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem o melhor corpo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem o melhor cabelo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais gato ou gata de pijama?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior em compartilhar a cama?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais sedutor sem querer?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais sedutor de propósito?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui você levaria para um casamento como par?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor par de dança?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui tem o abraço mais gostoso?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor para uma viagem a dois?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior em uma viagem a dois?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui conquista com o olhar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui conquista com a conversa?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui conquista com o dinheiro?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui conquista com o humor?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais fácil de apaixonar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui é o mais difícil de apaixonar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais romântico num dia dos namorados?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui esqueceria o dia dos namorados?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui mandaria flores sem motivo?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui faria uma serenata?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui escreve as melhores cartas de amor?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor numa dança sensual?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o mais perdido numa cantada?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o melhor para um primeiro encontro?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o pior para um primeiro encontro?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já ficou com alguém por pena?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já terminou um namoro por mensagem?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui já voltou com o ex mais de uma vez?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o primeiro a se declarar?"
+  },
+  {
+   "level": 2,
+   "main": "Quem aqui seria o último a se declarar?"
+  },
+  {
+   "level": 3,
+   "main": "Com quem daqui você trairia?"
+  },
+  {
+   "level": 3,
+   "main": "Com quem daqui você faria a três?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já traiu alguém?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o pior traído?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui guarda o maior segredo?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui você já imaginou pelado?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já teve um caso com alguém comprometido?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria capaz de ficar com o par de um amigo?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já ficou com alguém desta roda e escondeu?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui mais mente sobre sexo?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui tem o maior número de parceiros?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui tem o menor número de parceiros?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o melhor numa noite de loucura?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui tem a fantasia mais estranha?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já fez sexo num lugar público?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já fez algo ilegal por tesão?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já se arrependeu de uma noite?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais pervertido?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já transou com alguém desta roda?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui você levaria para um motel?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o pior de cama?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais selvagem?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais calado na hora H?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais barulhento na hora H?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já fingiu orgasmo?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais ousado com brinquedos?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já ficou com alguém só por dinheiro ou status?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já teve um caso no trabalho?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já ficou com chefe ou professor?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já fez sexo por vingança?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o primeiro a topar um relacionamento aberto?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui nunca toparia um relacionamento aberto?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já mandou nude para um desconhecido?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui tem o histórico mais bagunçado?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais ciumento a ponto de brigar?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais manipulador?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já deu um golpe de amor?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já mentiu para esconder um caso?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já acordou arrependido ao lado de alguém?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais difícil de perdoar uma traição?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui perdoaria uma traição mais fácil?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui tem um segredo sexual que ninguém sabe?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o mais viciado em sexo?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui ficaria com um desconhecido numa viagem?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já teve um sonho erótico com alguém da roda?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já usou sedução para conseguir algo?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o primeiro a topar um desafio proibido?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já teve um relacionamento que os amigos odiaram?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui seria o pior parceiro depois de uma briga?"
+  },
+  {
+   "level": 3,
+   "main": "Quem aqui já fez sexo na casa dos pais?"
+  }
+ ],
+ "likely": [
+  {
+   "level": 1,
+   "main": "chorar bêbado?"
+  },
+  {
+   "level": 1,
+   "main": "esquecer o próprio aniversário?"
+  },
+  {
+   "level": 1,
+   "main": "chegar atrasado em tudo?"
+  },
+  {
+   "level": 1,
+   "main": "perder o celular?"
+  },
+  {
+   "level": 1,
+   "main": "dormir na festa?"
+  },
+  {
+   "level": 1,
+   "main": "dançar em cima da mesa?"
+  },
+  {
+   "level": 1,
+   "main": "cantar no karaokê sem ninguém pedir?"
+  },
+  {
+   "level": 1,
+   "main": "passar mal primeiro?"
+  },
+  {
+   "level": 1,
+   "main": "pedir música no bar?"
+  },
+  {
+   "level": 1,
+   "main": "ser expulso de um lugar?"
+  },
+  {
+   "level": 1,
+   "main": "contar o segredo de alguém sem querer?"
+  },
+  {
+   "level": 1,
+   "main": "esquecer o nome de alguém?"
+  },
+  {
+   "level": 1,
+   "main": "ficar rico?"
+  },
+  {
+   "level": 1,
+   "main": "virar famoso?"
+  },
+  {
+   "level": 1,
+   "main": "se perder em viagem?"
+  },
+  {
+   "level": 1,
+   "main": "comer o último pedaço sem avisar?"
+  },
+  {
+   "level": 1,
+   "main": "mandar áudio de cinco minutos?"
+  },
+  {
+   "level": 1,
+   "main": "trocar de emprego por impulso?"
+  },
+  {
+   "level": 1,
+   "main": "fazer uma tatuagem bêbado?"
+  },
+  {
+   "level": 1,
+   "main": "ter ressaca no dia mais importante?"
+  },
+  {
+   "level": 1,
+   "main": "ser o último a ir embora?"
+  },
+  {
+   "level": 1,
+   "main": "falar demais depois de beber?"
+  },
+  {
+   "level": 1,
+   "main": "pedir mais uma dose quando todo mundo já parou?"
+  },
+  {
+   "level": 1,
+   "main": "cair em público?"
+  },
+  {
+   "level": 1,
+   "main": "quebrar algo na casa dos outros?"
+  },
+  {
+   "level": 1,
+   "main": "ir embora da festa sem se despedir?"
+  },
+  {
+   "level": 1,
+   "main": "ficar sem bateria na hora errada?"
+  },
+  {
+   "level": 1,
+   "main": "pagar um mico em viagem?"
+  },
+  {
+   "level": 1,
+   "main": "rir na hora errada?"
+  },
+  {
+   "level": 1,
+   "main": "esquecer onde estacionou?"
+  },
+  {
+   "level": 1,
+   "main": "adotar um bicho por impulso?"
+  },
+  {
+   "level": 1,
+   "main": "gastar o salário numa noite?"
+  },
+  {
+   "level": 1,
+   "main": "furar um compromisso por preguiça?"
+  },
+  {
+   "level": 1,
+   "main": "discutir política no bar?"
+  },
+  {
+   "level": 1,
+   "main": "fazer uma playlist triste?"
+  },
+  {
+   "level": 1,
+   "main": "se apaixonar em viagem?"
+  },
+  {
+   "level": 1,
+   "main": "falar sozinho?"
+  },
+  {
+   "level": 1,
+   "main": "cozinhar mal e insistir?"
+  },
+  {
+   "level": 1,
+   "main": "dormir no cinema?"
+  },
+  {
+   "level": 1,
+   "main": "mandar mensagem para a pessoa errada?"
+  },
+  {
+   "level": 1,
+   "main": "sair de casa sem a carteira?"
+  },
+  {
+   "level": 1,
+   "main": "fingir que sabe cantar?"
+  },
+  {
+   "level": 1,
+   "main": "ser o melhor DJ da festa?"
+  },
+  {
+   "level": 1,
+   "main": "pedir comida às quatro da manhã?"
+  },
+  {
+   "level": 1,
+   "main": "ficar com sono primeiro?"
+  },
+  {
+   "level": 1,
+   "main": "esquecer a senha do celular?"
+  },
+  {
+   "level": 1,
+   "main": "comprar algo bêbado pela internet?"
+  },
+  {
+   "level": 1,
+   "main": "ser o mais competitivo num jogo?"
+  },
+  {
+   "level": 1,
+   "main": "perder o último ônibus?"
+  },
+  {
+   "level": 1,
+   "main": "dar o melhor discurso num casamento?"
+  },
+  {
+   "level": 2,
+   "main": "ter dado o primeiro beijo mais cedo?"
+  },
+  {
+   "level": 2,
+   "main": "mandar nude?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com o ex?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém desta roda?"
+  },
+  {
+   "level": 2,
+   "main": "ter mais ficantes?"
+  },
+  {
+   "level": 2,
+   "main": "ser o melhor beijador?"
+  },
+  {
+   "level": 2,
+   "main": "terminar um namoro por mensagem?"
+  },
+  {
+   "level": 2,
+   "main": "ter sido traído?"
+  },
+  {
+   "level": 2,
+   "main": "dar em cima de qualquer um?"
+  },
+  {
+   "level": 2,
+   "main": "ter o histórico amoroso mais bagunçado?"
+  },
+  {
+   "level": 2,
+   "main": "ser o mais ciumento?"
+  },
+  {
+   "level": 2,
+   "main": "ligar bêbado para o ex?"
+  },
+  {
+   "level": 2,
+   "main": "dar match com alguém da roda?"
+  },
+  {
+   "level": 2,
+   "main": "fingir interesse?"
+  },
+  {
+   "level": 2,
+   "main": "fazer sexo no primeiro encontro?"
+  },
+  {
+   "level": 2,
+   "main": "se apaixonar fácil?"
+  },
+  {
+   "level": 2,
+   "main": "ser o mais romântico?"
+  },
+  {
+   "level": 2,
+   "main": "ser infiel?"
+  },
+  {
+   "level": 2,
+   "main": "ter mais segredos?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com duas pessoas ao mesmo tempo?"
+  },
+  {
+   "level": 2,
+   "main": "ser pego no flagra?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém comprometido?"
+  },
+  {
+   "level": 2,
+   "main": "mandar uma mensagem ousada?"
+  },
+  {
+   "level": 2,
+   "main": "chamar atenção numa festa?"
+  },
+  {
+   "level": 2,
+   "main": "ter o maior número de ex?"
+  },
+  {
+   "level": 2,
+   "main": "casar primeiro?"
+  },
+  {
+   "level": 2,
+   "main": "casar três vezes?"
+  },
+  {
+   "level": 2,
+   "main": "ter filhos primeiro?"
+  },
+  {
+   "level": 2,
+   "main": "namorar um colega de trabalho?"
+  },
+  {
+   "level": 2,
+   "main": "dar um fora na frente de todos?"
+  },
+  {
+   "level": 2,
+   "main": "levar um fora na frente de todos?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém só pela aparência?"
+  },
+  {
+   "level": 2,
+   "main": "viajar só para encontrar alguém?"
+  },
+  {
+   "level": 2,
+   "main": "ter um caso secreto?"
+  },
+  {
+   "level": 2,
+   "main": "ser o mais safado da roda?"
+  },
+  {
+   "level": 2,
+   "main": "ser o mais tímido na conquista?"
+  },
+  {
+   "level": 2,
+   "main": "ter vergonha de falar sobre sexo?"
+  },
+  {
+   "level": 2,
+   "main": "ser o melhor de cama?"
+  },
+  {
+   "level": 2,
+   "main": "ser o pior de cama?"
+  },
+  {
+   "level": 2,
+   "main": "mentir sobre o número de parceiros?"
+  },
+  {
+   "level": 2,
+   "main": "ter um fetiche esquisito?"
+  },
+  {
+   "level": 2,
+   "main": "ter feito sexo em lugar público?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com quem não devia?"
+  },
+  {
+   "level": 2,
+   "main": "ser um péssimo namorado?"
+  },
+  {
+   "level": 2,
+   "main": "ser ótima companhia para uma noite?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém primeiro hoje?"
+  },
+  {
+   "level": 2,
+   "main": "se declarar bêbado?"
+  },
+  {
+   "level": 2,
+   "main": "mandar “saudade” para o ex?"
+  },
+  {
+   "level": 2,
+   "main": "voltar com o ex pela terceira vez?"
+  },
+  {
+   "level": 2,
+   "main": "ter ciúmes do ficante?"
+  },
+  {
+   "level": 2,
+   "main": "fazer drama por mensagem?"
+  },
+  {
+   "level": 2,
+   "main": "deixar alguém no vácuo e fingir que não viu?"
+  },
+  {
+   "level": 2,
+   "main": "sumir depois de ficar com alguém?"
+  },
+  {
+   "level": 2,
+   "main": "stalkear o ex por horas?"
+  },
+  {
+   "level": 2,
+   "main": "ter fantasias estranhas?"
+  },
+  {
+   "level": 2,
+   "main": "se vestir para seduzir?"
+  },
+  {
+   "level": 2,
+   "main": "flertar com o garçom?"
+  },
+  {
+   "level": 2,
+   "main": "flertar com o chefe?"
+  },
+  {
+   "level": 2,
+   "main": "dar o número errado de propósito?"
+  },
+  {
+   "level": 2,
+   "main": "beijar um desconhecido numa festa?"
+  },
+  {
+   "level": 2,
+   "main": "ficar mais safado depois de duas doses?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém mais velho?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém mais novo?"
+  },
+  {
+   "level": 2,
+   "main": "pagar de bom moço e ser o pior?"
+  },
+  {
+   "level": 2,
+   "main": "se apaixonar pelo professor?"
+  },
+  {
+   "level": 2,
+   "main": "sair com duas pessoas na mesma semana?"
+  },
+  {
+   "level": 2,
+   "main": "mandar flores sem motivo?"
+  },
+  {
+   "level": 2,
+   "main": "preparar um jantar romântico?"
+  },
+  {
+   "level": 2,
+   "main": "escrever um poema de amor?"
+  },
+  {
+   "level": 2,
+   "main": "chorar em filme romântico?"
+  },
+  {
+   "level": 2,
+   "main": "pedir alguém em casamento em público?"
+  },
+  {
+   "level": 2,
+   "main": "ser o primeiro a terminar um namoro?"
+  },
+  {
+   "level": 2,
+   "main": "fazer mais declarações de amor?"
+  },
+  {
+   "level": 2,
+   "main": "ser o mais difícil de conquistar?"
+  },
+  {
+   "level": 2,
+   "main": "ser o mais fácil de conquistar?"
+  },
+  {
+   "level": 2,
+   "main": "dar mole para um desconhecido?"
+  },
+  {
+   "level": 2,
+   "main": "ter um sonho erótico com alguém da roda?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com duas pessoas da roda?"
+  },
+  {
+   "level": 2,
+   "main": "esquecer o aniversário de namoro?"
+  },
+  {
+   "level": 2,
+   "main": "topar um relacionamento aberto?"
+  },
+  {
+   "level": 2,
+   "main": "ter um relacionamento à distância?"
+  },
+  {
+   "level": 2,
+   "main": "terminar por causa de ciúmes?"
+  },
+  {
+   "level": 2,
+   "main": "perdoar uma traição?"
+  },
+  {
+   "level": 2,
+   "main": "fingir um orgasmo?"
+  },
+  {
+   "level": 2,
+   "main": "pagar mico num beijo?"
+  },
+  {
+   "level": 2,
+   "main": "ficar nervoso na hora H?"
+  },
+  {
+   "level": 2,
+   "main": "dormir logo depois?"
+  },
+  {
+   "level": 2,
+   "main": "pedir para ficar para o café da manhã?"
+  },
+  {
+   "level": 2,
+   "main": "ser grudento no dia seguinte?"
+  },
+  {
+   "level": 2,
+   "main": "ter a melhor cantada?"
+  },
+  {
+   "level": 2,
+   "main": "dar mais fora?"
+  },
+  {
+   "level": 2,
+   "main": "ter o melhor sorriso?"
+  },
+  {
+   "level": 2,
+   "main": "sair da festa acompanhado?"
+  },
+  {
+   "level": 2,
+   "main": "fazer o primeiro movimento?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém que acabou de conhecer?"
+  },
+  {
+   "level": 2,
+   "main": "conquistar alguém só no olhar?"
+  },
+  {
+   "level": 2,
+   "main": "mandar o primeiro “oi” para o crush?"
+  },
+  {
+   "level": 2,
+   "main": "dar bolo num encontro?"
+  },
+  {
+   "level": 2,
+   "main": "ficar com alguém de outra cidade?"
+  },
+  {
+   "level": 2,
+   "main": "passar a noite acordado conversando com um crush?"
+  },
+  {
+   "level": 3,
+   "main": "trair e nunca contar?"
+  },
+  {
+   "level": 3,
+   "main": "fazer sexo em um lugar proibido?"
+  },
+  {
+   "level": 3,
+   "main": "topar fazer a três?"
+  },
+  {
+   "level": 3,
+   "main": "ter um caso com alguém casado?"
+  },
+  {
+   "level": 3,
+   "main": "ter transado com mais gente?"
+  },
+  {
+   "level": 3,
+   "main": "ter o maior segredo da roda?"
+  },
+  {
+   "level": 3,
+   "main": "mentir sobre algo grave?"
+  },
+  {
+   "level": 3,
+   "main": "ter feito algo ilegal?"
+  },
+  {
+   "level": 3,
+   "main": "esconder um relacionamento de todo mundo?"
+  },
+  {
+   "level": 3,
+   "main": "fazer sexo com o ex depois de terminar?"
+  },
+  {
+   "level": 3,
+   "main": "ficar com amigo de um amigo?"
+  },
+  {
+   "level": 3,
+   "main": "ficar com alguém desta roda e esconder?"
+  },
+  {
+   "level": 3,
+   "main": "trocar nudes com um desconhecido?"
+  },
+  {
+   "level": 3,
+   "main": "ter um perfil falso?"
+  },
+  {
+   "level": 3,
+   "main": "se envolver com o chefe?"
+  },
+  {
+   "level": 3,
+   "main": "ter um caso no trabalho?"
+  },
+  {
+   "level": 3,
+   "main": "ter a fantasia mais pesada?"
+  },
+  {
+   "level": 3,
+   "main": "sair com alguém por interesse?"
+  },
+  {
+   "level": 3,
+   "main": "ficar com o par de um amigo?"
+  },
+  {
+   "level": 3,
+   "main": "dar em cima do par de um amigo?"
+  },
+  {
+   "level": 3,
+   "main": "se arrepender de uma noite?"
+  },
+  {
+   "level": 3,
+   "main": "esquecer uma noite inteira?"
+  },
+  {
+   "level": 3,
+   "main": "acordar sem saber onde está?"
+  },
+  {
+   "level": 3,
+   "main": "ser o mais pervertido?"
+  },
+  {
+   "level": 3,
+   "main": "fazer sexo no lugar mais estranho?"
+  },
+  {
+   "level": 3,
+   "main": "ficar com duas pessoas que são amigas entre si?"
+  },
+  {
+   "level": 3,
+   "main": "fingir amar alguém?"
+  },
+  {
+   "level": 3,
+   "main": "terminar só para ficar com outra pessoa?"
+  },
+  {
+   "level": 3,
+   "main": "mentir mais sobre amor?"
+  },
+  {
+   "level": 3,
+   "main": "pedir para alguém apagar uma foto íntima?"
+  },
+  {
+   "level": 3,
+   "main": "ser o maior pegador da roda?"
+  },
+  {
+   "level": 3,
+   "main": "terminar um namoro de forma cruel?"
+  },
+  {
+   "level": 3,
+   "main": "mudar de cidade por causa de alguém?"
+  },
+  {
+   "level": 3,
+   "main": "trair em mais de um relacionamento?"
+  },
+  {
+   "level": 3,
+   "main": "ser traído sem saber?"
+  },
+  {
+   "level": 3,
+   "main": "ficar com alguém só por vingança?"
+  },
+  {
+   "level": 3,
+   "main": "casar por interesse?"
+  },
+  {
+   "level": 3,
+   "main": "fingir ser outra pessoa num aplicativo?"
+  },
+  {
+   "level": 3,
+   "main": "ter uma vida dupla?"
+  },
+  {
+   "level": 3,
+   "main": "dormir com quem não devia?"
+  },
+  {
+   "level": 3,
+   "main": "ficar com a pessoa de quem um amigo gosta?"
+  },
+  {
+   "level": 3,
+   "main": "fazer algo vergonhoso na cama?"
+  },
+  {
+   "level": 3,
+   "main": "ficar com um desconhecido numa viagem?"
+  },
+  {
+   "level": 3,
+   "main": "levar alguém escondido para casa?"
+  },
+  {
+   "level": 3,
+   "main": "ser o mais sem vergonha da roda?"
+  },
+  {
+   "level": 3,
+   "main": "ter o pior segredo de infância?"
+  },
+  {
+   "level": 3,
+   "main": "fazer sexo no carro dos pais?"
+  },
+  {
+   "level": 3,
+   "main": "dar um golpe de amor?"
+  },
+  {
+   "level": 3,
+   "main": "guardar um segredo de uma traição?"
+  },
+  {
+   "level": 3,
+   "main": "ser o mais sem limites depois de cinco doses?"
+  }
+ ]
+}

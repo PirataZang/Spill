@@ -1,0 +1,56 @@
+{
+  "count": "{d} cores · {n} cartas",
+  "rules": "Regras",
+  "language": "Idioma",
+  "tagline": "Puxe uma carta. Puxe assunto. Decidam quem mandou melhor.",
+  "mode": "Modo",
+  "random": "Aleatório",
+  "randomDesc": "As cinco cores embaralhadas num baralho só.",
+  "themed": "Temático",
+  "themedDesc": "Escolha uma cor e fique no clima dela.",
+  "color": "Cor",
+  "deal": "Dar as cartas",
+  "endTitle": "Acabou o baralho",
+  "endText": "Contem os pontos, ou só discutam quem contou a melhor história.",
+  "again": "Embaralhar de novo",
+  "hint": "Arraste a carta para fora da tela para puxar a próxima",
+  "next": "Próxima →",
+  "done": "Fim",
+  "finished": "Fim do baralho.",
+  "howTo": "Como jogar",
+  "close": "Fechar",
+  "lead": "Spill é um jogo de conversa. Ninguém ganha de verdade. A ideia é falar sobre coisas que você nunca puxaria sozinho, em inglês ou em português.",
+  "steps": [
+    {
+      "b": "Escolha um modo.",
+      "t": "Aleatório mistura as cinco cores. Temático fica numa cor só, e a rodada inteira tem o mesmo clima."
+    },
+    {
+      "b": "Leia a carta em voz alta.",
+      "t": "Responda e fale por mais ou menos um minuto."
+    },
+    {
+      "b": "Continue a conversa.",
+      "t": "Todo mundo pode fazer perguntas ou entrar com a própria história."
+    },
+    {
+      "b": "Próxima carta.",
+      "t": "Quando o assunto acabar, arraste a carta para fora da tela e passe a vez."
+    }
+  ],
+  "points": "Pontos, se quiserem",
+  "pointsText": "Depois de cada resposta, o grupo dá um ponto para a mais criativa ou interessante. O maior elogio do Spill é “Realmente, você me superou nessa.”",
+  "colors": "As cinco cores",
+  "note": "Errar faz parte do jogo. Ninguém interrompe uma história para corrigir gramática.",
+  "tagline2": "Um jogo de conversa para duas ou mais pessoas.",
+  "kinds": {
+    "Movie": "Filme",
+    "Series": "Série",
+    "Song": "Música",
+    "Topic": "Tema"
+  },
+  "menu": "← Menu",
+  "menuShort": "Menu",
+  "drinkTitle": "Modo Drink",
+  "drinkDesc": "5 jogos de shot"
+}
