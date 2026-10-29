@@ -10,6 +10,8 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -168,7 +170,7 @@ fun DrinkSetup(vm: SpillViewModel) {
             }
             // bleeds past the screen padding so the tiles scroll edge to edge
             Row(
-                Modifier.bleed(16.dp).horizontalScroll(rememberScrollState()).selectableGroup().padding(start = 16.dp, end = 16.dp, top = 2.dp, bottom = 8.dp),
+                Modifier.bleed(16.dp).horizontalScroll(rememberScrollState()).selectableGroup().padding(start = 16.dp, end = 16.dp, top = 2.dp, bottom = 8.dp).height(IntrinsicSize.Max),
                 Arrangement.spacedBy(10.dp),
             ) {
                 DrinkGame.entries.forEach { g -> GameTile(g, cfg.game == g, d.t(g.key), d.t(g.key + "Desc")) { vm.drinkCfg = cfg.copy(game = g) } }
@@ -216,7 +218,7 @@ fun DrinkSetup(vm: SpillViewModel) {
 }
 
 /** Lets a child ignore [by] of the parent's horizontal padding on both sides. */
-private fun Modifier.bleed(by: Dp) = layout { m, c ->
+internal fun Modifier.bleed(by: Dp) = layout { m, c ->
     val extra = by.roundToPx()
     val p = m.measure(c.copy(maxWidth = c.maxWidth + 2 * extra))
     layout(c.maxWidth, p.height) { p.place(-extra, 0) }
@@ -224,7 +226,7 @@ private fun Modifier.bleed(by: Dp) = layout { m, c ->
 
 @Composable
 private fun GameTile(game: DrinkGame, on: Boolean, name: String, desc: String, onClick: () -> Unit) = Column(
-    Modifier.width(128.dp).clip(RoundedCornerShape(18.dp)).background(if (on) Raised else Panel, RoundedCornerShape(18.dp))
+    Modifier.width(128.dp).fillMaxHeight().clip(RoundedCornerShape(18.dp)).background(if (on) Raised else Panel, RoundedCornerShape(18.dp))
         .border(1.5.dp, if (on) Fg else Line, RoundedCornerShape(18.dp))
         .selectable(on, role = Role.RadioButton, onClick = onClick).padding(start = 8.dp, end = 8.dp, top = 8.dp, bottom = 12.dp),
     Arrangement.spacedBy(8.dp),

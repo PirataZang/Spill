@@ -16,7 +16,8 @@ class Catalog private constructor(
     class Language(val code: String, val label: String)
     class Text(val title: String, val prompt: String)
     class Meta(val name: String, val label: String, val blurb: String)
-    class Deck(val id: String, val color: Long, val ink: Long, val glow: Long, val meta: Map<String, Meta>) {
+    /** [inRandom] = false keeps the deck out of the Aleatório mix; it still plays in Temático. */
+    class Deck(val id: String, val color: Long, val ink: Long, val glow: Long, val meta: Map<String, Meta>, val inRandom: Boolean = true) {
         val cards = ArrayList<Card>()
     }
     class Card(val deck: Deck, val n: Int, val kind: String, val by: String?, val text: Map<String, Text>)
@@ -39,7 +40,7 @@ class Catalog private constructor(
                 val meta = langs.associate { l ->
                     l.code to j.getJSONObject("meta").getJSONObject(l.code).let { Meta(it.getString("name"), it.getString("label"), it.getString("blurb")) }
                 }
-                Deck(id, color, hex(j.getString("ink")), j.optString("glow").takeIf { it.isNotEmpty() }?.let(::hex) ?: color, meta).also { deck ->
+                Deck(id, color, hex(j.getString("ink")), j.optString("glow").takeIf { it.isNotEmpty() }?.let(::hex) ?: color, meta, j.optBoolean("random", true)).also { deck ->
                     j.getJSONArray("cards").objects().forEachIndexed { i, c ->
                         val kind = c.getString("kind")
                         langs.forEach { check(strings.getValue(it.code).getJSONObject("kinds").has(kind)) { "$id #${i + 1}: kind '$kind' missing in i18n/${it.code}.json" } }

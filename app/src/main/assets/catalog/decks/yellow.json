@@ -236,6 +236,338 @@
         "title": "Zona de Conforto",
         "prompt": "O que você fez recentemente que estava fora da sua zona de conforto?"
       }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Proudest Moment",
+        "prompt": "What moment in your life were you proudest of yourself?"
+      },
+      "pt": {
+        "title": "Maior Orgulho",
+        "prompt": "Qual foi o momento da sua vida em que você mais se orgulhou de si?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Award",
+        "prompt": "If there were an award for something you do really well, what would it be?"
+      },
+      "pt": {
+        "title": "Prêmio",
+        "prompt": "Se existisse um prêmio para algo que você faz muito bem, qual seria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Year Goal",
+        "prompt": "What is the most important goal of your year? How is it going?"
+      },
+      "pt": {
+        "title": "Meta do Ano",
+        "prompt": "Qual é a meta mais importante do seu ano? Como está indo?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Hidden Figures",
+        "prompt": "Who inspired you to go beyond what was expected of you?"
+      },
+      "pt": {
+        "title": "Estrelas Além do Tempo",
+        "prompt": "Quem te inspirou a ir além do que esperavam de você?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dream Place",
+        "prompt": "Which place in the world will you not die without seeing?"
+      },
+      "pt": {
+        "title": "Lugar dos Sonhos",
+        "prompt": "Qual lugar do mundo você não morre sem conhecer?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Learn Something",
+        "prompt": "What would you like to learn from scratch this year?"
+      },
+      "pt": {
+        "title": "Aprender do Zero",
+        "prompt": "O que você gostaria de aprender do zero este ano?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Biggest Challenge",
+        "prompt": "What was your biggest physical or mental challenge? How did you overcome it?"
+      },
+      "pt": {
+        "title": "Maior Desafio",
+        "prompt": "Qual foi o seu maior desafio físico ou mental? Como superou?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Trip",
+        "prompt": "What was your first trip alone or with friends? How was it?"
+      },
+      "pt": {
+        "title": "Primeira Viagem",
+        "prompt": "Qual foi a sua primeira viagem sozinho ou com amigos? Como foi?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Eminem",
+      "en": {
+        "title": "Lose Yourself",
+        "prompt": "Which opportunity did you grab at just the right time?"
+      },
+      "pt": {
+        "title": "Lose Yourself",
+        "prompt": "Qual foi a oportunidade que você agarrou na hora certa?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Retirement",
+        "prompt": "Where and how do you want to live when you retire?"
+      },
+      "pt": {
+        "title": "Aposentadoria",
+        "prompt": "Onde e como você quer viver quando se aposentar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Your Book",
+        "prompt": "If you wrote a book, what would it be about?"
+      },
+      "pt": {
+        "title": "Seu Livro",
+        "prompt": "Se você escrevesse um livro, qual seria o tema?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Small Win",
+        "prompt": "What small win made you happiest this week?"
+      },
+      "pt": {
+        "title": "Vitória Pequena",
+        "prompt": "Qual vitória pequena mais te alegrou esta semana?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Incredibles",
+        "prompt": "What is your superpower at work or in your studies?"
+      },
+      "pt": {
+        "title": "Os Incríveis",
+        "prompt": "Qual é o seu superpoder no trabalho ou nos estudos?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Your Own Place",
+        "prompt": "What is the home you want to have one day?"
+      },
+      "pt": {
+        "title": "Casa Própria",
+        "prompt": "Como é a casa que você quer ter um dia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Mentor",
+        "prompt": "Who taught you the most in life? What did they say that stuck?"
+      },
+      "pt": {
+        "title": "Mentor",
+        "prompt": "Quem foi a pessoa que mais te ensinou na vida? O que ela disse que ficou?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Your Own Business",
+        "prompt": "If you opened a business tomorrow, what would it be?"
+      },
+      "pt": {
+        "title": "Negócio Próprio",
+        "prompt": "Se abrisse um negócio amanhã, qual seria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "City to Live In",
+        "prompt": "In which city, in any country, would you like to live?"
+      },
+      "pt": {
+        "title": "Cidade para Viver",
+        "prompt": "Em qual cidade, de qualquer país, você gostaria de morar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Comeback",
+        "prompt": "Tell us about a time you fell and came back stronger."
+      },
+      "pt": {
+        "title": "Volta por Cima",
+        "prompt": "Conte uma vez em que você caiu e se levantou mais forte."
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "MasterChef",
+        "prompt": "Which dish would you cook to win a cooking competition?"
+      },
+      "pt": {
+        "title": "MasterChef",
+        "prompt": "Qual prato você faria para vencer uma competição de culinária?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dream Hobby",
+        "prompt": "Which hobby would you most like to master?"
+      },
+      "pt": {
+        "title": "Hobby Dos Sonhos",
+        "prompt": "Qual hobby você mais gostaria de dominar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Day Off",
+        "prompt": "What do you do with a free day all to yourself?"
+      },
+      "pt": {
+        "title": "Dia de Folga",
+        "prompt": "O que você faz com um dia livre só seu?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Big Thing",
+        "prompt": "What is the first hard thing you did that you are proud of?"
+      },
+      "pt": {
+        "title": "Primeiro Desafio",
+        "prompt": "Qual foi a primeira coisa difícil que você fez e da qual se orgulha?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Journey",
+      "en": {
+        "title": "Don’t Stop Believin’",
+        "prompt": "What do you keep believing in even when nobody else does?"
+      },
+      "pt": {
+        "title": "Don’t Stop Believin’",
+        "prompt": "Em que você continua acreditando mesmo quando ninguém acredita?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "A Cause",
+        "prompt": "Which cause would you like to support?"
+      },
+      "pt": {
+        "title": "Causa",
+        "prompt": "Que causa você gostaria de apoiar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Family Recipe",
+        "prompt": "Which family dish do you want to learn to make?"
+      },
+      "pt": {
+        "title": "Receita de Família",
+        "prompt": "Qual prato da sua família você quer aprender a fazer?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Bold Goal",
+        "prompt": "What is the boldest goal you have ever had?"
+      },
+      "pt": {
+        "title": "Meta Ousada",
+        "prompt": "Qual é a meta mais ousada que você já teve?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Moana",
+        "prompt": "What call did you follow even though you were afraid?"
+      },
+      "pt": {
+        "title": "Moana",
+        "prompt": "Qual foi o chamado que você seguiu mesmo com medo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Sport",
+        "prompt": "Which sport do you play, or would you like to play, with passion?"
+      },
+      "pt": {
+        "title": "Esporte",
+        "prompt": "Qual esporte você pratica ou gostaria de praticar com paixão?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Confidence",
+        "prompt": "In which situation do you feel most confident?"
+      },
+      "pt": {
+        "title": "Confiança",
+        "prompt": "Em que situação você se sente mais confiante?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Ten Years from Now",
+        "prompt": "What do you want to have done ten years from now?"
+      },
+      "pt": {
+        "title": "Daqui a Dez Anos",
+        "prompt": "O que você quer ter feito daqui a dez anos?"
+      }
     }
   ]
 }

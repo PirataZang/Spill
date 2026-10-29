@@ -4,27 +4,19 @@
 </defs>
 <g transform="rotate(-30 120 236)">
 <rect x="84" y="56" width="72" height="104" rx="11" fill="#168048" filter="url(#spill-s)"></rect>
-<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"></rect>
-<g clip-path="url(#spill-k)"><ellipse cx="120" cy="110" rx="46" ry="17" transform="rotate(-28 120 110)" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".42" stroke-width="2"></ellipse></g>
-<circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
+<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"></rect><circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
 </g>
 <g transform="rotate(-15 120 236)">
 <rect x="84" y="56" width="72" height="104" rx="11" fill="#2A5BE8" filter="url(#spill-s)"></rect>
-<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"></rect>
-<g clip-path="url(#spill-k)"><ellipse cx="120" cy="110" rx="46" ry="17" transform="rotate(-28 120 110)" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".42" stroke-width="2"></ellipse></g>
-<circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
+<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"></rect><circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
 </g>
 <g transform="rotate(0 120 236)">
 <rect x="84" y="56" width="72" height="104" rx="11" fill="#F7C531" filter="url(#spill-s)"></rect>
-<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="2"></rect>
-<g clip-path="url(#spill-k)"><ellipse cx="120" cy="110" rx="46" ry="17" transform="rotate(-28 120 110)" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".6" stroke-width="2"></ellipse></g>
-<circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
+<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="2"></rect><circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
 </g>
 <g transform="rotate(15 120 236)">
 <rect x="84" y="56" width="72" height="104" rx="11" fill="#D7263D" filter="url(#spill-s)"></rect>
-<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"></rect>
-<g clip-path="url(#spill-k)"><ellipse cx="120" cy="110" rx="46" ry="17" transform="rotate(-28 120 110)" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".42" stroke-width="2"></ellipse></g>
-<circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
+<rect x="89.5" y="61.5" width="61" height="93" rx="7" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"></rect><circle cx="97" cy="74" r="3.2" fill="#fff"></circle>
 </g>
 <g transform="rotate(30 120 236)">
 <rect x="84" y="56" width="72" height="104" rx="11" fill="#0D0D10" stroke="#fff" stroke-opacity=".16" stroke-width="1" filter="url(#spill-s)"></rect>
@@ -35,4 +27,4 @@
 <circle cx="120" cy="108.5" r="2.4" fill="#0D0D10"></circle>
 <circle cx="127" cy="108.5" r="2.4" fill="#0D0D10"></circle>
 </g>
-</svg>
+

@@ -236,6 +236,337 @@
         "title": "Corte de Cabelo",
         "prompt": "Conte sobre o pior corte de cabelo da sua vida. Quanto tempo levou pra crescer?"
       }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Slip of the Tongue",
+        "prompt": "What was the most embarrassing slip you ever made while talking?"
+      },
+      "pt": {
+        "title": "Escorregada na Fala",
+        "prompt": "Qual foi a gafe mais constrangedora que você já cometeu falando?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Video Call",
+        "prompt": "What was your biggest blunder on a video call?"
+      },
+      "pt": {
+        "title": "Chamada de Vídeo",
+        "prompt": "Qual foi o seu maior mico numa chamada de vídeo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Elevator",
+        "prompt": "What embarrassing thing have you done in an elevator?"
+      },
+      "pt": {
+        "title": "Elevador",
+        "prompt": "O que você já fez de vergonhoso num elevador?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Mamma Mia!",
+        "prompt": "When did you sing or dance where you should not have?"
+      },
+      "pt": {
+        "title": "Mamma Mia!",
+        "prompt": "Quando você cantou ou dançou onde não devia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Selfie",
+        "prompt": "What is the most embarrassing selfie you ever took?"
+      },
+      "pt": {
+        "title": "Selfie",
+        "prompt": "Qual foi a selfie mais vergonhosa que você já tirou?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Look Phase",
+        "prompt": "What was your weirdest look phase?"
+      },
+      "pt": {
+        "title": "Fase do Visual",
+        "prompt": "Qual foi a fase mais estranha do seu visual?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Public Mishap",
+        "prompt": "What was your worst mishap in a public place?"
+      },
+      "pt": {
+        "title": "Perrengue Público",
+        "prompt": "Qual foi o seu pior perrengue em lugar público?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Kitchen Disaster",
+        "prompt": "What was your worst kitchen disaster?"
+      },
+      "pt": {
+        "title": "Desastre na Cozinha",
+        "prompt": "Qual foi o seu pior desastre na cozinha?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Everybody Hates Chris",
+        "prompt": "What is the most embarrassing thing your parents did in front of your friends?"
+      },
+      "pt": {
+        "title": "Todo Mundo Odeia o Chris",
+        "prompt": "Qual foi a coisa mais vergonhosa que seus pais já fizeram na frente dos seus amigos?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Tongue Twister",
+        "prompt": "Which word do you always mispronounce?"
+      },
+      "pt": {
+        "title": "Língua Enrolada",
+        "prompt": "Qual palavra você sempre pronuncia errado?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Odd Gift",
+        "prompt": "What was the strangest gift you ever gave or received?"
+      },
+      "pt": {
+        "title": "Presente Esquisito",
+        "prompt": "Qual foi o presente mais estranho que você já deu ou ganhou?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dance Move",
+        "prompt": "Show us your worst dance move. What is it called?"
+      },
+      "pt": {
+        "title": "Passo de Dança",
+        "prompt": "Mostre o seu pior passo de dança. Qual é o nome dele?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Imaginary Friend",
+        "prompt": "Did you have an imaginary friend or a weird childhood habit?"
+      },
+      "pt": {
+        "title": "Amigo Imaginário",
+        "prompt": "Você tinha um amigo imaginário ou um hábito estranho de criança?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Total Blank",
+        "prompt": "When did you forget something extremely important?"
+      },
+      "pt": {
+        "title": "Esquecimento Total",
+        "prompt": "Quando você esqueceu algo importantíssimo?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Aqua",
+      "en": {
+        "title": "Barbie Girl",
+        "prompt": "Which song do you pretend not to like but sing word for word?"
+      },
+      "pt": {
+        "title": "Barbie Girl",
+        "prompt": "Qual música você finge que não gosta, mas canta inteira?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Lost",
+        "prompt": "When did you get embarrassingly lost?"
+      },
+      "pt": {
+        "title": "Perdido",
+        "prompt": "Quando você se perdeu de um jeito vergonhoso?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "At the Register",
+        "prompt": "When did you get to the register without money or a card?"
+      },
+      "pt": {
+        "title": "No Caixa",
+        "prompt": "Qual foi a vez que você chegou ao caixa sem dinheiro ou cartão?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Worst Photo",
+        "prompt": "Which photo of yourself would you ask to delete from the internet?"
+      },
+      "pt": {
+        "title": "Pior Foto",
+        "prompt": "Qual foto sua você pediria para apagar da internet?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Wrong Class",
+        "prompt": "Did you ever take a class that had nothing to do with you?"
+      },
+      "pt": {
+        "title": "Aula Errada",
+        "prompt": "Você já fez uma aula que não tinha nada a ver com você?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Teen Show",
+        "prompt": "What embarrassing fashion did you wear, convinced it looked great?"
+      },
+      "pt": {
+        "title": "Malhação",
+        "prompt": "Qual moda vergonhosa você já usou achando linda?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Voicemail",
+        "prompt": "Did you ever leave an embarrassing voicemail? What did it say?"
+      },
+      "pt": {
+        "title": "Recado de Voz",
+        "prompt": "Você já deixou um recado de voz vergonhoso? O que dizia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Old Username",
+        "prompt": "What was your cringe username or email address as a teenager?"
+      },
+      "pt": {
+        "title": "Nome de Usuário",
+        "prompt": "Qual era o seu nome de usuário ou e-mail cringe da adolescência?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Corny Joke",
+        "prompt": "Tell the corniest joke you know."
+      },
+      "pt": {
+        "title": "Piada Sem Graça",
+        "prompt": "Conte a piada mais sem graça que você sabe."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Wrong Stop",
+        "prompt": "When did you get off at the wrong stop or into the wrong car?"
+      },
+      "pt": {
+        "title": "Parada Errada",
+        "prompt": "Quando você desceu no ponto errado ou entrou no carro errado?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Secondhand Shame",
+        "prompt": "What gives you the most secondhand embarrassment?"
+      },
+      "pt": {
+        "title": "Vergonha Alheia",
+        "prompt": "De que você mais sente vergonha alheia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Old Messages",
+        "prompt": "What is the most embarrassing message still on your phone?"
+      },
+      "pt": {
+        "title": "Mensagem Antiga",
+        "prompt": "Qual é a mensagem mais vergonhosa que ainda existe no seu celular?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Diary of a Wimpy Kid",
+        "prompt": "What was your biggest school blunder that everyone saw?"
+      },
+      "pt": {
+        "title": "Diário de um Banana",
+        "prompt": "Qual foi o seu maior mico na escola que todo mundo viu?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Sports Fail",
+        "prompt": "What was your worst performance in a sport or game?"
+      },
+      "pt": {
+        "title": "Desempenho Ruim",
+        "prompt": "Qual foi o seu pior desempenho num esporte ou jogo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Mixed-up Name",
+        "prompt": "When did you call someone by the wrong name?"
+      },
+      "pt": {
+        "title": "Nome Trocado",
+        "prompt": "Quando você chamou alguém pelo nome errado?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Concert",
+        "prompt": "At which concert or event did you embarrass yourself the most?"
+      },
+      "pt": {
+        "title": "Show",
+        "prompt": "Em qual show ou evento você mais passou vergonha?"
+      }
     }
   ]
 }

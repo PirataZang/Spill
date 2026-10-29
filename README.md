@@ -33,11 +33,16 @@ Ele tem dois lados:
 |  | 💬 **Spill, a conversa** | 🥃 **Modo Drink +18, os jogos de shot** |
 |---|---|---|
 | **Para quê** | Quebrar o gelo e puxar assunto de verdade | Animar a noite com jogos de bebida |
-| **Como** | Cartas de filmes, séries, músicas e temas, em 5 baralhos coloridos | 6 jogos com níveis de intensidade e escala de shots |
+| **Como** | Cartas de filmes, séries, músicas, temas e cantadas, em 7 baralhos coloridos | 6 jogos com níveis de intensidade e escala de shots |
 | **Clima** | Leve, de qualquer idade | Só para maiores de 18 |
-| **Cartas** | 100, em português e inglês | 1.200, em português |
+| **Cartas** | 350, em português e inglês | 1.200, em português |
 
 Sem cadastro, sem internet, sem anúncio. Abriu, escolheu, jogou.
+
+<p align="center">
+  <img src="docs/trio.png" alt="Três cartas do Spill: conversa, Desafio e Prefere" width="860"><br>
+  <sub>Três jeitos de jogar: uma carta de conversa, um Desafio e um Prefere.</sub>
+</p>
 
 ---
 
@@ -51,13 +56,15 @@ Uma conversa de verdade começa com uma boa pergunta. Cada carta traz uma: *"Que
 
 ### Como se joga
 
-1. **Escolha um modo.** *Aleatório* mistura todos os baralhos. *Temático* fica numa cor só, e a rodada inteira tem o mesmo clima.
+1. **Escolha um modo.** *Aleatório* mistura os baralhos, menos o das Cantadas. *Temático* fica numa cor só, e a rodada inteira tem o mesmo clima.
 2. **Leia a carta em voz alta** e fale por mais ou menos um minuto.
 3. **Continue a conversa.** Todo mundo pode fazer perguntas ou entrar com a própria história.
 4. **Próxima carta.** Arraste a carta para qualquer lado da tela, ou toque em *Próxima*.
 5. **Pontos, se quiserem.** Depois de cada resposta, o grupo dá um ponto para a mais criativa. Ninguém ganha de verdade.
 
-### Os cinco baralhos
+### Os sete baralhos
+
+São **50 cartas em cada baralho**, **350 cartas** de conversa no total, em português e inglês.
 
 | Cor | Baralho | Clima |
 |---|---|---|
@@ -66,6 +73,16 @@ Uma conversa de verdade começa com uma boa pergunta. Cada carta traz uma: *"Que
 | 🟡 Amarelo | **Conquistas** | Vitórias, sonhos e lugares que você quer conhecer |
 | 🔴 Vermelho | **Romance** | Amor, primeiros encontros, crushes |
 | ⚫ Preto | **Cringe** | Micos, vergonhas e comédia pura |
+| 🟠 Laranja | **Dates** | Perguntas para um encontro, para sair do papo de elevador e conhecer a pessoa de verdade |
+| 🩷 Rosa | **Cantadas** | Cantadas e elogios melhores que um “linda” ou “lindo”. Leia para alguém da roda e deixe a pessoa dar nota, ou use de verdade para chamar alguém para sair |
+
+<p align="center">
+  <img src="docs/cards-novas.png" alt="Cartas dos baralhos Dates e Cantadas" width="520"><br>
+  <sub>Os dois baralhos mais novos: Dates e Cantadas.</sub>
+</p>
+
+- **Dates** traz 50 perguntas pensadas para instigar: das leves ("Qual é o seu lugar favorito no mundo?") às que fazem o papo ficar de verdade ("Qual é o seu maior arrependimento, e o que você aprendeu com ele?").
+- **Cantadas** mistura três estilos de abertura: **diretas** ("Sem rodeio: achei você muito interessante. Posso te pagar um café?"), **despretensiosas** ("Nunca vim aqui. O que você recomenda pedir?") e **bem-humoradas** ("Plano A era ficar quieto. O plano B era vir falar com você."). Estudos sobre aberturas, como o de Kleinke e colegas, indicam que as diretas e as despretensiosas costumam funcionar melhor que as "fofinhas" de efeito. Nenhuma frase garante resultado: o que pesa é o jeito e o interesse dos dois lados.
 
 O idioma muda no topo da tela, entre **PT** e **EN**.
 
@@ -163,7 +180,7 @@ catalog/
 }
 ```
 
-`kind` é uma chave traduzida em `i18n/*.json` (`Movie`, `Series`, `Song`, `Topic`). **Novo baralho:** crie `decks/<id>.json` e liste o `<id>` em `index.json`. **Novo idioma:** crie `i18n/<codigo>.json`, declare-o em `index.json` e traduza cada carta.
+`kind` é uma chave traduzida em `i18n/*.json` (`Movie`, `Series`, `Song`, `Topic`, `Pickup`). **Novo baralho:** crie `decks/<id>.json` e liste o `<id>` em `index.json`. Para um baralho ficar de fora do modo Aleatório, como o das Cantadas, ponha `"random": false` no JSON dele. **Novo idioma:** crie `i18n/<codigo>.json`, declare-o em `index.json` e traduza cada carta.
 
 **Jogos de shot: nova carta.** `drink.json` tem um array por jogo (`dare`, `never`, `doit`, `paranoia`, `likely`, `prefer`). Basta um objeto:
 

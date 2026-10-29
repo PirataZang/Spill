@@ -5,7 +5,7 @@
   "tagline": "Draw a card. Talk in English. Decide who nailed it.",
   "mode": "Mode",
   "random": "Random",
-  "randomDesc": "All five colors shuffled into one deck.",
+  "randomDesc": "The colors shuffled into one deck. Pickup Lines stay out.",
   "themed": "Themed",
   "themedDesc": "Pick one color and stay in its mood.",
   "color": "Color",
@@ -23,7 +23,7 @@
   "steps": [
     {
       "b": "Pick a mode.",
-      "t": "Random mixes all five colors. Themed keeps one color, so the whole round shares a mood."
+      "t": "Random mixes the decks, except Pickup Lines, which only play in Themed. Themed keeps one color, so the whole round shares a mood."
     },
     {
       "b": "Read the card out loud.",
@@ -40,14 +40,15 @@
   ],
   "points": "Points, if you want them",
   "pointsText": "After each answer, the group gives one point to the most creative or interesting one. The best compliment in Spill is “Okay, you got me on that one.”",
-  "colors": "The five colors",
+  "colors": "The seven colors",
   "note": "Mistakes are part of the game. Nobody stops a story to fix grammar.",
   "tagline2": "A conversation game for two or more players.",
   "kinds": {
     "Movie": "Movie",
     "Series": "Series",
     "Song": "Song",
-    "Topic": "Topic"
+    "Topic": "Topic",
+    "Pickup": "Pickup line"
   },
   "menu": "← Menu",
   "menuShort": "Menu",

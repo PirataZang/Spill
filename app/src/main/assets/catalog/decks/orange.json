@@ -1,0 +1,571 @@
+{
+  "color": "#F06A24",
+  "ink": "#1F0E04",
+  "meta": {
+    "en": {
+      "name": "Orange",
+      "label": "Dates",
+      "blurb": "Questions for a date. Get past small talk and actually get to know the person."
+    },
+    "pt": {
+      "name": "Laranja",
+      "label": "Dates",
+      "blurb": "Perguntas para um encontro. Para sair do papo de elevador e conhecer a pessoa de verdade."
+    }
+  },
+  "cards": [
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Before Sunrise",
+        "prompt": "If we only had tonight, what would you want to do?"
+      },
+      "pt": {
+        "title": "Antes do Amanhecer",
+        "prompt": "Se a gente só tivesse esta noite, o que você ia querer fazer?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Impression",
+        "prompt": "What was your first impression of me? Be honest."
+      },
+      "pt": {
+        "title": "Primeira Impressão",
+        "prompt": "Qual foi a sua primeira impressão de mim? Pode ser sincero."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Favorite Place",
+        "prompt": "What is your favorite place in the world? Take me there with words."
+      },
+      "pt": {
+        "title": "Lugar Favorito",
+        "prompt": "Qual é o seu lugar favorito no mundo? Me leve até lá com as palavras."
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Édith Piaf",
+      "en": {
+        "title": "La Vie en Rose",
+        "prompt": "What song plays in your head when you are happy?"
+      },
+      "pt": {
+        "title": "La Vie en Rose",
+        "prompt": "Qual música toca na sua cabeça quando você está feliz?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Perfect Sunday",
+        "prompt": "What would your perfect Sunday look like, from breakfast to bedtime?"
+      },
+      "pt": {
+        "title": "Domingo Perfeito",
+        "prompt": "Como seria o seu domingo perfeito, do café da manhã até dormir?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Friends",
+        "prompt": "Which sitcom character are you in your friend group?"
+      },
+      "pt": {
+        "title": "Friends",
+        "prompt": "Qual personagem de série você é no seu grupo de amigos?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Biggest Dream",
+        "prompt": "If money and time were no problem, what would you do with your life?"
+      },
+      "pt": {
+        "title": "Maior Sonho",
+        "prompt": "Se dinheiro e tempo não fossem problema, o que você faria da vida?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Amélie",
+        "prompt": "What small habit makes your day better?"
+      },
+      "pt": {
+        "title": "O Fabuloso Destino de Amélie Poulain",
+        "prompt": "Qual é a sua mania pequena que deixa o seu dia melhor?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Weird Habit",
+        "prompt": "What is your weirdest habit? I promise I will not judge."
+      },
+      "pt": {
+        "title": "Mania Estranha",
+        "prompt": "Qual é a sua mania mais estranha? Juro que não vou julgar."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Best Memory",
+        "prompt": "What is the happiest memory from your childhood?"
+      },
+      "pt": {
+        "title": "Melhor Lembrança",
+        "prompt": "Qual é a lembrança mais feliz da sua infância?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "About Time",
+        "prompt": "If you could relive one day of your life, which would it be?"
+      },
+      "pt": {
+        "title": "Questão de Tempo",
+        "prompt": "Se pudesse reviver um dia da sua vida, qual seria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Two Truths and a Lie",
+        "prompt": "Tell me two truths and a lie about yourself. I will try to guess."
+      },
+      "pt": {
+        "title": "Duas Verdades e uma Mentira",
+        "prompt": "Conte duas verdades e uma mentira sobre você. Eu tento adivinhar."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dream Dinner",
+        "prompt": "Who, past or present, would you have dinner with? Why?"
+      },
+      "pt": {
+        "title": "Jantar dos Sonhos",
+        "prompt": "Com quem, do passado ou do presente, você jantaria? Por quê?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Bruno Mars",
+      "en": {
+        "title": "Count on Me",
+        "prompt": "Who is the person you can always count on?"
+      },
+      "pt": {
+        "title": "Count on Me",
+        "prompt": "Quem é a pessoa com quem você sempre pode contar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "What Draws You",
+        "prompt": "What attracts you most to someone, besides looks?"
+      },
+      "pt": {
+        "title": "O Que Te Atrai",
+        "prompt": "O que mais te atrai numa pessoa, além da aparência?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "How I Met Your Mother",
+        "prompt": "How do you imagine you will meet the love of your life?"
+      },
+      "pt": {
+        "title": "Como Eu Conheci Sua Mãe",
+        "prompt": "Como você imagina que vai conhecer a pessoa da sua vida?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Trip for Two",
+        "prompt": "Where would you take me for a weekend trip?"
+      },
+      "pt": {
+        "title": "Viagem a Dois",
+        "prompt": "Para onde você me levaria numa viagem de fim de semana?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Deal Breaker",
+        "prompt": "What ends a date for you on the spot?"
+      },
+      "pt": {
+        "title": "Fim de Papo",
+        "prompt": "O que, para você, termina um encontro na hora?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Bridget Jones’s Diary",
+        "prompt": "What was your most disastrous date? Tell me everything."
+      },
+      "pt": {
+        "title": "O Diário de Bridget Jones",
+        "prompt": "Qual foi o seu encontro mais desastroso? Conte tudo."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Next Date",
+        "prompt": "What would you like to do on our next date?"
+      },
+      "pt": {
+        "title": "Próximo Encontro",
+        "prompt": "O que você gostaria de fazer no nosso próximo encontro?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Last Time",
+        "prompt": "When was the last time you changed your mind about something important?"
+      },
+      "pt": {
+        "title": "Última Vez",
+        "prompt": "Quando foi a última vez que você mudou de ideia sobre algo importante?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Last Day",
+        "prompt": "If today were your last day, who would you spend it with and what would you do?"
+      },
+      "pt": {
+        "title": "Último Dia",
+        "prompt": "Se hoje fosse o seu último dia, com quem você passaria e o que faria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Brave for Love",
+        "prompt": "What is the bravest thing you have ever done for someone?"
+      },
+      "pt": {
+        "title": "Coragem por Amor",
+        "prompt": "Qual é a coisa mais corajosa que você já fez por alguém?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Ten Years Ago",
+        "prompt": "If we had met ten years ago, what would have been different?"
+      },
+      "pt": {
+        "title": "Dez Anos Atrás",
+        "prompt": "Se a gente tivesse se conhecido há dez anos, o que teria sido diferente?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Misread",
+        "prompt": "What do people think about you that is completely wrong?"
+      },
+      "pt": {
+        "title": "Mal Compreendido",
+        "prompt": "O que as pessoas pensam de você que está completamente errado?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Regret",
+        "prompt": "What is your biggest regret, and what did you learn from it?"
+      },
+      "pt": {
+        "title": "Arrependimento",
+        "prompt": "Qual é o seu maior arrependimento, e o que você aprendeu com ele?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Unforgivable",
+        "prompt": "What would you never forgive in a relationship?"
+      },
+      "pt": {
+        "title": "Imperdoável",
+        "prompt": "O que você nunca perdoaria num relacionamento?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "The One That Stayed",
+        "prompt": "Which crush did you never forget? What was special about them?"
+      },
+      "pt": {
+        "title": "O Crush que Ficou",
+        "prompt": "Qual crush você nunca esqueceu? O que ele tinha de especial?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Last Tears",
+        "prompt": "When was the last time you cried, and why?"
+      },
+      "pt": {
+        "title": "Última Lágrima",
+        "prompt": "Quando foi a última vez que você chorou, e por quê?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Feeling Alive",
+        "prompt": "What makes you feel most alive?"
+      },
+      "pt": {
+        "title": "Sentir-se Vivo",
+        "prompt": "O que faz você se sentir mais vivo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "The First Sign",
+        "prompt": "How do you know you are falling for someone? What is the first sign?"
+      },
+      "pt": {
+        "title": "O Primeiro Sinal",
+        "prompt": "Como você sabe que está gostando de alguém? Qual é o primeiro sinal?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Guess",
+        "prompt": "What do you think my love language is? Why?"
+      },
+      "pt": {
+        "title": "Adivinhe",
+        "prompt": "Qual você acha que é a minha linguagem do amor? Por quê?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Three Words",
+        "prompt": "In three words, how would you describe me after tonight?"
+      },
+      "pt": {
+        "title": "Três Palavras",
+        "prompt": "Em três palavras, como você me descreveria depois desta noite?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Charming Flaw",
+        "prompt": "Which of your flaws do you find charming?"
+      },
+      "pt": {
+        "title": "Defeito com Charme",
+        "prompt": "Qual é o seu defeito que você acha charmoso?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Couple Habit",
+        "prompt": "Which couple habit do you find the sweetest? And the most unbearable?"
+      },
+      "pt": {
+        "title": "Hábito de Casal",
+        "prompt": "Qual hábito de casal você acha o mais bonito? E o mais insuportável?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Ed Sheeran",
+      "en": {
+        "title": "Thinking Out Loud",
+        "prompt": "How do you want to be thirty years from now, next to someone?"
+      },
+      "pt": {
+        "title": "Thinking Out Loud",
+        "prompt": "Como você quer estar daqui a trinta anos ao lado de alguém?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Hitch",
+        "prompt": "What is your best flirting talent? Give me a demo."
+      },
+      "pt": {
+        "title": "Hitch: Conselheiro Amoroso",
+        "prompt": "Qual é o seu maior talento para flertar? Faça uma demonstração."
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Notting Hill",
+        "prompt": "Would you date someone very famous? Why?"
+      },
+      "pt": {
+        "title": "Um Lugar Chamado Notting Hill",
+        "prompt": "Você toparia namorar alguém muito famoso? Por quê?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Bridgerton",
+        "prompt": "Which dating rule would you break tonight?"
+      },
+      "pt": {
+        "title": "Bridgerton",
+        "prompt": "Qual regra de etiqueta de namoro você quebraria hoje?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Kiss",
+        "prompt": "How was your first kiss? Tell me the whole story."
+      },
+      "pt": {
+        "title": "Primeiro Beijo",
+        "prompt": "Como foi o seu primeiro beijo? Me conte a história toda."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Missing Words",
+        "prompt": "What do you wish someone told you more often?"
+      },
+      "pt": {
+        "title": "Palavras que Faltam",
+        "prompt": "O que você gostaria que alguém te dissesse mais vezes?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Afraid to Let Go",
+        "prompt": "What scares you about truly opening up to someone?"
+      },
+      "pt": {
+        "title": "Medo de Se Entregar",
+        "prompt": "O que te assusta em se entregar de verdade para alguém?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Jealousy",
+        "prompt": "Are you the jealous type? When was the last time?"
+      },
+      "pt": {
+        "title": "Ciúme",
+        "prompt": "Você é ciumento ou ciumenta? Quando foi a última vez?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "The Blanket",
+        "prompt": "Are you the blanket thief or the one left without? Be honest."
+      },
+      "pt": {
+        "title": "Cobertor",
+        "prompt": "Você é do tipo que rouba o cobertor ou que fica sem? Seja honesto."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Saturday Night",
+        "prompt": "Club, couch or road trip? How do you like to spend a Saturday night?"
+      },
+      "pt": {
+        "title": "Sábado à Noite",
+        "prompt": "Balada, sofá ou viagem? Como você prefere passar um sábado à noite?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "The Question",
+        "prompt": "What is the question you most wish someone would ask you, but nobody does?"
+      },
+      "pt": {
+        "title": "A Pergunta",
+        "prompt": "Qual é a pergunta que você mais queria que alguém te fizesse e ninguém faz?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Silly Secret",
+        "prompt": "Tell me a silly secret almost nobody knows."
+      },
+      "pt": {
+        "title": "Segredo Bobo",
+        "prompt": "Conte um segredo bobo que quase ninguém sabe."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Chemistry",
+        "prompt": "Is chemistry instant or built over time? Has it happened to you?"
+      },
+      "pt": {
+        "title": "Química",
+        "prompt": "Química se sente na hora ou se constrói? Já aconteceu com você?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Ideal Kiss",
+        "prompt": "Where and how would the perfect kiss happen, in your head?"
+      },
+      "pt": {
+        "title": "Beijo Ideal",
+        "prompt": "Onde e como seria o beijo perfeito, na sua cabeça?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Fresh Start",
+        "prompt": "If you could start over in another city, where would you go and with whom?"
+      },
+      "pt": {
+        "title": "Recomeço",
+        "prompt": "Se pudesse recomeçar a vida em outra cidade, para onde iria e com quem?"
+      }
+    }
+  ]
+}

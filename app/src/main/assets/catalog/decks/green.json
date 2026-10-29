@@ -235,6 +235,338 @@
         "title": "Vizinhos",
         "prompt": "Conte sobre o vizinho mais estranho que você já teve."
       }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Best Teacher",
+        "prompt": "Who was the best teacher you ever had? What did they do differently?"
+      },
+      "pt": {
+        "title": "Melhor Professor",
+        "prompt": "Quem foi o melhor professor que você já teve? O que ele fazia de diferente?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Cheat Sheet",
+        "prompt": "Did you ever cheat on a test? Tell us how it went."
+      },
+      "pt": {
+        "title": "Cola",
+        "prompt": "Você já colou numa prova? Conte como foi."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Group Project",
+        "prompt": "What was the worst group project of your life? Who did nothing?"
+      },
+      "pt": {
+        "title": "Trabalho em Grupo",
+        "prompt": "Qual foi o pior trabalho em grupo da sua vida? Quem não fez nada?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Inside Out",
+        "prompt": "Which emotion runs your day the most?"
+      },
+      "pt": {
+        "title": "Divertida Mente",
+        "prompt": "Qual emoção manda mais em você no dia a dia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Siblings",
+        "prompt": "What was the biggest fight you ever had with a sibling, cousin or childhood friend?"
+      },
+      "pt": {
+        "title": "Briga de Irmãos",
+        "prompt": "Qual foi a maior briga que você já teve com um irmão, primo ou amigo de infância?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Breakfast",
+        "prompt": "What do you eat in the morning when nobody is watching?"
+      },
+      "pt": {
+        "title": "Café da Manhã",
+        "prompt": "O que você come de manhã quando ninguém está olhando?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "El Chavo",
+        "prompt": "Which childhood character do you remember most? Why?"
+      },
+      "pt": {
+        "title": "Chaves",
+        "prompt": "Qual personagem de infância você mais lembra? Por quê?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Phone",
+        "prompt": "What was your first phone? Do you still remember the ringtone?"
+      },
+      "pt": {
+        "title": "Primeiro Celular",
+        "prompt": "Qual foi o seu primeiro celular? Você ainda lembra do toque?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Living Alone",
+        "prompt": "What was it like the first time you lived outside your parents’ home?"
+      },
+      "pt": {
+        "title": "Morar Sozinho",
+        "prompt": "Como foi a primeira vez que você morou fora da casa dos seus pais?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Holiday",
+        "prompt": "What is your favorite holiday? What do you do on it?"
+      },
+      "pt": {
+        "title": "Feriado",
+        "prompt": "Qual é o seu feriado favorito? O que você faz nele?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Pharrell Williams",
+      "en": {
+        "title": "Happy",
+        "prompt": "What usually puts you in a good mood first thing in the morning?"
+      },
+      "pt": {
+        "title": "Happy",
+        "prompt": "O que costuma te colocar de bom humor logo de manhã?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Meeting",
+        "prompt": "What was the longest, most pointless meeting you ever sat through?"
+      },
+      "pt": {
+        "title": "Reunião",
+        "prompt": "Qual foi a reunião mais longa e inútil que você já aguentou?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Lunch Break",
+        "prompt": "What is your ideal lunch on a work or school day?"
+      },
+      "pt": {
+        "title": "Hora do Almoço",
+        "prompt": "Como é o seu almoço ideal num dia de trabalho ou estudo?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Matilda",
+        "prompt": "Which book or story marked your childhood?"
+      },
+      "pt": {
+        "title": "Matilda",
+        "prompt": "Qual livro ou história marcou a sua infância?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Best Friend",
+        "prompt": "What is your best friend like? Why does the friendship last?"
+      },
+      "pt": {
+        "title": "Melhor Amigo",
+        "prompt": "Como é o seu melhor amigo ou amiga? Por que a amizade dura?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Night Routine",
+        "prompt": "What do you do every night before going to sleep?"
+      },
+      "pt": {
+        "title": "Rotina da Noite",
+        "prompt": "O que você faz antes de dormir todos os dias?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Favorite Class",
+        "prompt": "Which class did you never skip? And which did you skip?"
+      },
+      "pt": {
+        "title": "Aula Favorita",
+        "prompt": "Qual aula você nunca faltava? E qual você matava?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "The Big Bang Theory",
+        "prompt": "What is your nerdy side? What are you obsessed with?"
+      },
+      "pt": {
+        "title": "The Big Bang Theory",
+        "prompt": "Qual é o seu lado nerd? Pelo que você é viciado?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Shopping",
+        "prompt": "Do you prefer the supermarket, a street market or delivery? How do you shop?"
+      },
+      "pt": {
+        "title": "Compras",
+        "prompt": "Você prefere mercado, feira ou entrega em casa? Como faz as suas compras?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Pets",
+        "prompt": "Do you have, or did you ever have, a pet? Tell us a story about it."
+      },
+      "pt": {
+        "title": "Bichinho",
+        "prompt": "Você tem ou já teve um bichinho de estimação? Conte uma história dele."
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Shower Thoughts",
+        "prompt": "What do you think about when you are in the shower?"
+      },
+      "pt": {
+        "title": "Pensamento no Banho",
+        "prompt": "Sobre o que você pensa quando está no banho?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Messy Room",
+        "prompt": "Are you tidy or messy? What does your room look like right now?"
+      },
+      "pt": {
+        "title": "Quarto Bagunçado",
+        "prompt": "Você é do time arrumado ou bagunçado? Como está o seu quarto agora?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Mrs. Doubtfire",
+        "prompt": "What is the strangest job you ever had, or almost had?"
+      },
+      "pt": {
+        "title": "Uma Babá Quase Perfeita",
+        "prompt": "Qual foi o trabalho mais estranho que você já teve ou quase teve?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Classmate",
+        "prompt": "Which classmate did you never forget? What was special about them?"
+      },
+      "pt": {
+        "title": "Colega de Sala",
+        "prompt": "Qual colega de turma você nunca esqueceu? O que ele tinha de especial?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Monday",
+        "prompt": "What makes you hate (or love) Mondays?"
+      },
+      "pt": {
+        "title": "Segunda-feira",
+        "prompt": "O que te faz odiar (ou amar) as segundas-feiras?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Avicii",
+      "en": {
+        "title": "Wake Me Up",
+        "prompt": "What is your wake-up style? Up at the first alarm or the fifth?"
+      },
+      "pt": {
+        "title": "Wake Me Up",
+        "prompt": "Como é o seu jeito de acordar? Você levanta no primeiro ou no quinto despertador?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Birthday",
+        "prompt": "How do you like to celebrate your birthday?"
+      },
+      "pt": {
+        "title": "Aniversário",
+        "prompt": "Como você gosta de comemorar o seu aniversário?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Signature Dish",
+        "prompt": "Which dish would you cook to impress someone?"
+      },
+      "pt": {
+        "title": "Prato de Impressionar",
+        "prompt": "Qual prato você faria para impressionar alguém?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Commute Chaos",
+        "prompt": "What is the worst mess you have been through on public transport?"
+      },
+      "pt": {
+        "title": "Perrengue no Ônibus",
+        "prompt": "Qual foi o pior perrengue que você já passou no transporte público?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Life Lesson",
+        "prompt": "What is the most important life lesson you learned early?"
+      },
+      "pt": {
+        "title": "Lição de Vida",
+        "prompt": "Qual é a lição de vida mais importante que você aprendeu cedo?"
+      }
     }
   ]
 }

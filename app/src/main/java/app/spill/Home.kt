@@ -7,6 +7,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.border
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -100,14 +101,18 @@ private fun Setup(vm: SpillViewModel, themed: Boolean, onMode: (Boolean) -> Unit
         Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
             Eyebrow(vm.t("mode"))
             Row(Modifier.selectableGroup(), Arrangement.spacedBy(10.dp)) {
-                Mode(Modifier.weight(1f), !themed, { onMode(false) }, c.decks.map { Color(it.color) }, vm.t("random"), vm.t("randomDesc"))
+                Mode(Modifier.weight(1f), !themed, { onMode(false) }, c.decks.filter { it.inRandom }.map { Color(it.color) }, vm.t("random"), vm.t("randomDesc"))
                 Mode(Modifier.weight(1f), themed, { onMode(true) }, listOf(Color(deck.color)), vm.t("themed"), vm.t("themedDesc"))
             }
         }
         if (themed) Column {
             Eyebrow(vm.t("color"), Modifier.padding(bottom = 10.dp))
-            Row(Modifier.fillMaxWidth().selectableGroup(), Arrangement.spacedBy(6.dp)) {
-                c.decks.forEach { d -> Swatch(Modifier.weight(1f), d, d == deck, vm.lang) { onPick(d) } }
+            // seven colors do not fit in one row on a 360 dp phone, so the row scrolls, edge to edge
+            Row(
+                Modifier.bleed(16.dp).horizontalScroll(rememberScrollState()).selectableGroup().padding(horizontal = 16.dp),
+                Arrangement.spacedBy(6.dp),
+            ) {
+                c.decks.forEach { d -> Swatch(Modifier.width(64.dp), d, d == deck, vm.lang) { onPick(d) } }
             }
             val m = deck.meta.getValue(vm.lang)
             Column(Modifier.padding(top = 12.dp).heightIn(min = 62.dp)) {

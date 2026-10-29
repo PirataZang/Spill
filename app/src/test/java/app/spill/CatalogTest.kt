@@ -13,6 +13,10 @@ class CatalogTest {
         assertTrue(catalog.decks.size >= 2)
         catalog.decks.forEach { assertTrue("${it.id} is empty", it.cards.isNotEmpty()) }
         assertEquals(catalog.decks.sumOf { it.cards.size }, catalog.cards.size)
+        assertEquals(false, catalog.decks.first { it.id == "pink" }.inRandom) // Cantadas only play in Temático
+        // every conversation deck has 50 cards; no prompt repeats inside a deck
+        catalog.decks.forEach { assertEquals(it.id, 50, it.cards.size) }
+        catalog.decks.forEach { d -> catalog.languages.forEach { l -> assertEquals("${d.id}/${l.code}", d.cards.size, d.cards.map { it.text.getValue(l.code).prompt }.toSet().size) } }
         catalog.languages.forEach { l -> listOf("rules", "deal", "count", "tagline").forEach { catalog.t(l.code, it) } }
     }
 }

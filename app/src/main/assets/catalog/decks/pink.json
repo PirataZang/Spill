@@ -1,0 +1,569 @@
+{
+  "color": "#C72A73",
+  "ink": "#FFF0F6",
+  "random": false,
+  "meta": {
+    "en": {
+      "name": "Pink",
+      "label": "Pickup Lines",
+      "blurb": "Pickup lines and compliments better than a plain “you are pretty”. Read one to someone in the group and let them give it a score."
+    },
+    "pt": {
+      "name": "Rosa",
+      "label": "Cantadas",
+      "blurb": "Cantadas e elogios melhores que um “linda” ou “lindo”. Leia para alguém da roda e deixe a pessoa dar nota."
+    }
+  },
+  "cards": [
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Weather Forecast",
+        "prompt": "“The forecast said clear skies. Nobody warned me about you.”"
+      },
+      "pt": {
+        "title": "Previsão do Tempo",
+        "prompt": "“A previsão dizia céu limpo. Ninguém avisou que ia ter você.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Wi-Fi",
+        "prompt": "“I think there is Wi-Fi in here, because I am feeling a connection.”"
+      },
+      "pt": {
+        "title": "Wi-Fi",
+        "prompt": "“Acho que tem Wi-Fi aqui, porque estou sentindo uma conexão.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "GPS",
+        "prompt": "“I got lost in your eyes. Can I get your number to find my way back?”"
+      },
+      "pt": {
+        "title": "GPS",
+        "prompt": "“Me perdi nos seus olhos. Me passa o seu número pra eu achar o caminho de volta?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Coffee",
+        "prompt": "“You are like coffee: I cannot start my day without thinking of you.”"
+      },
+      "pt": {
+        "title": "Café",
+        "prompt": "“Você é como café: não consigo começar o dia sem pensar em você.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Stars",
+        "prompt": "“They say the stars are in the sky, but the brightest one is right in front of me.”"
+      },
+      "pt": {
+        "title": "Estrelas",
+        "prompt": "“Dizem que as estrelas estão no céu, mas a mais brilhante está bem na minha frente.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Battery",
+        "prompt": "“My phone is at 1%. Can I get your number before it dies?”"
+      },
+      "pt": {
+        "title": "Bateria",
+        "prompt": "“Meu celular está com 1% de bateria. Me passa o seu número antes que ele desligue?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Book",
+        "prompt": "“If you were a book, I would stay up all night never wanting to reach the end.”"
+      },
+      "pt": {
+        "title": "Livro",
+        "prompt": "“Se você fosse um livro, eu varava a noite sem querer chegar ao fim.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Pizza",
+        "prompt": "“You are my favorite pizza: I never get tired of you.”"
+      },
+      "pt": {
+        "title": "Pizza",
+        "prompt": "“Você é a minha pizza favorita: eu nunca enjoo.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Math",
+        "prompt": "“Are you good at math? Because you plus my day equals a smile.”"
+      },
+      "pt": {
+        "title": "Matemática",
+        "prompt": "“Você é boa em matemática? Porque você somada ao meu dia dá um sorriso.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Series",
+        "prompt": "“You are like a great series: I start one episode and want the whole season.”"
+      },
+      "pt": {
+        "title": "Série",
+        "prompt": "“Você é igual a série boa: começo um episódio e quero ver a temporada inteira.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Photograph",
+        "prompt": "“I took a photo of you only in my mind, and it will not leave my head.”"
+      },
+      "pt": {
+        "title": "Fotografia",
+        "prompt": "“Tirei uma foto sua só na imaginação e ela não sai da minha cabeça.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Dictionary",
+        "prompt": "“You are the word that was missing from my dictionary.”"
+      },
+      "pt": {
+        "title": "Dicionário",
+        "prompt": "“Você é a palavra que faltava no meu dicionário.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Song",
+        "prompt": "“If life were a song, you would be the chorus I cannot stop singing.”"
+      },
+      "pt": {
+        "title": "Música",
+        "prompt": "“Se a vida fosse uma música, você seria o refrão que eu não paro de cantar.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Alarm Clock",
+        "prompt": "“I might have woken up early just to see you. Worth it.”"
+      },
+      "pt": {
+        "title": "Despertador",
+        "prompt": "“Pode ser que eu tenha acordado cedo só pra te ver. Valeu a pena.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Fortune Cookie",
+        "prompt": "“I opened a fortune cookie and it said: talk to the most beautiful person in the room.”"
+      },
+      "pt": {
+        "title": "Biscoito da Sorte",
+        "prompt": "“Abri um biscoito da sorte e dizia: converse com a pessoa mais bonita da sala.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Gravity",
+        "prompt": "“Gravity explains why I fell. But it was you who knocked me down.”"
+      },
+      "pt": {
+        "title": "Gravidade",
+        "prompt": "“A gravidade explica por que eu caí. Mas foi você que me derrubou.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Sun",
+        "prompt": "“Did someone turn on the sun? It got a lot warmer since you walked in.”"
+      },
+      "pt": {
+        "title": "Sol",
+        "prompt": "“Alguém ligou o sol? Ficou bem mais quente aqui desde que você chegou.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Passport",
+        "prompt": "“I have traveled to many places, but none was as good as looking at you.”"
+      },
+      "pt": {
+        "title": "Passaporte",
+        "prompt": "“Já viajei por muitos lugares, mas nenhum foi tão bom quanto olhar pra você.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Dessert",
+        "prompt": "“I will skip dessert tonight. You already sweetened my day.”"
+      },
+      "pt": {
+        "title": "Sobremesa",
+        "prompt": "“Hoje eu pulo a sobremesa. Você já adoçou o meu dia.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Movies",
+        "prompt": "“I am no actor, but I can make our date the best scene of the movie.”"
+      },
+      "pt": {
+        "title": "Cinema",
+        "prompt": "“Eu não sou ator, mas posso fazer do nosso encontro a melhor cena do filme.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Straight Up",
+        "prompt": "“I will admit I got nervous walking over, but I really wanted to get to know you.”"
+      },
+      "pt": {
+        "title": "Direta",
+        "prompt": "“Confesso que fiquei com vergonha, mas queria muito te conhecer melhor.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "No Detours",
+        "prompt": "“No detours: I find you really interesting. Can I buy you a coffee?”"
+      },
+      "pt": {
+        "title": "Sem Rodeio",
+        "prompt": "“Sem rodeio: achei você muito interessante. Posso te pagar um café?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Invitation",
+        "prompt": "“How about we keep this conversation going over coffee?”"
+      },
+      "pt": {
+        "title": "Convite",
+        "prompt": "“Que tal a gente continuar essa conversa tomando um café?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Honesty",
+        "prompt": "“I would like to get to know you better. Are you up for coffee this week?”"
+      },
+      "pt": {
+        "title": "Honestidade",
+        "prompt": "“Estou com vontade de te conhecer melhor. Você topa um café esta semana?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Number",
+        "prompt": "“It was great talking to you. Can I get your number so we can plan something?”"
+      },
+      "pt": {
+        "title": "Número",
+        "prompt": "“Foi ótimo conversar com você. Me passa o seu número pra gente marcar alguma coisa?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Honest Compliment",
+        "prompt": "“I really like your smile. I just wanted to tell you that.”"
+      },
+      "pt": {
+        "title": "Elogio Sincero",
+        "prompt": "“Gostei muito do seu sorriso. Só queria te falar isso.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Courage",
+        "prompt": "“It took me about five minutes to get the courage. Let me at least buy you a drink?”"
+      },
+      "pt": {
+        "title": "Coragem",
+        "prompt": "“Levei uns cinco minutos para criar coragem. Me deixa pelo menos te pagar uma bebida?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Second Chapter",
+        "prompt": "“This conversation deserves a second chapter. When are you free?”"
+      },
+      "pt": {
+        "title": "Segundo Capítulo",
+        "prompt": "“Esta conversa merecia um segundo capítulo. Quando você está livre?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Recommendation",
+        "prompt": "“Do you know a good spot around here? I am looking for a recommendation.”"
+      },
+      "pt": {
+        "title": "Recomendação",
+        "prompt": "“Você conhece algum lugar legal por aqui? Estou procurando uma recomendação.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Background Song",
+        "prompt": "“What song is this? It is really good.”"
+      },
+      "pt": {
+        "title": "Som Ambiente",
+        "prompt": "“Que música é essa que está tocando? Ela é boa demais.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Opinion",
+        "prompt": "“I need a quick opinion: pizza or burger?”"
+      },
+      "pt": {
+        "title": "Opinião",
+        "prompt": "“Preciso de uma opinião rápida: pizza ou hambúrguer?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "First Time",
+        "prompt": "“I have never been here. What do you recommend?”"
+      },
+      "pt": {
+        "title": "Primeira Vez",
+        "prompt": "“Nunca vim aqui. O que você recomenda pedir?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Show Tip",
+        "prompt": "“I need a new show to watch. Which one do you recommend?”"
+      },
+      "pt": {
+        "title": "Dica de Série",
+        "prompt": "“Preciso de uma série nova pra assistir. Qual você indica?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Playlist",
+        "prompt": "“I am putting together a playlist. Which song cannot be missing?”"
+      },
+      "pt": {
+        "title": "Playlist",
+        "prompt": "“Estou montando uma playlist. Qual música não pode faltar?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Favorite Movie",
+        "prompt": "“Which movie could you watch ten times without getting tired of it?”"
+      },
+      "pt": {
+        "title": "Filme Favorito",
+        "prompt": "“Qual filme você assistiria dez vezes sem enjoar?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Dog",
+        "prompt": "“What a cute dog! What is his name?”"
+      },
+      "pt": {
+        "title": "Cachorro",
+        "prompt": "“Que cachorro lindo! Como ele se chama?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Right Moment",
+        "prompt": "“Sorry to interrupt, but you look like the right person to settle this: wine or beer?”"
+      },
+      "pt": {
+        "title": "Hora Certa",
+        "prompt": "“Desculpa interromper, mas você parece a pessoa certa pra decidir uma coisa: vinho ou cerveja?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Bad Line",
+        "prompt": "“I had a line ready, but I forgot it when you smiled. Can I start over? Hi.”"
+      },
+      "pt": {
+        "title": "Cantada Ruim",
+        "prompt": "“Eu tinha uma cantada pronta, mas esqueci quando você sorriu. Posso começar de novo? Oi.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Cliché",
+        "prompt": "“I promise I will not ask if it hurt when you fell from heaven. But can I ask your name?”"
+      },
+      "pt": {
+        "title": "Clichê",
+        "prompt": "“Prometo que não vou perguntar se o seu pai é ladrão. Mas posso perguntar o seu nome?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Plan B",
+        "prompt": "“Plan A was to stay quiet. Plan B was to come talk to you.”"
+      },
+      "pt": {
+        "title": "Plano B",
+        "prompt": "“Meu plano A era ficar quieto. O plano B era vir falar com você.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Rehearsal",
+        "prompt": "“I rehearsed this all night and it still came out crooked. Help me out: what is your name?”"
+      },
+      "pt": {
+        "title": "Ensaio",
+        "prompt": "“Ensaiei isso a noite toda e mesmo assim saiu torto. Me ajuda: qual é o seu nome?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Hi",
+        "prompt": "“Hi. That was really all I had. Did it work?”"
+      },
+      "pt": {
+        "title": "Oi",
+        "prompt": "“Oi. Era só isso mesmo. Funcionou?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "No Talent",
+        "prompt": "“Pickup lines are not my thing, but listening is. Can I buy you a drink to prove it?”"
+      },
+      "pt": {
+        "title": "Sem Talento",
+        "prompt": "“Cantada não é o meu forte, mas escutar é. Te pago uma bebida pra provar?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Five Minutes",
+        "prompt": "“Can I steal you for five minutes of your night? I promise to return you smiling.”"
+      },
+      "pt": {
+        "title": "Cinco Minutos",
+        "prompt": "“Posso roubar você por cinco minutos da sua noite? Prometo devolver sorrindo.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Warning",
+        "prompt": "“Your smile should come with a warning: you may not want to look away.”"
+      },
+      "pt": {
+        "title": "Aviso",
+        "prompt": "“O seu sorriso devia vir com aviso: perigo de querer ficar olhando.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Coffee or Tea",
+        "prompt": "“If we went to a café, would you be the always-the-same-order type or the take-a-risk type?”"
+      },
+      "pt": {
+        "title": "Café ou Chá",
+        "prompt": "“Se a gente fosse num café, você seria do tipo que pede sempre o mesmo ou do que arrisca?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Same Taste",
+        "prompt": "“I think we have the same good taste: I love this song too.”"
+      },
+      "pt": {
+        "title": "Mesmo Gosto",
+        "prompt": "“Acho que a gente tem o mesmo bom gosto: eu também amei esta música.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Point of View",
+        "prompt": "“The view from across the room was already good. Up close, it got better.”"
+      },
+      "pt": {
+        "title": "Ponto de Vista",
+        "prompt": "“Do outro lado do salão a vista já era boa. De perto, melhorou.”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "Clean Record",
+        "prompt": "“Clean record, good intentions and a coffee invitation. Interested?”"
+      },
+      "pt": {
+        "title": "Ficha Limpa",
+        "prompt": "“Ficha limpa, boas intenções e um convite de café. Aceita?”"
+      }
+    },
+    {
+      "kind": "Pickup",
+      "en": {
+        "title": "First Round",
+        "prompt": "“Let me buy the first round, and you decide if it earns a second conversation.”"
+      },
+      "pt": {
+        "title": "Primeira Rodada",
+        "prompt": "“Deixa eu pagar a primeira rodada e você decide se vale uma segunda conversa.”"
+      }
+    }
+  ]
+}

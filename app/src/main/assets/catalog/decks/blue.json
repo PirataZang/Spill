@@ -235,6 +235,337 @@
         "title": "Visita Alienígena",
         "prompt": "Um alienígena fica na sua casa por uma semana. O que você mostra primeiro?"
       }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Endless Money",
+        "prompt": "You get unlimited money for one day. What do you do in the first hours?"
+      },
+      "pt": {
+        "title": "Dinheiro Infinito",
+        "prompt": "Você ganha dinheiro infinito por um dia. O que faz nas primeiras horas?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "No Gravity",
+        "prompt": "Gravity disappears for an hour. How do you make the most of it?"
+      },
+      "pt": {
+        "title": "Sem Gravidade",
+        "prompt": "A gravidade some por uma hora. Como você aproveita?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Harry Potter",
+        "prompt": "Which Hogwarts house would you be in? Why?"
+      },
+      "pt": {
+        "title": "Harry Potter",
+        "prompt": "Em qual casa de Hogwarts você ficaria? Por quê?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Mind Reading",
+        "prompt": "You can read one person’s mind for a day. Whose?"
+      },
+      "pt": {
+        "title": "Ler Mentes",
+        "prompt": "Você pode ler a mente de uma pessoa por um dia. De quem?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Stranded Trio",
+        "prompt": "You pick three people to be stranded with. Who do you take?"
+      },
+      "pt": {
+        "title": "Ilha com Três",
+        "prompt": "Você escolhe três pessoas para ficar numa ilha. Quem você leva?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Instant Language",
+        "prompt": "You learn any language instantly. Which one and where do you go?"
+      },
+      "pt": {
+        "title": "Idioma Instantâneo",
+        "prompt": "Você aprende um idioma na hora. Qual escolhe e para onde viaja?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Spider-Man",
+        "prompt": "Which hero power would you pick and how would you use it day to day?"
+      },
+      "pt": {
+        "title": "Homem-Aranha",
+        "prompt": "Qual poder de herói você escolheria e como usaria no dia a dia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "New City",
+        "prompt": "You have to move cities tomorrow. Where do you go?"
+      },
+      "pt": {
+        "title": "Mudança de Cidade",
+        "prompt": "Você tem que mudar de cidade amanhã. Para onde vai?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Back to School",
+        "prompt": "You go back to school with today’s mindset. What do you do differently?"
+      },
+      "pt": {
+        "title": "Voltar à Escola",
+        "prompt": "Você volta à escola com a cabeça de hoje. O que faz de diferente?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "World Secret",
+        "prompt": "You find out a secret about the world nobody knows. Do you tell?"
+      },
+      "pt": {
+        "title": "Segredo do Mundo",
+        "prompt": "Você descobre um segredo do mundo que ninguém sabe. Você conta?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Black Mirror",
+        "prompt": "If a technology existed to erase a memory, would you erase one?"
+      },
+      "pt": {
+        "title": "Black Mirror",
+        "prompt": "Se existisse uma tecnologia para apagar uma lembrança, você apagaria alguma?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Dream House",
+        "prompt": "If you could build any house, what would it look like?"
+      },
+      "pt": {
+        "title": "Casa dos Sonhos",
+        "prompt": "Se pudesse construir qualquer casa, como ela seria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "A Day with No Rules",
+        "prompt": "For one day, no rules apply. What do you do?"
+      },
+      "pt": {
+        "title": "Dia sem Regras",
+        "prompt": "Por um dia nenhuma regra vale. O que você faz?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Jumanji",
+        "prompt": "You get pulled into a game. Which character would you be and what would be your weakness?"
+      },
+      "pt": {
+        "title": "Jumanji",
+        "prompt": "Você cai num jogo. Qual personagem seria e qual seria o seu ponto fraco?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Phoneless World",
+        "prompt": "The world goes a year without phones or internet. How do you cope?"
+      },
+      "pt": {
+        "title": "Mundo sem Celular",
+        "prompt": "O mundo fica sem celular e internet por um ano. Como você se vira?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Extra Hours",
+        "prompt": "You get five extra hours a day. What do you do with them?"
+      },
+      "pt": {
+        "title": "Cinco Horas a Mais",
+        "prompt": "Você ganha cinco horas a mais por dia. O que faz com elas?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Seeing the Future",
+        "prompt": "You can see one person’s future. Whose and what do you want to know?"
+      },
+      "pt": {
+        "title": "Ver o Futuro",
+        "prompt": "Você enxerga o futuro de uma pessoa. De quem e o que quer saber?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "New Planet",
+        "prompt": "You found a new planet. What are the three main rules?"
+      },
+      "pt": {
+        "title": "Fundar um Planeta",
+        "prompt": "Você funda um planeta novo. Quais são as três regras principais?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Frank Sinatra",
+      "en": {
+        "title": "Fly Me to the Moon",
+        "prompt": "If you could go to the Moon, what would you pack?"
+      },
+      "pt": {
+        "title": "Fly Me to the Moon",
+        "prompt": "Se você pudesse ir à Lua, o que levaria na mala?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Life Swap",
+        "prompt": "You swap lives with someone for a week. Who with?"
+      },
+      "pt": {
+        "title": "Troca de Vidas",
+        "prompt": "Você troca de vida com alguém por uma semana. Com quem?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Comet",
+        "prompt": "A comet hits in 24 hours. What do you do?"
+      },
+      "pt": {
+        "title": "Cometa",
+        "prompt": "Um cometa chega em 24 horas. O que você faz?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "The Lion King",
+        "prompt": "If you were an animal on the savanna, which would you be?"
+      },
+      "pt": {
+        "title": "O Rei Leão",
+        "prompt": "Se você fosse um animal da savana, qual seria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Perfect Memory",
+        "prompt": "You never forget anything. Is that good or bad?"
+      },
+      "pt": {
+        "title": "Memória Perfeita",
+        "prompt": "Você nunca esquece nada. Isso é bom ou ruim?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Three Wishes",
+        "prompt": "A machine grants three wishes. What do you ask for?"
+      },
+      "pt": {
+        "title": "Três Desejos",
+        "prompt": "Uma máquina realiza três desejos. Quais você pede?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Stunt Double",
+        "prompt": "You are a stunt double in an action movie. Which extreme scene would you do?"
+      },
+      "pt": {
+        "title": "Dublê",
+        "prompt": "Você é dublê num filme de ação. Qual cena radical toparia fazer?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Giant",
+        "prompt": "You become a giant for a day. Where do you go first?"
+      },
+      "pt": {
+        "title": "Gigante",
+        "prompt": "Você vira gigante por um dia. Para onde vai primeiro?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Upside Down",
+        "prompt": "Everything in the world flips. What changes first in your routine?"
+      },
+      "pt": {
+        "title": "Mundo ao Contrário",
+        "prompt": "Tudo no mundo fica ao contrário. O que muda primeiro na sua rotina?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Lost",
+        "prompt": "Your plane crashes on an island. What is your role in the group?"
+      },
+      "pt": {
+        "title": "Lost",
+        "prompt": "Seu avião cai numa ilha. Qual é o seu papel no grupo?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Teleport",
+        "prompt": "You can teleport anywhere once. Where to?"
+      },
+      "pt": {
+        "title": "Teletransporte",
+        "prompt": "Você pode se teletransportar para qualquer lugar uma vez. Para onde?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Silly Law",
+        "prompt": "You run a country for a day. What ridiculous law do you pass?"
+      },
+      "pt": {
+        "title": "Lei Absurda",
+        "prompt": "Você manda num país por um dia. Qual lei absurda cria?"
+      }
     }
   ]
 }

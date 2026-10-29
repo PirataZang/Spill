@@ -5,7 +5,7 @@
   "tagline": "Puxe uma carta. Puxe assunto. Decidam quem mandou melhor.",
   "mode": "Modo",
   "random": "Aleatório",
-  "randomDesc": "As cinco cores embaralhadas num baralho só.",
+  "randomDesc": "As cores embaralhadas num baralho só. As Cantadas ficam de fora.",
   "themed": "Temático",
   "themedDesc": "Escolha uma cor e fique no clima dela.",
   "color": "Cor",
@@ -23,7 +23,7 @@
   "steps": [
     {
       "b": "Escolha um modo.",
-      "t": "Aleatório mistura as cinco cores. Temático fica numa cor só, e a rodada inteira tem o mesmo clima."
+      "t": "Aleatório mistura os baralhos, menos as Cantadas, que só entram no Temático. Temático fica numa cor só, e a rodada inteira tem o mesmo clima."
     },
     {
       "b": "Leia a carta em voz alta.",
@@ -40,14 +40,15 @@
   ],
   "points": "Pontos, se quiserem",
   "pointsText": "Depois de cada resposta, o grupo dá um ponto para a mais criativa ou interessante. O maior elogio do Spill é “Realmente, você me superou nessa.”",
-  "colors": "As cinco cores",
+  "colors": "As sete cores",
   "note": "Errar faz parte do jogo. Ninguém interrompe uma história para corrigir gramática.",
   "tagline2": "Um jogo de conversa para duas ou mais pessoas.",
   "kinds": {
     "Movie": "Filme",
     "Series": "Série",
     "Song": "Música",
-    "Topic": "Tema"
+    "Topic": "Tema",
+    "Pickup": "Cantada"
   },
   "menu": "← Menu",
   "menuShort": "Menu",

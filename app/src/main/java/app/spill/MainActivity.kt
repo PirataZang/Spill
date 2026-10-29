@@ -69,7 +69,7 @@ class SpillViewModel(app: Application) : AndroidViewModel(app) {
     /** [round] null = every deck shuffled together. */
     fun deal(round: Catalog.Deck?) {
         this.round = round
-        deck = (round?.cards ?: catalog.cards).shuffled()
+        deck = (round?.cards ?: catalog.cards.filter { it.deck.inRandom }).shuffled()
         index = 0
         screen = Screen.Game
     }

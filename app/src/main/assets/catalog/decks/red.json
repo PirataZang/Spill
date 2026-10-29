@@ -237,6 +237,338 @@
         "title": "Can’t Help Falling in Love",
         "prompt": "Que música faz você pensar em amor? Por que essa?"
       }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Self-Love",
+        "prompt": "What do you do to take care of yourself and love yourself more?"
+      },
+      "pt": {
+        "title": "Amor Próprio",
+        "prompt": "O que você faz para se cuidar e se amar mais?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Favorite Couple",
+        "prompt": "Which couple, from a movie, a show or real life, is your favorite? Why?"
+      },
+      "pt": {
+        "title": "Casal Favorito",
+        "prompt": "Qual casal de filme, série ou da vida real é o seu favorito? Por quê?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Pride and Prejudice",
+        "prompt": "What was your first thought about the person you liked most?"
+      },
+      "pt": {
+        "title": "Orgulho e Preconceito",
+        "prompt": "Qual foi o primeiro pensamento que você teve sobre a pessoa de quem mais gostou?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Love Letter",
+        "prompt": "Would you write a love letter? To whom?"
+      },
+      "pt": {
+        "title": "Carta de Amor",
+        "prompt": "Você escreveria uma carta de amor? Para quem?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Asking Someone Out",
+        "prompt": "What was (or would be) your ideal way of asking someone out?"
+      },
+      "pt": {
+        "title": "Pedido de Namoro",
+        "prompt": "Como foi (ou seria) o seu pedido de namoro ideal?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Anniversary",
+        "prompt": "How would you celebrate a perfect relationship anniversary?"
+      },
+      "pt": {
+        "title": "Aniversário de Namoro",
+        "prompt": "Como você comemoraria um aniversário de namoro perfeito?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "John Legend",
+      "en": {
+        "title": "All of Me",
+        "prompt": "What do you love about yourself that you want someone else to love too?"
+      },
+      "pt": {
+        "title": "All of Me",
+        "prompt": "O que você ama em si mesmo e quer que alguém ame também?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Silly Fight",
+        "prompt": "What was the silliest fight you ever had in a relationship?"
+      },
+      "pt": {
+        "title": "Briga Boba",
+        "prompt": "Qual foi a briga mais boba que você já teve num relacionamento?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "To All the Boys I’ve Loved Before",
+        "prompt": "Did you ever write to someone and never have the nerve to send it?"
+      },
+      "pt": {
+        "title": "Para Todos os Garotos que Já Amei",
+        "prompt": "Você já escreveu para alguém sem coragem de enviar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Slow Dance",
+        "prompt": "Would you slow dance with the person you like? To which song?"
+      },
+      "pt": {
+        "title": "Dança Lenta",
+        "prompt": "Você dançaria uma música lenta com a pessoa de quem gosta? Qual música?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Jealousy",
+        "prompt": "Is jealousy a sign of love or of insecurity? What is your take?"
+      },
+      "pt": {
+        "title": "Ciúme",
+        "prompt": "O ciúme é sinal de amor ou de insegurança? Qual é a sua opinião?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Romantic Gift",
+        "prompt": "What is the most special romantic gift you have given or received?"
+      },
+      "pt": {
+        "title": "Presente Romântico",
+        "prompt": "Qual é o presente romântico mais especial que você já deu ou ganhou?"
+      }
+    },
+    {
+      "kind": "Series",
+      "en": {
+        "title": "Love Is Blind",
+        "prompt": "Would you marry someone without seeing them?"
+      },
+      "pt": {
+        "title": "Casamento às Cegas",
+        "prompt": "Você se casaria com alguém sem ver a pessoa?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Missing Someone",
+        "prompt": "What was the strongest longing you ever felt?"
+      },
+      "pt": {
+        "title": "Saudade",
+        "prompt": "Qual foi a saudade mais forte que você já sentiu?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Long Distance",
+        "prompt": "Does a long-distance relationship work? Would you do it?"
+      },
+      "pt": {
+        "title": "Namoro à Distância",
+        "prompt": "Namoro à distância funciona? Você toparia?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Wedding Tomorrow",
+        "prompt": "If you got married tomorrow, who would you invite?"
+      },
+      "pt": {
+        "title": "Casar Amanhã",
+        "prompt": "Se você casasse amanhã, quem convidaria?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Friends with an Ex",
+        "prompt": "Can you be friends with an ex? Has it happened to you?"
+      },
+      "pt": {
+        "title": "Amigo de Ex",
+        "prompt": "Dá para ser amigo de um ex? Já aconteceu com você?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Love Actually",
+        "prompt": "Which scene from a romantic movie makes you cry?"
+      },
+      "pt": {
+        "title": "Simplesmente Amor",
+        "prompt": "Qual cena de filme romântico te faz chorar?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "First Love",
+        "prompt": "What was your first love like? What stayed with you?"
+      },
+      "pt": {
+        "title": "Primeiro Amor",
+        "prompt": "Como foi o seu primeiro amor? O que ficou dele?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Late-Night Text",
+        "prompt": "Which late-night message moved you the most?"
+      },
+      "pt": {
+        "title": "Mensagem de Madrugada",
+        "prompt": "Qual mensagem de madrugada mais mexeu com você?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Scent",
+        "prompt": "Which scent reminds you of someone special?"
+      },
+      "pt": {
+        "title": "Cheiro",
+        "prompt": "Qual cheiro te lembra alguém especial?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Cozy Night",
+        "prompt": "What is your ideal romantic night in?"
+      },
+      "pt": {
+        "title": "Noite em Casa",
+        "prompt": "Qual é o seu programa romântico ideal em casa?"
+      }
+    },
+    {
+      "kind": "Song",
+      "by": "Bruno Mars",
+      "en": {
+        "title": "Just the Way You Are",
+        "prompt": "What does someone need to say for you to feel loved?"
+      },
+      "pt": {
+        "title": "Just the Way You Are",
+        "prompt": "O que alguém precisa dizer para você se sentir amado?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Couple Photos",
+        "prompt": "Are you the type to post the couple or keep it private?"
+      },
+      "pt": {
+        "title": "Fotos do Casal",
+        "prompt": "Você é do tipo que posta o casal ou guarda só para si?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Pet Name",
+        "prompt": "What was the sweetest (or cheesiest) pet name you ever had?"
+      },
+      "pt": {
+        "title": "Apelido Carinhoso",
+        "prompt": "Qual foi o apelido carinhoso mais fofo (ou mais cafona) que você já teve?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Match",
+        "prompt": "Did you ever match with someone you knew? What happened?"
+      },
+      "pt": {
+        "title": "Match",
+        "prompt": "Você já deu match com alguém conhecido? O que aconteceu?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Perfect Dinner",
+        "prompt": "If you could invite anyone to dinner tonight, who would it be?"
+      },
+      "pt": {
+        "title": "Jantar Perfeito",
+        "prompt": "Se pudesse convidar quem quisesse para jantar hoje, quem seria?"
+      }
+    },
+    {
+      "kind": "Movie",
+      "en": {
+        "title": "Cinderella",
+        "prompt": "Which fairy tale rule would you break in love?"
+      },
+      "pt": {
+        "title": "Cinderela",
+        "prompt": "Qual regra de conto de fadas você quebraria no amor?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Falling for a Friend",
+        "prompt": "Did you ever fall for a friend? What did you do?"
+      },
+      "pt": {
+        "title": "Apaixonar-se por um Amigo",
+        "prompt": "Você já se apaixonou por um amigo? O que fez?"
+      }
+    },
+    {
+      "kind": "Topic",
+      "en": {
+        "title": "Matching",
+        "prompt": "Would you do something matching with the person you love, like a tattoo?"
+      },
+      "pt": {
+        "title": "Combinando",
+        "prompt": "Você faria algo igual com a pessoa que ama, como uma tatuagem?"
+      }
     }
   ]
 }

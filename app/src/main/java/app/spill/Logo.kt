@@ -31,7 +31,7 @@ import kotlinx.coroutines.launch
 // Master artwork: docs/icon.svg (viewBox -12 44 264 160). Cards fan out around (120, 236).
 private class Face(val color: Color, val detail: Float) // detail: opacity multiplier of the white ornament
 private val Faces = listOf(
-    Face(Color(0xFF168048), 1f), Face(Color(0xFF2A5BE8), 1f), Face(Color(0xFFF7C531), 1.4f),
+    Face(Color(0xFF168048), 1f), Face(Color(0xFF2A5BE8), 1f), Face(Color(0xFFF7C531), 1.25f),
     Face(Color(0xFFD7263D), 1f), Face(Color(0xFF0D0D10), 1f),
 )
 private val Bubble: Path = PathParser().parsePathString("M107 97h26a6 6 0 0 1 6 6v11a6 6 0 0 1-6 6h-14l-8 7v-7h-4a6 6 0 0 1-6-6v-11a6 6 0 0 1 6-6z").toPath()
@@ -58,7 +58,6 @@ fun Logo(modifier: Modifier = Modifier) {
 }
 
 private fun DrawScope.card(f: Face, black: Boolean, k: Float) {
-    val body = RoundRect(84f, 56f, 156f, 160f, CornerRadius(11f))
     drawIntoCanvas { c ->
         val p = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply {
             color = f.color.toArgb()
@@ -69,12 +68,7 @@ private fun DrawScope.card(f: Face, black: Boolean, k: Float) {
     if (black) drawRoundRect(Color.White.copy(.16f), Offset(84.5f, 56.5f), Size(71f, 103f), CornerRadius(10.5f), Stroke(1f))
     val white = { a: Float -> Color.White.copy((a * f.detail).coerceAtMost(1f)) }
     drawRoundRect(white(.6f), Offset(89.5f, 61.5f), Size(61f, 93f), CornerRadius(7f), Stroke(2f))
-    if (!black) clipPath(Path().apply { addRoundRect(body) }) {
-        rotate(-28f, Offset(120f, 110f)) {
-            drawOval(white(.08f), Offset(74f, 93f), Size(92f, 34f))
-            drawOval(white(.42f), Offset(74f, 93f), Size(92f, 34f), style = Stroke(2f))
-        }
-    } else {
+    if (black) {
         drawPath(Bubble, Color.White)
         listOf(113f, 120f, 127f).forEach { drawCircle(Color(0xFF0D0D10), 2.4f, Offset(it, 108.5f)) }
     }
